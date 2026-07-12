@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>הקישורים של LiorsLife</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-base"></div>
+    
+    <div class="mouse-halo" id="halo"></div>
+    
+    <div class="container">
+        <header class="profile">
+            <div class="avatar-wrapper">
+                <img src="profile.jpg" alt="תמונת פרופיל" class="avatar" onerror="this.src='https://via.placeholder.com/130/53fc18/000000?text=Lior'">
+            </div>
+            <h1 class="username">LiorsLife</h1>
+            <p class="bio">ברוכים הבאים לעמוד שלי! מוזמנים לעקוב אחריי בכל הרשתות ולהיכנס ללייבים.
+                אוהב אותכם! </p>
+        </header>
+
+        <main class="links">
+            <a href="https://kick.com/liorslife" class="link-btn kick" target="_blank">
+                <i class="fa-solid fa-k icon-right"></i>
+                <span class="btn-text">Kick</span>
+                <span class="badge">LIVE</span>
+            </a>
+
+             <a href="https://discord.gg/7xk3NprCCq" class="link-btn discord" target="_blank">
+                <i class="fa-brands fa-discord icon-right"></i>
+                <span class="btn-text">Discord</span>
+            </a>
+
+          <a href="https://forms.gle/WTEg1a426g2rLUYF8" class="link-btn discord-doc" target="_blank">
+    <span class="icon-right">📄</span>
+    <span class="btn-text"> unban request - טופס להורדת הבאן </span>
+</a>
+            
+            <a href="https://www.youtube.com/@LiorsLifeLive" class="link-btn youtube" target="_blank">
+                <i class="fa-brands fa-youtube icon-right"></i>
+                <span class="btn-text">YouTube - ערוץ קליפים </span>
+            </a>
+
+            <a href="https://www.tiktok.com/@liorslife.clipim" class="link-btn tiktok" target="_blank">
+                <i class="fa-brands fa-tiktok icon-right"></i>
+                <span class="btn-text">TikTok - של הערוץ </span>
+            </a>
+
+               <a href="https://www.youtube.com/@LiorsLife" class="link-btn youtube" target="_blank">
+                <i class="fa-brands fa-youtube icon-right"></i>
+                <span class="btn-text">YouTube - ראשי </span>
+            </a>
+            
+            <a href="https://www.tiktok.com/@liorlifshiz1" class="link-btn tiktok" target="_blank">
+                <i class="fa-brands fa-tiktok icon-right"></i>
+                <span class="btn-text">TikTok - שלי </span>
+            </a>
+
+            <a href="https://www.instagram.com/liors.life" class="link-btn instagram" target="_blank">
+                <i class="fa-brands fa-instagram icon-right"></i>
+                <span class="btn-text">Instagram</span>
+            </a>
+      
+            <a href="https://www.tiktok.com/@haplugshalliolrlife" class="link-btn tiktok" target="_blank">
+                <i class="fa-brands fa-tiktok icon-right"></i>
+                <span class="btn-text">TikTok - שני של הערוץ </span>
+            </a>
+        </main>
+
+        <footer>
+            <p>© 2026 LiorsLife</p>
+        </footer>
+    </div>
+
+    <script>
+        const halo = document.getElementById('halo');
+        
+        // מקשיב לתנועת העכבר על כל המסך
+        document.addEventListener('mousemove', (e) => {
+            // מעדכן את מיקום ההילה למיקום העכבר (e.clientX, e.clientY)
+            // אנחנו מחסירים חצי מגודל ההילה (ב-CSS הגדרנו 400px) כדי שהעכבר יהיה במרכז העיגול
+            halo.style.left = (e.clientX - 200) + 'px';
+            halo.style.top = (e.clientY - 200) + 'px';
+        });
+
+        // לטלפונים (טאץ') - ההילה תופיע איפה שנוגעים
+        document.addEventListener('touchmove', (e) => {
+            const touch = e.touches[0];
+            halo.style.left = (touch.clientX - 200) + 'px';
+            halo.style.top = (touch.clientY - 200) + 'px';
+        });
+    </script>
+</body>
+</html>

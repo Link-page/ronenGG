@@ -35,7 +35,7 @@ body {
     width: 400px;
     height: 400px;
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(83, 252, 24, 0.25) 0%, rgba(83, 252, 24, 0.08) 40%, rgba(0, 0, 0, 0) 70%);
+    background: radial-gradient(circle, rgba(184, 94, 15, 0.25) 0%, rgba(184, 94, 15, 0.08) 40%, rgba(0, 0, 0, 0) 70%);
     pointer-events: none;
     z-index: -1;
     transition: transform 0.05s linear;
@@ -66,9 +66,9 @@ body {
     height: 130px;
     margin: 0 auto 15px auto;
     border-radius: 50%;
-    box-shadow: 0 0 15px #53fc18, 0 0 30px #00d4ff, inset 0 0 10px #53fc18;
+    box-shadow: 0 0 15px #e67e22, 0 0 30px #d35400, inset 0 0 10px #e67e22;
     padding: 4px;
-    background: linear-gradient(45deg, #53fc18, #00d4ff);
+    background: linear-gradient(45deg, #f39c12, #e67e22);
 }
 
 .avatar {

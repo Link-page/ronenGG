@@ -131,9 +131,26 @@ body {
     width: 35px;
 }
 
-.kick { border-left: 4px solid #53fc18; }
-.kick:hover { box-shadow: 0 8px 20px rgba(83, 252, 24, 0.15); border-color: #53fc18; }
-.kick .icon-right { color: #53fc18; }
+/* --- הגדרות לכפתור קיק עם תמונה --- */
+.kick { 
+    border-left: 4px solid #53fc18; 
+}
+
+.kick:hover { 
+    box-shadow: 0 8px 20px rgba(83, 252, 24, 0.15); 
+    border-color: #53fc18; 
+}
+
+/* כאן אנחנו מכניסים את התמונה במקום הטקסט */
+.kick .icon-right { 
+    background-image: url('kick-logo.png'); /* שים פה את השם שבו שמרת את התמונה */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: transparent; /* מעלים את האות K מה-HTML כדי שלא תעלה על התמונה */
+    width: 32px;
+    height: 32px;
+}
 
 .discord { border-left: 4px solid #5865F2; }
 .discord:hover { box-shadow: 0 8px 20px rgba(88, 101, 242, 0.15); border-color: #5865F2; }

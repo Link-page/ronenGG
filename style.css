@@ -98,6 +98,7 @@ body {
     gap: 16px;
 }
 
+/* --- הגדרות הליבה של הכפתורים - עובד על משתנים חכמים --- */
 .link-btn {
     display: flex;
     align-items: center;
@@ -109,14 +110,18 @@ body {
     letter-spacing: 0.5px;
     background: rgba(255, 255, 255, 0.03); 
     border: 1px solid rgba(255, 255, 255, 0.05);
+    border-left: 4px solid var(--btn-color); /* מושך צבע אישי לכל פלטפורמה */
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     position: relative;
     overflow: hidden;
 }
 
+/* אפקט Hover שעובד אוטומטית לפי המשתנים של כל כפתור */
 .link-btn:hover {
     transform: translateY(-4px);
-    background: rgba(255, 255, 255, 0.08);
+    background: var(--btn-bg-hover);
+    box-shadow: 0 8px 20px var(--btn-shadow-hover);
+    border-color: var(--btn-color);
 }
 
 .btn-text {
@@ -129,48 +134,60 @@ body {
 .icon-right {
     font-size: 1.6rem;
     width: 35px;
+    color: var(--btn-color); /* האייקון מקבל אוטומטית את צבע הפלטפורמה */
 }
 
-/* --- הגדרות לכפתור קיק עם תמונה --- */
+/* ================================================= */
+/* הגדרת הצבעים לכל פלטפורמה */
+/* ================================================= */
+
 .kick { 
-    border-left: 4px solid #53fc18; 
+    --btn-color: #53fc18; 
+    --btn-bg-hover: rgba(83, 252, 24, 0.15);
+    --btn-shadow-hover: rgba(83, 252, 24, 0.15);
 }
 
-.kick:hover { 
-    box-shadow: 0 8px 20px rgba(83, 252, 24, 0.15); 
-    border-color: #53fc18; 
-}
-
-/* כאן אנחנו מכניסים את התמונה במקום הטקסט */
+/* שמירה על התמונה של קיק במקום הטקסט/אייקון כמו שביקשת */
 .kick .icon-right { 
-    background-image: url('kick-logo.png'); /* שים פה את השם שבו שמרת את התמונה */
+    background-image: url('kick-logo.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    color: transparent; /* מעלים את האות K מה-HTML כדי שלא תעלה על התמונה */
+    color: transparent;
     width: 32px;
     height: 32px;
 }
 
-.discord { border-left: 4px solid #5865F2; }
-.discord:hover { box-shadow: 0 8px 20px rgba(88, 101, 242, 0.15); border-color: #5865F2; }
-.discord .icon-right { color: #5865F2; }
+.discord, .discord-doc { 
+    --btn-color: #5865F2; 
+    --btn-bg-hover: rgba(88, 101, 242, 0.15);
+    --btn-shadow-hover: rgba(88, 101, 242, 0.15);
+}
 
-.discord-doc { border-left: 4px solid #5865F2; }
-.discord-doc:hover { box-shadow: 0 8px 20px rgba(88, 101, 242, 0.15); border-color: #5865F2; }
-.discord-doc .icon-right { color: #5865F2; }
+.youtube { 
+    --btn-color: #ff0000; 
+    --btn-bg-hover: rgba(255, 0, 0, 0.15);
+    --btn-shadow-hover: rgba(255, 0, 0, 0.15);
+}
 
-.youtube { border-left: 4px solid #ff0000; }
-.youtube:hover { box-shadow: 0 8px 20px rgba(255, 0, 0, 0.15); border-color: #ff0000; }
-.youtube .icon-right { color: #ff0000; }
+.tiktok { 
+    --btn-color: #00f2fe; 
+    --btn-bg-hover: rgba(0, 242, 254, 0.15);
+    --btn-shadow-hover: rgba(0, 242, 254, 0.15);
+}
 
-.tiktok { border-left: 4px solid #00f2fe; }
-.tiktok:hover { box-shadow: 0 8px 20px rgba(0, 242, 254, 0.15); border-color: #00f2fe; }
-.tiktok .icon-right { color: #00f2fe; }
+.instagram { 
+    --btn-color: #e1306c; 
+    --btn-bg-hover: rgba(225, 48, 108, 0.15);
+    --btn-shadow-hover: rgba(225, 48, 108, 0.15);
+}
 
-.instagram { border-left: 4px solid #e1306c; }
-.instagram:hover { box-shadow: 0 8px 20px rgba(225, 48, 108, 0.15); border-color: #e1306c; }
-.instagram .icon-right { background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+/* גראדיינט ייחודי רק לאייקון של אינסטגרם */
+.instagram .icon-right { 
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+}
 
 .badge {
     background: rgba(83, 252, 24, 0.2);
@@ -188,6 +205,9 @@ footer {
     color: #666;
 }
 
+/* ================================================= */
+/* מסכים קטנים (טלפונים ניידים) */
+/* ================================================= */
 @media (max-width: 480px) {
     body {
         padding: 10px;

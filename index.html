@@ -554,8 +554,6 @@
       border-color: rgba(255, 140, 0, 0.5);
     }
 
-    .promo-box:active { transform: scale(0.97); }
-
     .claim-btn {
       background: #ff8c00;
       color: black;
@@ -578,6 +576,24 @@
       transform: translateY(-2px);
       box-shadow: 0 6px 20px rgba(255, 140, 0, 0.4);
     }
+
+    /* ==========================================
+       אפקט לחיצה מטורף "שוקע פנימה" לכל הכפתורים באתר
+       ========================================== */
+    .card:active, 
+    .bonus-card:active,
+    .claim-btn:active, 
+    .pill-btn:active, 
+    .promo-box:active,
+    .nav-arrow:active,
+    #a11y-toggle:active,
+    .a11y-btn:active,
+    .footer-a11y-btn:active {
+      transform: scale(0.96) translateY(4px) !important;
+      box-shadow: 0 0px 0px rgba(0,0,0,0), inset 0 6px 15px rgba(0,0,0,0.7) !important;
+      transition: transform 0.05s ease-out, box-shadow 0.05s ease-out !important;
+    }
+
 
     /* ==========================================
        עיצוב הלידרבורדס הימורים המדויק
@@ -918,7 +934,6 @@
       .lb-inner { padding: 16px; } .bonus-inner { padding: 16px; } .flip-container { min-height: 620px; }
       .pill-menu { gap: 1rem; padding: 8px 24px; } .leaderboard-wrapper { padding-top: 60px; }
       .nav-arrow { top: 5px; transform: none; width: 48px; height: 48px; }
-      .nav-arrow:active { transform: scale(0.85) !important; }
       .left-arrow { left: calc(50% - 60px); } .right-arrow { right: auto; left: calc(50% + 12px); }
       
       .aff-podium {
@@ -946,7 +961,6 @@
       .icon-box { right: 17px; width: 44px; height: 44px; border-radius: 12px; }
       .card-title { font-size: 1.2rem; } #profile-image-container { width: 124px; height: 124px; }
       
-      /* התיקון שלנו למובייל - כדי שהתפריט ישב יפה בשורה אחת בלי להרוס מירכוז */
       .pill-menu { gap: 0.5rem; padding: 8px 12px; border-radius: 24px; }
       .pill-btn { font-size: 0.75rem; padding: 4px 8px; }
     }
@@ -1569,7 +1583,7 @@
     <!-- פוטר נקי -->
     <footer class="site-footer w-full">
       <div class="footer-copy">© 2026 RonenGG</div>
-      <button onclick="openA11yModal()" class="text-white/40 hover:text-white/80 transition-all active:translate-y-[2px] active:scale-95 text-xs font-bold uppercase tracking-widest cursor-pointer outline-none mt-2">
+      <button onclick="openA11yModal()" class="footer-a11y-btn text-white/40 hover:text-white/80 text-xs font-bold uppercase tracking-widest cursor-pointer outline-none mt-2">
         Accessibility Statement
       </button>
     </footer>
@@ -1824,20 +1838,37 @@
     });
 
     async function checkKickLiveStatus() {
-      try {
-        const res = await fetch('https://api.allorigins.win/raw?url=' + encodeURIComponent('https://kick.com/api/v2/channels/ronengg'), { cache: 'no-store' });
-        const kickElem = document.getElementById('kick-live-status');
-        if (res.ok) {
-          const data = await res.json();
-          const isLive = Boolean(data?.livestream?.is_live || data?.recent_livestream?.is_live || data?.current_livestream?.is_live || (data?.livestream && data.livestream.is_live !== false));
-          kickElem.className = isLive ? 'mt-1 text-xs font-black flex items-center justify-center gap-2 status-live' : 'mt-1 text-xs font-black flex items-center justify-center gap-2 status-offline';
-          kickElem.querySelector('.status-text').textContent = isLive ? 'on Live' : 'offline';
-        } else {
-          kickElem.className = 'mt-1 text-xs font-black flex items-center justify-center gap-2 status-offline';
-          kickElem.querySelector('.status-text').textContent = 'offline';
+      // יצרתי פה מערכת חכמה שמנסה 3 פרוקסי שונים כדי לעקוף את החסימה של קיק
+      const endpoints = [
+        'https://corsproxy.io/?' + encodeURIComponent('https://kick.com/api/v2/channels/ronengg'),
+        'https://api.codetabs.com/v1/proxy?quest=' + encodeURIComponent('https://kick.com/api/v2/channels/ronengg'),
+        'https://api.allorigins.win/raw?url=' + encodeURIComponent('https://kick.com/api/v2/channels/ronengg')
+      ];
+      
+      let isLive = false;
+      
+      for (const url of endpoints) {
+        try {
+          const res = await fetch(url, { cache: 'no-store', timeout: 5000 });
+          if (res.ok) {
+            const data = await res.json();
+            if (data && typeof data === 'object') {
+              isLive = data.livestream !== null && data.livestream !== undefined;
+              break; // מצאנו נתונים! יוצאים מהלולאה
+            }
+          }
+        } catch (e) {
+          // אם נחסם, ממשיך לפרוקסי הבא בשקט
         }
-      } catch (e) {
-        console.error("Kick API Error", e);
+      }
+      
+      const kickElem = document.getElementById('kick-live-status');
+      if (isLive) {
+        kickElem.className = 'mt-1 text-xs font-black flex items-center justify-center gap-2 status-live';
+        kickElem.querySelector('.status-text').textContent = 'Live Now';
+      } else {
+        kickElem.className = 'mt-1 text-xs font-black flex items-center justify-center gap-2 status-offline';
+        kickElem.querySelector('.status-text').textContent = 'Offline';
       }
     }
     

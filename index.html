@@ -163,7 +163,8 @@
       padding: 10px 32px;
       margin: 20px auto 32px auto;
       backdrop-filter: blur(12px);
-      width: max-content;
+      width: fit-content;
+      max-width: 100%;
       box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
       flex-wrap: wrap;
     }
@@ -912,7 +913,14 @@
 
     .text-green-aff { color: #4ade80 !important; }
 
+    @media (max-width: 1280px) { .left-arrow { left: -25px; } .right-arrow { right: -25px; } }
     @media (max-width: 768px) {
+      .lb-inner { padding: 16px; } .bonus-inner { padding: 16px; } .flip-container { min-height: 620px; }
+      .pill-menu { gap: 1rem; padding: 8px 24px; } .leaderboard-wrapper { padding-top: 60px; }
+      .nav-arrow { top: 5px; transform: none; width: 48px; height: 48px; }
+      .nav-arrow:active { transform: scale(0.85) !important; }
+      .left-arrow { left: calc(50% - 60px); } .right-arrow { right: auto; left: calc(50% + 12px); }
+      
       .aff-podium {
         flex-direction: column;
         align-items: center;
@@ -930,6 +938,17 @@
       .aff-table-wrapper {
         overflow-x: auto;
       }
+    }
+    
+    @media (max-width: 520px) {
+      #main-page-content { padding-top: 40px !important; }
+      .card-inner { min-height: 72px; padding: 14px 17px; }
+      .icon-box { right: 17px; width: 44px; height: 44px; border-radius: 12px; }
+      .card-title { font-size: 1.2rem; } #profile-image-container { width: 124px; height: 124px; }
+      
+      /* התיקון שלנו למובייל - כדי שהתפריט ישב יפה בשורה אחת בלי להרוס מירכוז */
+      .pill-menu { gap: 0.5rem; padding: 8px 12px; border-radius: 24px; }
+      .pill-btn { font-size: 0.75rem; padding: 4px 8px; }
     }
 
     #splash-screen {
@@ -1746,7 +1765,7 @@
       if (mainContent) mainContent.classList.add('visible');
       if (spotlight) spotlight.style.display = 'block';
       animateItems();
-      fetchLeaderboardData(); // מושך את נתוני התורמים!
+      fetchLeaderboardData();
       setTimeout(() => {
         if (splash) splash.style.display = 'none';
       }, 600);
@@ -1958,7 +1977,6 @@
     }
 
     async function fetchLeaderboardData() {
-      // 1. קבצי התורמים ממוקמים ב-ROOT ממש ליד ה-index.html
       try {
         const res = await fetch('leaderboard.json?t=' + new Date().getTime());
         if (res.ok) {
@@ -1994,7 +2012,7 @@
 
     function maskName(name) {
       if (!name) return "---";
-      if (name.includes('*')) return name; // Already masked by server
+      if (name.includes('*')) return name; 
       if (name.length <= 2) return name;
       return name.charAt(0) + '******' + name.charAt(name.length - 1);
     }
@@ -2013,7 +2031,6 @@
       }
 
       try {
-        // המידע לא מגיע יותר מ-API אלא ישירות מהקובץ המקומי שיושב בתיקיית data
         const filePath = `data/${site}.json?t=` + new Date().getTime();
         const res = await fetch(filePath);
         

@@ -149,9 +149,7 @@
     }
 
     @keyframes rotateRing {
-      to {
-        transform: rotate(360deg);
-      }
+      to { transform: rotate(360deg); }
     }
 
     .pill-menu {
@@ -203,14 +201,8 @@
     }
 
     @keyframes viewFadeIn {
-      from {
-        opacity: 0;
-        transform: translateY(15px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
+      from { opacity: 0; transform: translateY(15px); }
+      to { opacity: 1; transform: translateY(0); }
     }
 
     .animated-item.item-animate {
@@ -218,18 +210,9 @@
     }
 
     @keyframes itemDropIn {
-      0% {
-        opacity: 0;
-        transform: translateY(-34px) scale(0.94);
-      }
-      65% {
-        opacity: 1;
-        transform: translateY(5px) scale(1.015);
-      }
-      100% {
-        opacity: 1;
-        transform: translateY(0) scale(1);
-      }
+      0% { opacity: 0; transform: translateY(-34px) scale(0.94); }
+      65% { opacity: 1; transform: translateY(5px) scale(1.015); }
+      100% { opacity: 1; transform: translateY(0) scale(1); }
     }
 
     .card,
@@ -250,9 +233,7 @@
       backdrop-filter: blur(18px);
     }
 
-    .card {
-      cursor: pointer;
-    }
+    .card { cursor: pointer; }
 
     .bonus-card,
     .lb-card {
@@ -294,19 +275,11 @@
       box-shadow: 0 26px 68px rgba(0, 0, 0, 0.66), 0 0 38px rgba(255, 140, 0, 0.35);
     }
 
-    .card:hover {
-      transform: translateY(-8px) scale(1.02);
-    }
-
-    .bonus-card:hover {
-      transform: translateY(-4px);
-    }
-
+    .card:hover { transform: translateY(-8px) scale(1.02); }
+    .bonus-card:hover { transform: translateY(-4px); }
     .card:hover::after,
     .bonus-card:hover::after,
-    .lb-card:hover::after {
-      right: 120%;
-    }
+    .lb-card:hover::after { right: 120%; }
 
     .card-inner,
     .bonus-inner,
@@ -409,27 +382,13 @@
       animation: livePulse 1.2s infinite;
     }
 
-    .status-offline {
-      color: #9ca3af;
-    }
-
-    .status-offline .status-dot {
-      background: #6b7280;
-    }
+    .status-offline { color: #9ca3af; }
+    .status-offline .status-dot { background: #6b7280; }
 
     @keyframes livePulse {
-      0% {
-        transform: scale(1);
-        opacity: 1;
-      }
-      50% {
-        transform: scale(1.45);
-        opacity: 0.6;
-      }
-      100% {
-        transform: scale(1);
-        opacity: 1;
-      }
+      0% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.45); opacity: 0.6; }
+      100% { transform: scale(1); opacity: 1; }
     }
 
     .lb-header {
@@ -462,14 +421,8 @@
       transition: all 0.2s ease;
     }
 
-    .lb-row:last-child {
-      border-bottom: none;
-    }
-
-    .lb-row:hover {
-      background: rgba(255, 140, 0, 0.1);
-      transform: scale(1.02);
-    }
+    .lb-row:last-child { border-bottom: none; }
+    .lb-row:hover { background: rgba(255, 140, 0, 0.1); transform: scale(1.02); }
 
     .flip-container {
       perspective: 1200px;
@@ -529,13 +482,8 @@
       box-shadow: 0 0 20px rgba(255, 140, 0, 0.35);
     }
 
-    .left-arrow {
-      left: -90px;
-    }
-
-    .right-arrow {
-      right: -90px;
-    }
+    .left-arrow { left: -90px; }
+    .right-arrow { right: -90px; }
 
     #view-bonuses {
       width: 100%;
@@ -543,15 +491,8 @@
       margin: 0 auto;
     }
 
-    .bonus-logo {
-      text-align: center;
-    }
-
-    .bonus-divider {
-      height: 1px;
-      background: rgba(255, 140, 0, 0.3);
-      width: 100%;
-    }
+    .bonus-logo { text-align: center; }
+    .bonus-divider { height: 1px; background: rgba(255, 140, 0, 0.3); width: 100%; }
 
     .bonus-list {
       display: flex;
@@ -572,9 +513,7 @@
       border-bottom: 1px solid rgba(255, 140, 0, 0.2);
     }
 
-    .bonus-item:last-child {
-      border-bottom: none;
-    }
+    .bonus-item:last-child { border-bottom: none; }
 
     .check-icon {
       background: #ff8c00;
@@ -588,15 +527,8 @@
       flex-shrink: 0;
     }
 
-    .check-icon svg {
-      width: 16px;
-      height: 16px;
-    }
-
-    .check-icon.dimmed {
-      background: rgba(255, 140, 0, 0.15);
-      color: #ff8c00;
-    }
+    .check-icon svg { width: 16px; height: 16px; }
+    .check-icon.dimmed { background: rgba(255, 140, 0, 0.15); color: #ff8c00; }
 
     .promo-box {
       border: 1px dashed rgba(255, 255, 255, 0.2);
@@ -621,9 +553,7 @@
       border-color: rgba(255, 140, 0, 0.5);
     }
 
-    .promo-box:active {
-      transform: scale(0.97);
-    }
+    .promo-box:active { transform: scale(0.97); }
 
     .claim-btn {
       background: #ff8c00;
@@ -670,11 +600,7 @@
       letter-spacing: 1px;
     }
 
-    .aff-toggle-wrapper {
-      display: flex;
-      justify-content: center;
-      margin-bottom: 30px;
-    }
+    .aff-toggle-wrapper { display: flex; justify-content: center; margin-bottom: 30px; }
 
     .aff-toggle-bar {
       background: #120d08;
@@ -698,18 +624,9 @@
       justify-content: center;
     }
 
-    .aff-tab:hover {
-      opacity: 0.8;
-    }
-
-    .aff-tab.active {
-      opacity: 1;
-    }
-
-    .aff-tab img {
-      height: 20px;
-      object-fit: contain;
-    }
+    .aff-tab:hover { opacity: 0.8; }
+    .aff-tab.active { opacity: 1; }
+    .aff-tab img { height: 20px; object-fit: contain; }
 
     .aff-tab .indicator {
       position: absolute;
@@ -724,9 +641,7 @@
       border-radius: 2px;
     }
 
-    .aff-tab.active .indicator {
-      display: block;
-    }
+    .aff-tab.active .indicator { display: block; }
 
     .aff-code-badge-wrap {
       display: flex;
@@ -825,9 +740,7 @@
       border-color: #000;
     }
 
-    .rank-diamond.gold span {
-      color: #000;
-    }
+    .rank-diamond.gold span { color: #000; }
 
     .aff-username {
       color: #fff;
@@ -837,9 +750,7 @@
       letter-spacing: 1px;
     }
 
-    .place-1 .aff-username {
-      font-size: 1.3rem;
-    }
+    .place-1 .aff-username { font-size: 1.3rem; }
 
     .aff-wagered-label {
       font-size: 0.65rem;
@@ -861,9 +772,7 @@
       gap: 6px;
     }
 
-    .place-1 .aff-wagered-amount {
-      font-size: 1.3rem;
-    }
+    .place-1 .aff-wagered-amount { font-size: 1.3rem; }
 
     .aff-prize-box {
       background: linear-gradient(180deg, #3a2000 0%, #140a00 100%);
@@ -978,13 +887,8 @@
       border-bottom: 1px solid rgba(255, 255, 255, 0.03);
     }
 
-    .aff-table tr:last-child td {
-      border-bottom: none;
-    }
-
-    .aff-table tr:hover {
-      background: rgba(255, 255, 255, 0.02);
-    }
+    .aff-table tr:last-child td { border-bottom: none; }
+    .aff-table tr:hover { background: rgba(255, 255, 255, 0.02); }
 
     .aff-user-cell {
       display: flex;
@@ -1006,9 +910,7 @@
       gap: 6px;
     }
 
-    .text-green-aff {
-      color: #4ade80 !important;
-    }
+    .text-green-aff { color: #4ade80 !important; }
 
     @media (max-width: 768px) {
       .aff-podium {
@@ -1146,14 +1048,8 @@
     }
 
     @keyframes a11yFade {
-      from {
-        opacity: 0;
-        transform: scale(0.9);
-      }
-      to {
-        opacity: 1;
-        transform: scale(1);
-      }
+      from { opacity: 0; transform: scale(0.9); }
+      to { opacity: 1; transform: scale(1); }
     }
 
     .a11y-title {
@@ -1479,7 +1375,7 @@
       </div>
 
       <!-- ======================================================== -->
-      <!-- AFFILIATE LEADERBOARDS WIDGET (EXACT MATCH TO IMAGES)    -->
+      <!-- AFFILIATE LEADERBOARDS WIDGET -->
       <!-- ======================================================== -->
       <div class="aff-lb-container animated-item item-animate" style="animation-delay: 300ms;">
 
@@ -1850,6 +1746,7 @@
       if (mainContent) mainContent.classList.add('visible');
       if (spotlight) spotlight.style.display = 'block';
       animateItems();
+      fetchLeaderboardData(); // מושך את נתוני התורמים!
       setTimeout(() => {
         if (splash) splash.style.display = 'none';
       }, 600);
@@ -2038,6 +1935,59 @@
     });
 
     // ==========================================
+    // Fetch Donators Logic (Subs & Kicks)
+    // ==========================================
+    function renderLeaderboard(dataList, containerId) {
+      const container = document.getElementById(containerId);
+      container.innerHTML = '';
+      if (!dataList || dataList.length === 0) {
+        container.innerHTML = '<div class="text-center py-8 text-white/40 text-sm font-bold">No data found...</div>';
+        return;
+      }
+      dataList.forEach((u, i) => {
+        const rank = i + 1;
+        const cls = rank === 1 ? 'text-[#ff8c00]' : 'text-white/70';
+        container.innerHTML += `
+          <div class="lb-row">
+            <span class="w-12 text-center font-black text-white/40">${rank}</span>
+            <span class="flex-1 text-center font-bold text-white/90">${u.username || 'Unknown'}</span>
+            <span class="w-20 text-center font-black ${cls}">${(u.quantity || 0).toLocaleString()}</span>
+          </div>
+        `;
+      });
+    }
+
+    async function fetchLeaderboardData() {
+      // 1. קבצי התורמים ממוקמים ב-ROOT ממש ליד ה-index.html
+      try {
+        const res = await fetch('leaderboard.json?t=' + new Date().getTime());
+        if (res.ok) {
+          const json = await res.json();
+          if (json && json.data) {
+            renderLeaderboard((json.data.kicks_gifts_lifetime || []).slice(0, 10), 'all-time-kicks-list');
+            renderLeaderboard((json.data.kicks_gifts_week || []).slice(0, 10), 'weekly-kicks-list');
+          }
+        }
+      } catch (e) {
+        console.error("Error loading kicks:", e);
+      }
+
+      try {
+        const res = await fetch('subs.json?t=' + new Date().getTime());
+        if (res.ok) {
+          const json = await res.json();
+          if (json) {
+            renderLeaderboard((json.gifts || []).slice(0, 10), 'all-time-subs-list');
+            renderLeaderboard((json.gifts_week || []).slice(0, 10), 'weekly-subs-list');
+          }
+        }
+      } catch (e) {
+        console.error("Error loading subs:", e);
+      }
+    }
+
+
+    // ==========================================
     // Affiliate Leaderboard Logic (Empire/CSDrop)
     // ==========================================
     let affTimerInt;
@@ -2063,22 +2013,12 @@
       }
 
       try {
-        const targetUrl = site === 'csdrop' ? 'https://ronen.gg/api/CSDROP' : 'https://ronen.gg/api/empiredrop';
-        let data;
+        // המידע לא מגיע יותר מ-API אלא ישירות מהקובץ המקומי שיושב בתיקיית data
+        const filePath = `data/${site}.json?t=` + new Date().getTime();
+        const res = await fetch(filePath);
         
-        try {
-          // Direct fetch
-          const res = await fetch(targetUrl);
-          if (!res.ok) throw new Error("direct failed");
-          data = await res.json();
-        } catch(e) {
-          // Fallback proxy (Bypasses local CORS blocks during testing)
-          const pxUrl = 'https://api.allorigins.win/get?url=' + encodeURIComponent(targetUrl);
-          const pxRes = await fetch(pxUrl);
-          if(!pxRes.ok) throw new Error("Proxy failed");
-          const pxWrap = await pxRes.json();
-          data = JSON.parse(pxWrap.contents);
-        }
+        if (!res.ok) throw new Error("Local JSON file not found");
+        const data = await res.json();
 
         const symbol = site === 'empiredrop' ? '€' : '<span class="text-yellow-400">🪙</span>';
         document.getElementById('aff-lb-main-title').innerHTML = `${symbol} 10,000 ${site.toUpperCase()} LEADERBOARD`;
@@ -2146,7 +2086,7 @@
 
       } catch (err) {
         console.error(err);
-        document.getElementById('aff-lb-main-title').innerHTML = `${site.toUpperCase()} ERROR <br><small class="text-sm text-red-500">(API unreachable)</small>`;
+        document.getElementById('aff-lb-main-title').innerHTML = `${site.toUpperCase()} ERROR <br><small class="text-sm text-red-500">(Could not read data/${site}.json)</small>`;
       }
     }
 

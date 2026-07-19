@@ -54,9 +54,10 @@
       overflow-x: hidden;
       overflow-y: auto;
       color: white;
+      transition: font-size 0.3s ease;
     }
 
-    /* === מנוע הגיצים החדש (Canvas) === */
+    /* === מנוע הגיצים === */
     #particles-canvas {
       position: fixed;
       top: 0;
@@ -193,7 +194,6 @@
       color: rgba(255,255,255,0.7);
     }
 
-    /* === ניהול תצוגות (Views) === */
     .view-section {
       display: none;
       animation: viewFadeIn 0.4s ease forwards;
@@ -218,16 +218,14 @@
       100% { opacity: 1; transform: translateY(0) scale(1); }
     }
 
-    /* ========================================================= */
     /* === העיצוב המאוחד לכל הכרטיסיות (Home, Promo, LB) === */
-    /* ========================================================= */
     .card, .bonus-card, .lb-card {
       position: relative;
       z-index: 3;
       display: block;
       overflow: hidden;
       border-radius: 16px;
-      padding: 5px; /* יצירת המסגרת */
+      padding: 5px; 
       text-decoration: none;
       background:
         linear-gradient(135deg, rgba(255,255,255,0.14), rgba(255,255,255,0.02)),
@@ -242,36 +240,25 @@
     .card { cursor: pointer; }
     .bonus-card, .lb-card { width: 100%; height: 100%; }
 
-    /* הברקות רקע לכל סוגי הכרטיסיות */
     .card::before, .bonus-card::before, .lb-card::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background:
-        radial-gradient(circle at 15% 0%, rgba(255,255,255,0.18), transparent 34%),
-        radial-gradient(circle at 100% 100%, rgba(255, 140, 0, 0.16), transparent 35%);
-      opacity: 0.9;
-      pointer-events: none;
+      content: ""; position: absolute; inset: 0;
+      background: radial-gradient(circle at 15% 0%, rgba(255,255,255,0.18), transparent 34%), radial-gradient(circle at 100% 100%, rgba(255, 140, 0, 0.16), transparent 35%);
+      opacity: 0.9; pointer-events: none;
     }
 
-    /* אפקט חיתוך האור (Glossy effect) */
     .card::after, .bonus-card::after, .lb-card::after {
-      content: "";
-      position: absolute;
-      top: -70%; right: -45%; width: 60%; height: 220%;
+      content: ""; position: absolute; top: -70%; right: -45%; width: 60%; height: 220%;
       background: linear-gradient(90deg, transparent, rgba(255,255,255,0.15), transparent);
       transform: rotate(25deg); transition: 0.55s ease; pointer-events: none;
     }
 
     .card:hover, .bonus-card:hover, .lb-card:hover {
-      border-color: rgba(255, 140, 0, 0.6);
-      border-left-color: #ff8c00;
+      border-color: rgba(255, 140, 0, 0.6); border-left-color: #ff8c00;
       box-shadow: 0 26px 68px rgba(0,0,0,0.66), 0 0 38px rgba(255, 140, 0, 0.35);
     }
 
     .card:hover { transform: translateY(-8px) scale(1.02); }
     .bonus-card:hover { transform: translateY(-4px); }
-
     .card:hover::after, .bonus-card:hover::after, .lb-card:hover::after { right: 120%; }
 
     .card:active {
@@ -286,22 +273,10 @@
       background: linear-gradient(145deg, rgba(11, 8, 4, 0.78), rgba(28, 16, 6, 0.68));
     }
 
-    .card-inner {
-      min-height: 80px;
-      display: flex; align-items: center; justify-content: center; padding: 16px 22px; overflow: hidden;
-    }
-
-    .bonus-inner {
-      display: flex; flex-direction: column; gap: 20px; height: 100%; padding: 26px;
-    }
-
-    .lb-inner {
-      display: flex; flex-direction: column; width: 100%; height: 100%; padding: 24px;
-    }
-
-    .card-content {
-      display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; z-index: 4;
-    }
+    .card-inner { min-height: 80px; display: flex; align-items: center; justify-content: center; padding: 16px 22px; overflow: hidden; }
+    .bonus-inner { display: flex; flex-direction: column; gap: 20px; height: 100%; padding: 26px; }
+    .lb-inner { display: flex; flex-direction: column; width: 100%; height: 100%; padding: 24px; }
+    .card-content { display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; z-index: 4; }
 
     .icon-box {
       position: absolute; right: 22px; width: 48px; height: 48px; border-radius: 14px;
@@ -311,14 +286,10 @@
       overflow: hidden;
     }
 
-    .card:hover .icon-box {
-      background: rgba(255, 140, 0, 0.12); border-color: rgba(255, 140, 0, 0.35); box-shadow: inset 0 0 15px rgba(255, 140, 0, 0.2);
-    }
-
+    .card:hover .icon-box { background: rgba(255, 140, 0, 0.12); border-color: rgba(255, 140, 0, 0.35); box-shadow: inset 0 0 15px rgba(255, 140, 0, 0.2); }
     .card-title { font-size: 1.35rem; line-height: 1; font-weight: 900; }
     .platform-icon { width: 30px; height: 30px; object-fit: contain; transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
     .card:hover .platform-icon { transform: scale(1.18) rotate(-6deg); }
-
 
     /* === סטטוס חי Kick === */
     .status-dot { width: 9px; height: 9px; border-radius: 999px; display: inline-block; }
@@ -328,20 +299,18 @@
     .status-offline .status-dot { background: #6b7280; }
     @keyframes livePulse { 0% { transform: scale(1); opacity: 1; } 50% { transform: scale(1.45); opacity: 0.6; } 100% { transform: scale(1); opacity: 1; } }
 
-    /* === סטייל לטבלאות המובילים (Leaderboards) פנימי === */
+    /* === סטייל לטבלאות המובילים === */
     .lb-header { font-size: 1.15rem; font-weight: 900; color: #fff; text-align: center; margin-bottom: 24px; text-shadow: 0 2px 10px rgba(0,0,0,0.5); letter-spacing: 0.05em; }
     .lb-table-header { display: flex; justify-content: space-between; padding-bottom: 12px; margin-bottom: 12px; border-bottom: 1px solid rgba(255,255,255,0.15); color: rgba(255,255,255,0.8); font-weight: 900; font-size: 0.95rem; }
     .lb-row { display: flex; justify-content: space-between; align-items: center; padding: 12px 10px; border-bottom: 1px solid rgba(255,255,255,0.04); border-radius: 8px; transition: all 0.2s ease; }
     .lb-row:last-child { border-bottom: none; }
     .lb-row:hover { background: rgba(255, 140, 0, 0.1); transform: scale(1.02); }
 
-    /* === כרטיסיות מתהפכות (Flip Cards) ללידרבורד === */
     .flip-container { perspective: 1200px; width: 100%; min-height: 680px; position: relative; }
     .flip-inner { position: relative; width: 100%; height: 100%; transition: transform 0.75s cubic-bezier(0.4, 0.2, 0.2, 1); transform-style: preserve-3d; }
     .flip-front, .flip-back { width: 100%; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
     .flip-back { position: absolute; top: 0; left: 0; height: 100%; transform: rotateY(180deg); }
 
-    /* === כפתורי ניווט גלובליים ללידרבורד === */
     .nav-arrow {
       position: absolute; top: 50%; transform: translateY(-50%); z-index: 20;
       background: rgba(31, 35, 48, 0.85); border: 1px solid rgba(255,255,255,0.15); border-radius: 50%;
@@ -352,7 +321,7 @@
     .nav-arrow:active { transform: translateY(-50%) scale(0.85) !important; box-shadow: 0 0 5px rgba(255, 140, 0, 0.2); }
     .left-arrow { left: -90px; } .right-arrow { right: -90px; }
 
-    /* === עיצוב Affiliate Tab פנימי === */
+    /* === עיצוב Affiliate Tab === */
     #view-bonuses { width: 100%; max-width: 55rem; margin: 0 auto; }
     .bonus-logo { text-align: center; }
     .bonus-divider { height: 1px; background: rgba(255, 140, 0, 0.3); width: 100%; }
@@ -387,8 +356,6 @@
     .leaderboard-btn:hover { background: rgba(255, 140, 0, 0.1); border-color: #ff8c00; transform: translateY(-2px); }
     .leaderboard-btn:active { transform: translateY(2px); }
 
-
-    /* === עיצוב פוטר === */
     .site-footer { margin-top: 40px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
     .footer-copy { color: rgba(255,255,255,0.78); font-size: 0.76rem; font-weight: 900; }
 
@@ -400,29 +367,141 @@
     #view-home { max-width: 430px; margin: 0 auto; }
     #view-leaderboard { width: 100%; max-width: 68rem; margin: 0 auto; }
 
-
-    @media (max-width: 1280px) {
-      .left-arrow { left: -25px; } .right-arrow { right: -25px; }
+    /* ========================================================= */
+    /* === ווידג'ט נגישות (Accessibility) === */
+    /* ========================================================= */
+    #a11y-widget {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      z-index: 99999;
+      font-family: 'Heebo', sans-serif;
     }
 
+    #a11y-toggle {
+      background: rgba(15, 10, 5, 0.45);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 50%;
+      width: 42px;
+      height: 42px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(255,255,255,0.6);
+      backdrop-filter: blur(10px);
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    }
+
+    #a11y-toggle:hover {
+      background: rgba(255, 140, 0, 0.15);
+      color: #ff8c00;
+      border-color: rgba(255, 140, 0, 0.4);
+    }
+
+    #a11y-menu {
+      position: absolute;
+      bottom: 55px;
+      left: 0;
+      width: 260px;
+      background: rgba(20, 15, 10, 0.95);
+      border: 1px solid rgba(255, 140, 0, 0.3);
+      border-radius: 12px;
+      padding: 16px;
+      backdrop-filter: blur(20px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+      transform-origin: bottom left;
+      animation: a11yFade 0.2s ease forwards;
+    }
+
+    #a11y-menu.open { display: flex; }
+    
+    @keyframes a11yFade {
+      from { opacity: 0; transform: scale(0.9); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    .a11y-title {
+      font-size: 1rem;
+      font-weight: 900;
+      color: #fff;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      padding-bottom: 8px;
+      margin-bottom: 4px;
+      text-align: center;
+    }
+
+    .a11y-btn {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      color: #ddd;
+      border-radius: 6px;
+      padding: 8px 12px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .a11y-btn:hover { background: rgba(255,255,255,0.1); color: #fff; }
+    .a11y-btn.active-state { background: rgba(255, 140, 0, 0.2); border-color: #ff8c00; color: #ff8c00; }
+
+    .a11y-statement {
+      font-size: 0.7rem;
+      color: rgba(255,255,255,0.5);
+      line-height: 1.4;
+      margin-top: 5px;
+      text-align: left;
+    }
+
+    .a11y-statement a { color: #ff8c00; text-decoration: underline; }
+
+    /* === מצבי נגישות (Classes שיתווספו ל-Body) === */
+    body.a11y-large-text { font-size: 110%; }
+    
+    body.a11y-high-contrast {
+      background-image: none !important;
+      background-color: #000 !important;
+    }
+    body.a11y-high-contrast * {
+      text-shadow: none !important;
+      box-shadow: none !important;
+      border-color: #ffcc00 !important;
+      color: #ffff00 !important;
+    }
+    body.a11y-high-contrast .card-inner, 
+    body.a11y-high-contrast .bonus-inner, 
+    body.a11y-high-contrast .lb-inner {
+      background: #000 !important;
+    }
+    body.a11y-high-contrast .card::before, 
+    body.a11y-high-contrast .card::after { display: none !important; }
+
+    body.a11y-no-animations * {
+      animation: none !important;
+      transition: none !important;
+    }
+
+    @media (max-width: 1280px) { .left-arrow { left: -25px; } .right-arrow { right: -25px; } }
     @media (max-width: 768px) {
-      .lb-inner { padding: 16px; }
-      .bonus-inner { padding: 16px; }
-      .flip-container { min-height: 620px; }
-      .pill-menu { gap: 1rem; padding: 8px 24px; }
-      .leaderboard-wrapper { padding-top: 60px; }
+      .lb-inner { padding: 16px; } .bonus-inner { padding: 16px; } .flip-container { min-height: 620px; }
+      .pill-menu { gap: 1rem; padding: 8px 24px; } .leaderboard-wrapper { padding-top: 60px; }
       .nav-arrow { top: 5px; transform: none; width: 48px; height: 48px; }
       .nav-arrow:active { transform: scale(0.85) !important; }
-      .left-arrow { left: calc(50% - 60px); }
-      .right-arrow { right: auto; left: calc(50% + 12px); }
+      .left-arrow { left: calc(50% - 60px); } .right-arrow { right: auto; left: calc(50% + 12px); }
     }
-
     @media (max-width: 520px) {
       #main-page-content { padding-top: 40px !important; }
       .card-inner { min-height: 72px; padding: 14px 17px; }
       .icon-box { right: 17px; width: 44px; height: 44px; border-radius: 12px; }
-      .card-title { font-size: 1.2rem; }
-      #profile-image-container { width: 124px; height: 124px; }
+      .card-title { font-size: 1.2rem; } #profile-image-container { width: 124px; height: 124px; }
     }
   </style>
 </head>
@@ -431,7 +510,6 @@
   
   <video id="watermark-bg" src="Comp_1_1.webm" autoplay loop muted playsinline webkit-playsinline disablePictureInPicture></video>
   
-  <!-- === מנוע הגיצים החדש (Canvas) === -->
   <canvas id="particles-canvas"></canvas>
 
   <div id="spotlight"></div>
@@ -479,7 +557,6 @@
           </div>
         </a>
 
-        <!-- PayPal עם תמונה מהתיקייה המקומית (paypal.png) -->
         <a href="https://streamelements.com/ronengg-188c4/tip" target="_blank" rel="noopener noreferrer" class="card animated-item" aria-label="Donate via PayPal">
           <div class="card-inner">
             <div class="icon-box">
@@ -766,17 +843,48 @@
     </footer>
   </div>
 
+  <!-- ========================================================= -->
+  <!-- === ווידג'ט נגישות (Accessibility Menu) צד שמאל למטה === -->
+  <!-- ========================================================= -->
+  <div id="a11y-widget">
+    <div id="a11y-menu">
+      <div class="a11y-title">Accessibility Menu</div>
+      
+      <button class="a11y-btn" id="btn-high-contrast" onclick="toggleHighContrast()">
+        High Contrast <span class="indicator">○</span>
+      </button>
+      
+      <button class="a11y-btn" id="btn-large-text" onclick="toggleLargeText()">
+        Large Text <span class="indicator">○</span>
+      </button>
+
+      <button class="a11y-btn" id="btn-pause-animations" onclick="toggleAnimations()">
+        Pause Animations <span class="indicator">○</span>
+      </button>
+
+      <div class="a11y-statement">
+        <strong>Accessibility Statement:</strong> We are committed to ensuring digital accessibility for people with disabilities, aiming to conform to WCAG 2.1 AA standards. If you encounter issues, please contact us.
+      </div>
+    </div>
+
+    <button id="a11y-toggle" onclick="toggleA11yMenu()" aria-label="Open Accessibility Menu">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 2c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm9 7h-6v13h-2v-6h-2v6H9V9H3V7h18v2z"/>
+      </svg>
+    </button>
+  </div>
+  <!-- ========================================================= -->
+
   <script>
     // ==========================================
-    // הגדרות מנוע הגיצים ב-Canvas (שמחליף את ה-CSS הישן)
+    // הגדרות מנוע הגיצים ב-Canvas
     // ==========================================
-    
-    // כאן אתה שולט על המהירות של הגיצים! (0.4 = 40% מהמהירות)
     const PARTICLE_SPEED = 0.4; 
     
     const canvas = document.getElementById('particles-canvas');
     const ctx = canvas.getContext('2d');
     let particlesArray = [];
+    let isAnimationsPaused = false; // דגל לעצירת אנימציות נגישות
 
     function resizeCanvas() {
       canvas.width = window.innerWidth;
@@ -790,16 +898,11 @@
         this.x = Math.random() * canvas.width;
         this.y = Math.random() * canvas.height;
         this.size = Math.random() * 2.5 + 0.5; 
-        
         this.speedY = (Math.random() * -1.5 - 0.5) * PARTICLE_SPEED; 
         this.speedX = (Math.random() * 1 - 0.5) * PARTICLE_SPEED;
         this.spin = (Math.random() * 0.05 - 0.025) * PARTICLE_SPEED;
         
-        const colors = [
-          'rgba(255, 140, 0, 0.8)', 
-          'rgba(255, 170, 0, 0.9)', 
-          'rgba(255, 255, 255, 0.6)' 
-        ];
+        const colors = ['rgba(255, 140, 0, 0.8)', 'rgba(255, 170, 0, 0.9)', 'rgba(255, 255, 255, 0.6)'];
         this.color = colors[Math.floor(Math.random() * colors.length)];
         this.angle = Math.random() * Math.PI * 2;
       }
@@ -834,10 +937,13 @@
     }
 
     function animateParticles() {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-      for (let i = 0; i < particlesArray.length; i++) {
-        particlesArray[i].update();
-        particlesArray[i].draw();
+      // אם האנימציות מושהות, אל תעדכן ואל תצייר מחדש (הם פשוט יקפאו)
+      if (!isAnimationsPaused) {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        for (let i = 0; i < particlesArray.length; i++) {
+          particlesArray[i].update();
+          particlesArray[i].draw();
+        }
       }
       requestAnimationFrame(animateParticles);
     }
@@ -854,6 +960,41 @@
     const bgVideo = document.getElementById('watermark-bg');
 
     let isTransitionStarted = false;
+
+    // === מנגנון נגישות (Accessibility Logic) ===
+    function toggleA11yMenu() {
+      const menu = document.getElementById('a11y-menu');
+      menu.classList.toggle('open');
+    }
+
+    function toggleHighContrast() {
+      document.body.classList.toggle('a11y-high-contrast');
+      const btn = document.getElementById('btn-high-contrast');
+      btn.classList.toggle('active-state');
+      btn.querySelector('.indicator').innerText = btn.classList.contains('active-state') ? '●' : '○';
+    }
+
+    function toggleLargeText() {
+      document.body.classList.toggle('a11y-large-text');
+      const btn = document.getElementById('btn-large-text');
+      btn.classList.toggle('active-state');
+      btn.querySelector('.indicator').innerText = btn.classList.contains('active-state') ? '●' : '○';
+    }
+
+    function toggleAnimations() {
+      isAnimationsPaused = !isAnimationsPaused;
+      document.body.classList.toggle('a11y-no-animations');
+      
+      if(isAnimationsPaused) {
+        if(bgVideo) bgVideo.pause();
+      } else {
+        if(bgVideo) bgVideo.play();
+      }
+
+      const btn = document.getElementById('btn-pause-animations');
+      btn.classList.toggle('active-state');
+      btn.querySelector('.indicator').innerText = btn.classList.contains('active-state') ? '●' : '○';
+    }
 
     // === פונקציית העתקת קופון (Promo Code) ===
     function copyPromo(code, element) {
@@ -975,7 +1116,7 @@
     }
 
     function forcePlayVideos() {
-      if (bgVideo) bgVideo.play().catch(e => {});
+      if (bgVideo && !isAnimationsPaused) bgVideo.play().catch(e => {});
       if (video && !isTransitionStarted) {
         let playPromise = video.play();
         if (playPromise !== undefined) {
@@ -985,7 +1126,7 @@
     }
 
     function handleFirstInteraction() {
-      if (bgVideo) bgVideo.play().catch(e => {});
+      if (bgVideo && !isAnimationsPaused) bgVideo.play().catch(e => {});
       if (video && !isTransitionStarted) {
         video.play().catch(e => { activateSite(); });
       }
@@ -1010,7 +1151,7 @@
 
     // === אפקט פנס העכבר ===
     document.addEventListener('mousemove', (e) => {
-      if (spotlight) {
+      if (spotlight && !isAnimationsPaused) {
         spotlight.style.left = e.clientX + 'px';
         spotlight.style.top = e.clientY + 'px';
 
@@ -1031,6 +1172,7 @@
     });
 
     function animateItems() {
+      if(isAnimationsPaused) return;
       const items = document.querySelectorAll('.view-section.active .animated-item');
       items.forEach((item, index) => {
         item.classList.remove('item-animate');

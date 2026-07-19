@@ -479,7 +479,7 @@
       </div>
     </section>
 
-    <!-- פוטר ראשי שמרכז את כל ההצהרות המעצבנות -->
+    <!-- פוטר ראשי -->
     <footer class="site-footer relative z-10 w-full mt-14 pb-8">
       <div class="footer-copy mb-4">© 2026 RonenGG</div>
       
@@ -587,7 +587,7 @@
 
 
     // ==========================================
-    // מנגנון הנגישות (Accessibility Logic) החדש
+    // מנגנון הנגישות (Accessibility Logic)
     // ==========================================
     function toggleA11yMenu() {
       document.getElementById('a11y-menu').classList.toggle('open');
@@ -645,7 +645,7 @@
       window.speechSynthesis.speak(msg);
     }
 
-    // מאזין למעבר עכבר - עודכן כדי שיתמוך גם בטבלאות החדשות!
+    // מאזין למעבר עכבר - תומך בטבלאות לידרבורד
     document.addEventListener('mousemove', (e) => {
       if (!isTTSActive) return;
       const target = e.target.closest('h1, h2, h3, h4, p, span, .pill-btn, .card-title, .bonus-item, .lb-header, .lb-main-title, .lb-label, .claim-btn, .a11y-btn, th, td');
@@ -726,7 +726,7 @@
 
         } catch(err) {
             console.error("Error loading gambling leaderboard data:", err);
-            document.getElementById('lb-title').innerHTML = `${site.toUpperCase()} LEADERBOARD <br><small style="font-size:12px; color:#ff4444;">(Waiting for GitHub Actions data...)</small>`;
+            document.getElementById('lb-title').innerHTML = `${site.toUpperCase()} LEADERBOARD <br><small style="font-size:12px; color:#ff4444;">(WAITING FOR GITHUB ACTIONS DATA...)</small>`;
         }
     }
 

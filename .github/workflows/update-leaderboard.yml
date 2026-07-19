@@ -1,12 +1,12 @@
-name: Update Kick Leaderboard
+name: Update All Leaderboards
 
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '*/15 * * * *' # מעדכן כל רבע שעה. אם אתה רוצה מהר יותר, תשנה ל- '*/5 * * * *'
   workflow_dispatch:
 
 jobs:
-  update-leaderboard:
+  update-leaderboards:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -14,6 +14,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # ==========================================
+      # 1. משיכת נתונים מקיק (Node.js)
+      # ==========================================
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -25,10 +28,27 @@ jobs:
           node fetch-leaderboard.js
           node sub_scraper.js
 
+      # ==========================================
+      # 2. משיכת נתוני הימורים (Python)
+      # ==========================================
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run Fetch Script for Wager Leaderboards
+        run: python fetch_data.py
+
+      # ==========================================
+      # 3. שמירה ודחיפה של כל הקבצים לאתר
+      # ==========================================
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add leaderboard.json subs.json
-          git commit -m "Update leaderboard and subs data" || echo "No changes to commit"
+          
+          # מוסיף גם את הקבצים של קיק וגם את תיקיית הדאטה של ההימורים
+          git add leaderboard.json subs.json data/
+          
+          git commit -m "Auto-update Kick and Wager leaderboards data" || echo "No changes to commit"
           git push

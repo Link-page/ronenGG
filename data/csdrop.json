@@ -3,44 +3,44 @@
         {
             "rank": 1,
             "username": "B******G",
-            "wagered": "33,338",
+            "wagered": "33,340",
             "prize": 3000,
             "img": "https://cdn.csdrop.com/avatars/default_14.webp"
         },
         {
             "rank": 2,
-            "username": "T*****y",
-            "wagered": "3,709",
-            "prize": 2000,
-            "img": "https://cdn.csdrop.com/avatars/default_43.webp"
-        },
-        {
-            "rank": 3,
             "username": "O************Y",
-            "wagered": "3,167",
-            "prize": 1500,
+            "wagered": "14,074",
+            "prize": 2000,
             "img": "https://cdn.csdrop.com/avatars/default_59.webp"
         },
         {
+            "rank": 3,
+            "username": "T*****y",
+            "wagered": "3,709",
+            "prize": 1500,
+            "img": "https://cdn.csdrop.com/avatars/default_43.webp"
+        },
+        {
             "rank": 4,
-            "username": "Y*********n",
-            "wagered": "2,263",
+            "username": "A**************0",
+            "wagered": "2,775",
             "prize": 1000,
-            "img": "https://cdn.csdrop.com/avatars/default_28.webp"
+            "img": "https://cdn.csdrop.com/avatars/default_40.webp"
         },
         {
             "rank": 5,
-            "username": "K***n",
-            "wagered": "1,885",
+            "username": "Y*********n",
+            "wagered": "2,263",
             "prize": 700,
-            "img": "https://cdn.csdrop.com/avatars/default_52.webp"
+            "img": "https://cdn.csdrop.com/avatars/default_28.webp"
         },
         {
             "rank": 6,
-            "username": "A**************0",
-            "wagered": "1,253",
+            "username": "K***n",
+            "wagered": "1,885",
             "prize": 500,
-            "img": "https://cdn.csdrop.com/avatars/default_40.webp"
+            "img": "https://cdn.csdrop.com/avatars/default_52.webp"
         },
         {
             "rank": 7,

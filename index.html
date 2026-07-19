@@ -580,17 +580,20 @@
     /* ==========================================
        אפקט לחיצה מטורף "שוקע פנימה" לכל הכפתורים באתר
        ========================================== */
-    .card:active, 
-    .bonus-card:active,
-    .claim-btn:active, 
-    .pill-btn:active, 
+    .card:active,
+    .claim-btn:active,
     .promo-box:active,
-    .nav-arrow:active,
     #a11y-toggle:active,
     .a11y-btn:active,
     .footer-a11y-btn:active {
       transform: scale(0.96) translateY(4px) !important;
       box-shadow: 0 0px 0px rgba(0,0,0,0), inset 0 6px 15px rgba(0,0,0,0.7) !important;
+      transition: transform 0.05s ease-out, box-shadow 0.05s ease-out !important;
+    }
+
+    .nav-arrow:active {
+      transform: translateY(-50%) scale(0.94) !important;
+      box-shadow: 0 0px 0px rgba(0,0,0,0), inset 0 3px 8px rgba(0,0,0,0.6) !important;
       transition: transform 0.05s ease-out, box-shadow 0.05s ease-out !important;
     }
 
@@ -934,6 +937,7 @@
       .lb-inner { padding: 16px; } .bonus-inner { padding: 16px; } .flip-container { min-height: 620px; }
       .pill-menu { gap: 1rem; padding: 8px 24px; } .leaderboard-wrapper { padding-top: 60px; }
       .nav-arrow { top: 5px; transform: none; width: 48px; height: 48px; }
+      .nav-arrow:active { transform: scale(0.94) !important; }
       .left-arrow { left: calc(50% - 60px); } .right-arrow { right: auto; left: calc(50% + 12px); }
       
       .aff-podium {

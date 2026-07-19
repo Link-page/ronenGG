@@ -149,10 +149,7 @@
 
     /* === פוטר ראשי === */
     .site-footer { margin-top: 60px; padding: 30px 20px; border-top: 1px solid rgba(255,255,255,0.05); background: rgba(10, 8, 5, 0.4); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; position: relative; z-index: 10; }
-    .footer-copy { color: rgba(255,255,255,0.9); font-size: 1rem; font-weight: 900; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 15px; }
-    .footer-disclaimer-box { max-width: 750px; display: flex; flex-direction: column; gap: 10px; }
-    .footer-text { font-size: 0.72rem; color: rgba(255,255,255,0.4); line-height: 1.6; font-weight: 400; letter-spacing: 0.3px; }
-    .footer-text strong { color: rgba(255,255,255,0.6); font-weight: 700; }
+    .footer-copy { color: rgba(255,255,255,0.9); font-size: 1rem; font-weight: 900; letter-spacing: 1.5px; text-transform: uppercase; }
 
     /* === ווידג'ט נגישות === */
     #a11y-widget { position: fixed; bottom: 20px; left: 20px; z-index: 99999; font-family: 'Heebo', sans-serif; }
@@ -247,9 +244,10 @@
 
       <h1 class="text-4xl font-black text-white neon tracking-tight mb-2">RonenGG</h1>
       
+      <!-- שינוי שם הכפתור כאן ל- CODES & LEADERBOARDS -->
       <nav class="pill-menu">
         <button class="pill-btn active" onclick="switchView('home', this)">HOME</button>
-        <button class="pill-btn" onclick="switchView('bonuses', this)">PROMO CODES</button>
+        <button class="pill-btn" onclick="switchView('bonuses', this)">CODES & LEADERBOARDS</button>
         <button class="pill-btn" onclick="switchView('leaderboard', this)">DONATORS</button>
       </nav>
     </div>
@@ -313,7 +311,7 @@
       </div>
     </section>
 
-    <!-- View 2: PROMO CODES + WAGER LEADERBOARDS -->
+    <!-- View 2: CODES & LEADERBOARDS -->
     <section id="view-bonuses" class="view-section relative z-10 w-full">
       <h2 class="text-center text-sm md:text-base font-black text-white/90 uppercase tracking-widest mb-8 text-shadow-sm">
         Use my promo codes for instant bonuses!
@@ -323,7 +321,7 @@
         <div class="bonus-card animated-item item-animate" style="animation-delay: 100ms;">
           <div class="bonus-inner">
             <div class="bonus-logo flex justify-center items-center min-h-[48px]">
-               <img src="https://empiredrop.com/icons/header/desktop/big-empire-drop-logo-gold.svg" alt="EmpireDrop" class="h-10 object-contain drop-shadow-[0_0_8px_rgba(255,215,0,0.3)]">
+               <img src="https://api.allorigins.win/raw?url=https%3A%2F%2Fempiredrop.com%2Ficons%2Fheader%2Fdesktop%2Fbig-empire-drop-logo-gold.svg" crossorigin="anonymous" alt="EmpireDrop" class="h-10 object-contain drop-shadow-[0_0_8px_rgba(255,215,0,0.3)]">
             </div>
             <div class="bonus-divider"></div>
             <div class="bonus-list">
@@ -363,21 +361,17 @@
         </div>
       </div>
 
-      <!-- ========================================== -->
       <!-- WAGER LEADERBOARDS WIDGET -->
-      <!-- ========================================== -->
       <div id="leaderboards-widget" class="glass-section animated-item item-animate" style="animation-delay: 300ms;">
-          <!-- כפתורי ניווט בין הלידרבורדס -->
           <div class="lb-tabs-container">
               <button class="lb-tab active" onclick="loadLeaderboard('empiredrop', event)">
-                  <img src="https://empiredrop.com/icons/header/desktop/big-empire-drop-logo-gold.svg" alt="EmpireDrop" height="25" style="max-height: 25px;">
+                  <img src="https://api.allorigins.win/raw?url=https%3A%2F%2Fempiredrop.com%2Ficons%2Fheader%2Fdesktop%2Fbig-empire-drop-logo-gold.svg" crossorigin="anonymous" alt="EmpireDrop" height="25" style="max-height: 25px;">
               </button>
               <button class="lb-tab" onclick="loadLeaderboard('csdrop', event)">
                   <img src="https://csdrop.com/images/brand/logo-csdrop.webp" alt="CSDrop" height="25" style="max-height: 25px;">
               </button>
           </div>
 
-          <!-- התוכן המרכזי של הלידרבורד -->
           <div class="lb-content-wrapper">
               <h2 id="lb-title" class="lb-main-title">LOADING...</h2>
               
@@ -421,7 +415,7 @@
                   </div>
               </div>
 
-              <!-- טיימר ועדכון -->
+              <!-- טיימר -->
               <div class="lb-timer-area">
                   <h4>ENDING IN</h4>
                   <div class="lb-timer-grid">
@@ -433,7 +427,7 @@
                   <p class="lb-update-text">Last Updated: <span id="lb-last-updated">Just now</span></p>
               </div>
 
-              <!-- טבלה 4-10 -->
+              <!-- טבלה -->
               <div class="lb-table-responsive">
                   <table class="lb-table">
                       <thead>
@@ -445,15 +439,22 @@
                           </tr>
                       </thead>
                       <tbody id="lb-table-body">
-                          <!-- שורות יוזנו אוטומטית -->
+                          <!-- יתווסף אוטומטית -->
                       </tbody>
                   </table>
               </div>
           </div>
       </div>
+
+      <!-- הצהרת ההימורים מופיעה רק כאן! -->
+      <div class="text-center mt-12 mb-4 px-4 animated-item item-animate" style="animation-delay: 400ms;">
+        <p class="text-[0.65rem] text-white/40 leading-relaxed tracking-wide max-w-[750px] mx-auto border-t border-white/10 pt-6">
+          <strong>Disclaimer:</strong> Gamble responsibly (18+). We do not take responsibility for any losses from gambling sites linked or promoted on our website. Promos are for educational and entertainment purposes.
+        </p>
+      </div>
     </section>
 
-    <!-- View 3: Leaderboard (DONATORS - All time / Weekly subs and kicks) -->
+    <!-- View 3: Leaderboard (DONATORS) -->
     <section id="view-leaderboard" class="view-section relative z-10 w-full">
       <div class="relative w-full leaderboard-wrapper">
         <button class="nav-arrow left-arrow" onclick="spinCards('left')" aria-label="Spin Left">
@@ -479,19 +480,39 @@
       </div>
     </section>
 
-    <!-- פוטר ראשי -->
+    <!-- פוטר ראשי נקי -->
     <footer class="site-footer relative z-10 w-full mt-14 pb-8">
-      <div class="footer-copy mb-4">© 2026 RonenGG</div>
-      
-      <div class="max-w-[750px] text-center px-6">
-        <p class="text-[0.65rem] text-white/35 leading-relaxed tracking-wide mb-2">
-          <strong>Accessibility Statement:</strong> We are committed to ensuring digital accessibility for people with disabilities, aiming to conform to WCAG 2.1 AA standards. If you encounter any issues, please contact us via Discord.
-        </p>
-        <p class="text-[0.65rem] text-white/35 leading-relaxed tracking-wide">
-          <strong>Disclaimer:</strong> Gamble responsibly (18+). We do not take responsibility for any losses from gambling sites linked or promoted on our website. Promos are for educational and entertainment purposes.
-        </p>
-      </div>
+      <div class="footer-copy mb-2">© 2026 RonenGG</div>
+      <button onclick="openA11yModal()" class="text-white/40 hover:text-white/80 transition-colors text-xs font-bold uppercase tracking-widest cursor-pointer outline-none">
+        Accessibility Statement
+      </button>
     </footer>
+  </div>
+
+  <!-- ========================================================= -->
+  <!-- === חלון קופץ להצהרת הנגישות (Accessibility Modal) === -->
+  <!-- ========================================================= -->
+  <div id="a11y-modal" class="fixed inset-0 z-[100000] hidden items-center justify-center bg-black/80 backdrop-blur-sm p-4 opacity-0 transition-opacity duration-300">
+    <div class="bg-zinc-900 border border-[#ff8c00]/30 rounded-2xl p-6 md:p-8 max-w-lg w-full shadow-2xl transform scale-95 transition-transform duration-300">
+      <div class="flex justify-between items-center mb-4 border-b border-white/10 pb-4">
+        <h3 class="text-white font-black text-xl uppercase tracking-wider">Accessibility Statement</h3>
+        <button onclick="closeA11yModal()" class="text-white/50 hover:text-white text-3xl font-bold leading-none outline-none">&times;</button>
+      </div>
+      <div class="text-white/80 text-sm leading-relaxed space-y-4">
+        <p>We are committed to ensuring digital accessibility for people with disabilities, aiming to conform to WCAG 2.1 AA standards.</p>
+        <p>Our platform includes a built-in accessibility menu featuring:</p>
+        <ul class="list-disc pl-5 space-y-1 text-[#ff8c00]">
+            <li><span class="text-white/80">Text-to-Speech (TTS) reading capabilities</span></li>
+            <li><span class="text-white/80">Customizable font sizing and word spacing</span></li>
+            <li><span class="text-white/80">High-contrast visual mode</span></li>
+            <li><span class="text-white/80">Animation pause functionality</span></li>
+        </ul>
+        <p>If you encounter any accessibility barriers or need assistance, please contact us via our Discord community.</p>
+      </div>
+      <div class="mt-8 text-center">
+        <button onclick="closeA11yModal()" class="bg-[#ff8c00] text-black font-black px-8 py-3 rounded-lg hover:bg-[#ffa733] transition-colors uppercase text-sm outline-none shadow-lg">Close</button>
+      </div>
+    </div>
   </div>
 
   <!-- ========================================================= -->
@@ -593,6 +614,34 @@
       document.getElementById('a11y-menu').classList.toggle('open');
     }
 
+    // פונקציות לחלון קופץ של הצהרת נגישות
+    function openA11yModal() {
+      const modal = document.getElementById('a11y-modal');
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+      setTimeout(() => {
+        modal.classList.remove('opacity-0');
+        modal.querySelector('div').classList.remove('scale-95');
+        modal.querySelector('div').classList.add('scale-100');
+      }, 10);
+    }
+
+    function closeA11yModal() {
+      const modal = document.getElementById('a11y-modal');
+      modal.classList.add('opacity-0');
+      modal.querySelector('div').classList.remove('scale-100');
+      modal.querySelector('div').classList.add('scale-95');
+      setTimeout(() => {
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+      }, 300);
+    }
+
+    // סגירת החלון בלחיצה מחוץ לתוכן
+    document.getElementById('a11y-modal').addEventListener('click', function(e) {
+      if (e.target === this) closeA11yModal();
+    });
+
     function updateFontSize(val) {
       document.getElementById('fontSizeVal').innerText = val + '%';
       document.documentElement.style.fontSize = val + '%'; 
@@ -619,7 +668,6 @@
       btn.querySelector('.indicator').innerText = btn.classList.contains('active-state') ? '●' : '○';
     }
 
-    // === קריין מובנה TTS (Text to Speech) ===
     let isTTSActive = false;
     let ttsTimeout;
 
@@ -645,10 +693,9 @@
       window.speechSynthesis.speak(msg);
     }
 
-    // מאזין למעבר עכבר - תומך בטבלאות לידרבורד
     document.addEventListener('mousemove', (e) => {
       if (!isTTSActive) return;
-      const target = e.target.closest('h1, h2, h3, h4, p, span, .pill-btn, .card-title, .bonus-item, .lb-header, .lb-main-title, .lb-label, .claim-btn, .a11y-btn, th, td');
+      const target = e.target.closest('h1, h2, h3, h4, p, li, span, .pill-btn, .card-title, .bonus-item, .lb-header, .lb-main-title, .lb-label, .claim-btn, .a11y-btn, th, td');
       if (target) {
         if (target.dataset.ttsHovered === 'true') return; 
         
@@ -677,7 +724,8 @@
         }
 
         try {
-            const response = await fetch(`/data/${site}.json?t=` + new Date().getTime());
+            const apiUrl = site === 'csdrop' ? 'https://ronen.gg/api/CSDROP' : 'https://ronen.gg/api/empiredrop';
+            const response = await fetch(apiUrl); 
             if (!response.ok) throw new Error("Data not found");
             
             const data = await response.json();
@@ -722,11 +770,11 @@
             startLbTimer(data.end_date);
             const now = new Date();
             const timeString = now.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
-            document.getElementById('lb-last-updated').textContent = `Today at ${timeString}`;
+            document.getElementById('lb-last-updated').textContent = `Live Sync Active - Fetched at ${timeString}`;
 
         } catch(err) {
             console.error("Error loading gambling leaderboard data:", err);
-            document.getElementById('lb-title').innerHTML = `${site.toUpperCase()} LEADERBOARD <br><small style="font-size:12px; color:#ff4444;">(WAITING FOR GITHUB ACTIONS DATA...)</small>`;
+            document.getElementById('lb-title').innerHTML = `${site.toUpperCase()} LEADERBOARD <br><small style="font-size:12px; color:#ff4444;">(CONNECTION ERROR TO RONEN.GG API)</small>`;
         }
     }
 

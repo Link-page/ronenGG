@@ -147,9 +147,9 @@
       .card-title { font-size: 1.2rem; } #profile-image-container { width: 124px; height: 124px; }
     }
 
-    /* === פוטר ראשי === */
+    /* === פוטר ראשי נקי === */
     .site-footer { margin-top: 60px; padding: 30px 20px; border-top: 1px solid rgba(255,255,255,0.05); background: rgba(10, 8, 5, 0.4); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; position: relative; z-index: 10; }
-    .footer-copy { color: rgba(255,255,255,0.9); font-size: 1rem; font-weight: 900; letter-spacing: 1.5px; text-transform: uppercase; }
+    .footer-copy { color: rgba(255,255,255,0.9); font-size: 1rem; font-weight: 900; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 8px; }
 
     /* === ווידג'ט נגישות === */
     #a11y-widget { position: fixed; bottom: 20px; left: 20px; z-index: 99999; font-family: 'Heebo', sans-serif; }
@@ -244,7 +244,6 @@
 
       <h1 class="text-4xl font-black text-white neon tracking-tight mb-2">RonenGG</h1>
       
-      <!-- שינוי שם הכפתור כאן ל- CODES & LEADERBOARDS -->
       <nav class="pill-menu">
         <button class="pill-btn active" onclick="switchView('home', this)">HOME</button>
         <button class="pill-btn" onclick="switchView('bonuses', this)">CODES & LEADERBOARDS</button>
@@ -318,10 +317,11 @@
       </h2>
       
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 px-2 w-full">
+        <!-- EmpireDrop Card -->
         <div class="bonus-card animated-item item-animate" style="animation-delay: 100ms;">
           <div class="bonus-inner">
             <div class="bonus-logo flex justify-center items-center min-h-[48px]">
-               <img src="https://api.allorigins.win/raw?url=https%3A%2F%2Fempiredrop.com%2Ficons%2Fheader%2Fdesktop%2Fbig-empire-drop-logo-gold.svg" crossorigin="anonymous" alt="EmpireDrop" class="h-10 object-contain drop-shadow-[0_0_8px_rgba(255,215,0,0.3)]">
+               <img src="https://empiredrop.com/icons/header/desktop/big-empire-drop-logo-gold.svg" alt="EmpireDrop" class="h-10 object-contain drop-shadow-[0_0_8px_rgba(255,215,0,0.3)]" referrerpolicy="no-referrer">
             </div>
             <div class="bonus-divider"></div>
             <div class="bonus-list">
@@ -339,10 +339,11 @@
           </div>
         </div>
 
+        <!-- CSDrop Card -->
         <div class="bonus-card animated-item item-animate" style="animation-delay: 200ms;">
           <div class="bonus-inner">
             <div class="bonus-logo flex justify-center items-center min-h-[48px]">
-               <img src="https://csdrop.com/images/brand/logo-csdrop.webp" alt="CSDROP" class="h-10 object-contain drop-shadow-[0_0_8px_rgba(59,130,246,0.3)]">
+               <img src="https://csdrop.com/images/brand/logo-csdrop.webp" alt="CSDROP" class="h-10 object-contain drop-shadow-[0_0_8px_rgba(59,130,246,0.3)]" referrerpolicy="no-referrer">
             </div>
             <div class="bonus-divider"></div>
             <div class="bonus-list">
@@ -365,10 +366,10 @@
       <div id="leaderboards-widget" class="glass-section animated-item item-animate" style="animation-delay: 300ms;">
           <div class="lb-tabs-container">
               <button class="lb-tab active" onclick="loadLeaderboard('empiredrop', event)">
-                  <img src="https://api.allorigins.win/raw?url=https%3A%2F%2Fempiredrop.com%2Ficons%2Fheader%2Fdesktop%2Fbig-empire-drop-logo-gold.svg" crossorigin="anonymous" alt="EmpireDrop" height="25" style="max-height: 25px;">
+                  <img src="https://empiredrop.com/icons/header/desktop/big-empire-drop-logo-gold.svg" alt="EmpireDrop" height="25" style="max-height: 25px;" referrerpolicy="no-referrer">
               </button>
               <button class="lb-tab" onclick="loadLeaderboard('csdrop', event)">
-                  <img src="https://csdrop.com/images/brand/logo-csdrop.webp" alt="CSDrop" height="25" style="max-height: 25px;">
+                  <img src="https://csdrop.com/images/brand/logo-csdrop.webp" alt="CSDrop" height="25" style="max-height: 25px;" referrerpolicy="no-referrer">
               </button>
           </div>
 
@@ -637,7 +638,6 @@
       }, 300);
     }
 
-    // סגירת החלון בלחיצה מחוץ לתוכן
     document.getElementById('a11y-modal').addEventListener('click', function(e) {
       if (e.target === this) closeA11yModal();
     });
@@ -725,8 +725,19 @@
 
         try {
             const apiUrl = site === 'csdrop' ? 'https://ronen.gg/api/CSDROP' : 'https://ronen.gg/api/empiredrop';
-            const response = await fetch(apiUrl); 
-            if (!response.ok) throw new Error("Data not found");
+            
+            let response;
+            try {
+                // מנסה למשוך ישירות קודם
+                response = await fetch(apiUrl);
+                if (!response.ok) throw new Error("Direct fetch failed");
+            } catch(e) {
+                // מעקף אם פתחת את זה מקומית מהמחשב (CORS Block)
+                const proxyUrl = 'https://api.allorigins.win/raw?url=' + encodeURIComponent(apiUrl);
+                response = await fetch(proxyUrl);
+            }
+
+            if (!response || !response.ok) throw new Error("Data not found");
             
             const data = await response.json();
             const symbol = site === 'empiredrop' ? '€' : '🪙'; 
@@ -820,7 +831,7 @@
     function checkIfLiveFromData(d){return Boolean(d?.livestream?.is_live||d?.recent_livestream?.is_live||d?.current_livestream?.is_live||d?.stream?.is_live||(d?.livestream&&d.livestream.is_live!==false));}
     async function checkKickLiveStatus(){try{const res=await fetch('https://api.allorigins.win/raw?url='+encodeURIComponent('https://kick.com/api/v2/channels/ronengg'),{cache:'no-store'});if(res.ok)setKickStatus(checkIfLiveFromData(await res.json()));else setKickStatus(false);}catch(error){setKickStatus(false);}}checkKickLiveStatus();setInterval(checkKickLiveStatus,60000);
     
-    // קריאה ראשונית ללידרבורד רק אם המשתמש נכנס בטעות ישירות ללשונית
+    // קריאה ראשונית ללידרבורד
     document.addEventListener("DOMContentLoaded", () => {
         loadLeaderboard('empiredrop');
     });

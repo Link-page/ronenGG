@@ -580,20 +580,17 @@
     /* ==========================================
        אפקט לחיצה מטורף "שוקע פנימה" לכל הכפתורים באתר
        ========================================== */
-    .card:active,
-    .claim-btn:active,
+    .card:active, 
+    .bonus-card:active,
+    .claim-btn:active, 
+    .pill-btn:active, 
     .promo-box:active,
+    .nav-arrow:active,
     #a11y-toggle:active,
     .a11y-btn:active,
     .footer-a11y-btn:active {
       transform: scale(0.96) translateY(4px) !important;
       box-shadow: 0 0px 0px rgba(0,0,0,0), inset 0 6px 15px rgba(0,0,0,0.7) !important;
-      transition: transform 0.05s ease-out, box-shadow 0.05s ease-out !important;
-    }
-
-    .nav-arrow:active {
-      transform: translateY(-50%) scale(0.94) !important;
-      box-shadow: 0 0px 0px rgba(0,0,0,0), inset 0 3px 8px rgba(0,0,0,0.6) !important;
       transition: transform 0.05s ease-out, box-shadow 0.05s ease-out !important;
     }
 
@@ -937,7 +934,6 @@
       .lb-inner { padding: 16px; } .bonus-inner { padding: 16px; } .flip-container { min-height: 620px; }
       .pill-menu { gap: 1rem; padding: 8px 24px; } .leaderboard-wrapper { padding-top: 60px; }
       .nav-arrow { top: 5px; transform: none; width: 48px; height: 48px; }
-      .nav-arrow:active { transform: scale(0.94) !important; }
       .left-arrow { left: calc(50% - 60px); } .right-arrow { right: auto; left: calc(50% + 12px); }
       
       .aff-podium {
@@ -1842,37 +1838,26 @@
     });
 
     async function checkKickLiveStatus() {
-      // יצרתי פה מערכת חכמה שמנסה 3 פרוקסי שונים כדי לעקוף את החסימה של קיק
-      const endpoints = [
-        'https://corsproxy.io/?' + encodeURIComponent('https://kick.com/api/v2/channels/ronengg'),
-        'https://api.codetabs.com/v1/proxy?quest=' + encodeURIComponent('https://kick.com/api/v2/channels/ronengg'),
-        'https://api.allorigins.win/raw?url=' + encodeURIComponent('https://kick.com/api/v2/channels/ronengg')
-      ];
-      
-      let isLive = false;
-      
-      for (const url of endpoints) {
-        try {
-          const res = await fetch(url, { cache: 'no-store', timeout: 5000 });
-          if (res.ok) {
-            const data = await res.json();
-            if (data && typeof data === 'object') {
-              isLive = data.livestream !== null && data.livestream !== undefined;
-              break; // מצאנו נתונים! יוצאים מהלולאה
-            }
+      try {
+        // קורא עכשיו מהקובץ המקומי שה-GitHub Action שומר! אין חסימות ואין דיליי!
+        const res = await fetch('data/kick_live.json?t=' + new Date().getTime());
+        const kickElem = document.getElementById('kick-live-status');
+        
+        if (res.ok) {
+          const data = await res.json();
+          if (data.is_live) {
+            kickElem.className = 'mt-1 text-xs font-black flex items-center justify-center gap-2 status-live';
+            kickElem.querySelector('.status-text').textContent = 'Live Now';
+          } else {
+            kickElem.className = 'mt-1 text-xs font-black flex items-center justify-center gap-2 status-offline';
+            kickElem.querySelector('.status-text').textContent = 'Offline';
           }
-        } catch (e) {
-          // אם נחסם, ממשיך לפרוקסי הבא בשקט
+        } else {
+          kickElem.className = 'mt-1 text-xs font-black flex items-center justify-center gap-2 status-offline';
+          kickElem.querySelector('.status-text').textContent = 'Offline';
         }
-      }
-      
-      const kickElem = document.getElementById('kick-live-status');
-      if (isLive) {
-        kickElem.className = 'mt-1 text-xs font-black flex items-center justify-center gap-2 status-live';
-        kickElem.querySelector('.status-text').textContent = 'Live Now';
-      } else {
-        kickElem.className = 'mt-1 text-xs font-black flex items-center justify-center gap-2 status-offline';
-        kickElem.querySelector('.status-text').textContent = 'Offline';
+      } catch (e) {
+        console.error("Local Live Status Error", e);
       }
     }
     

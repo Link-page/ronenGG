@@ -1,107 +1,62 @@
 name: Update All Leaderboards
-
-name: Update Kick Data
 on:
   schedule:
     - cron: '*/15 * * * *'
   workflow_dispatch:
-
-    - cron: '*/10 * * * *' # רץ כל 10 דקות אוטומטית
-  workflow_dispatch: # מאפשר לך להריץ גם ידנית בלחיצת כפתור ב-GitHub
 jobs:
   update-leaderboards:
-  update-data:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
+ 
       # ==========================================
-      # 1. משיכת נתונים מקיק (Node.js)
+      # 1. משיכת לידרבורד תורמים (Node.js + Puppeteer)
       # ==========================================
       - name: Setup Node.js
         uses: actions/setup-node@v4
-        uses: actions/checkout@v3
-      - name: Set up Python
-        uses: actions/setup-python@v4
         with:
           node-version: '20'
-
-      - name: Install dependencies and Run scripts
+ 
+      - name: Install Node dependencies and run scrapers
         run: |
           npm install puppeteer puppeteer-extra puppeteer-extra-plugin-stealth
           node fetch-leaderboard.js
           node sub_scraper.js
-
+ 
       # ==========================================
-      # 2. משיכת נתוני הימורים (Python)
+      # 2. משיכת נתוני לידרבורדים הימורים (Python)
       # ==========================================
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-
+ 
+      - name: Install Python dependencies
+        run: pip install requests
+ 
       - name: Run Fetch Script for Wager Leaderboards
         run: python fetch_data.py
-
+ 
       # ==========================================
-      # 3. בדיקת סטטוס לייב (Kick Official API) - חדש ומאובטח!
+      # 3. בדיקת סטטוס לייב (Kick Official API - OAuth)
       # ==========================================
       - name: Check Kick Live Status
-          python-version: '3.x'
-      - name: Install dependencies
-        run: pip install requests
-      - name: Fetch Kick API Data
         env:
-          KICK_API_KEY: ${{ secrets.KICK_API_KEY }}
-        run: |
-          python -c '
-          import urllib.request
-          import json
-          import os
-
-          api_key = os.environ.get("KICK_API_KEY", "")
-          url = "https://api.kick.com/public/v1/channels/ronengg"
-          
-          req = urllib.request.Request(url, headers={
-              "Authorization": f"Bearer {api_key}",
-              "Accept": "application/json"
-          })
-          
-          is_live = False
-          try:
-              with urllib.request.urlopen(req) as response:
-                  data = json.loads(response.read().decode())
-                  if data.get("livestream"):
-                      is_live = True
-          except Exception as e:
-              print(f"Error fetching live status: {e}")
-
-          os.makedirs("data", exist_ok=True)
-          with open("data/kick_live.json", "w") as f:
-              json.dump({"is_live": is_live}, f)
-          '
-
+          KICK_CLIENT_ID: ${{ secrets.KICK_CLIENT_ID }}
+          KICK_CLIENT_SECRET: ${{ secrets.KICK_CLIENT_SECRET }}
+        run: python check_kick_live.py
+ 
       # ==========================================
       # 4. שמירה ודחיפה של כל הקבצים לאתר
       # ==========================================
       - name: Commit and push changes
-          KICK_CLIENT_ID: ${{ secrets.KICK_CLIENT_ID }}
-          KICK_CLIENT_SECRET: ${{ secrets.KICK_CLIENT_SECRET }}
-        run: python fetch_kick_data.py
-      - name: Commit and Push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          
-          # מוסיף גם את הקבצים של קיק וגם את תיקיית הדאטה של ההימורים וסטטוס הלייב
           git add leaderboard.json subs.json data/
-          
           git commit -m "Auto-update Kick, Wager leaderboards, and Live Status" || echo "No changes to commit"
-          git config --global user.name "GitHub Action Bot"
-          git config --global user.email "action@github.com"
-          git add live_status.json leaderboard.json || true
-          git commit -m "Auto-update Kick data" || exit 0
           git push
+ 

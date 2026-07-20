@@ -41,13 +41,61 @@ jobs:
         run: python fetch_data.py
  
       # ==========================================
-      # 3. בדיקת סטטוס לייב (Kick Official API - OAuth)
+      # 3. בדיקת סטטוס לייב (Kick Official API - OAuth) - מוטמע כאן ישירות
       # ==========================================
       - name: Check Kick Live Status
         env:
           KICK_CLIENT_ID: ${{ secrets.KICK_CLIENT_ID }}
           KICK_CLIENT_SECRET: ${{ secrets.KICK_CLIENT_SECRET }}
-        run: python check_kick_live.py
+        run: |
+          python - <<'PYEOF'
+          import os
+          import json
+          import requests
+ 
+          CLIENT_ID = os.environ.get("KICK_CLIENT_ID")
+          CLIENT_SECRET = os.environ.get("KICK_CLIENT_SECRET")
+          CHANNEL_SLUG = "ronengg"
+ 
+          def get_access_token():
+              resp = requests.post(
+                  "https://id.kick.com/oauth/token",
+                  data={
+                      "grant_type": "client_credentials",
+                      "client_id": CLIENT_ID,
+                      "client_secret": CLIENT_SECRET,
+                  },
+                  timeout=10,
+              )
+              resp.raise_for_status()
+              return resp.json()["access_token"]
+ 
+          is_live = False
+ 
+          if not CLIENT_ID or not CLIENT_SECRET:
+              print("Missing KICK_CLIENT_ID / KICK_CLIENT_SECRET environment variables.")
+          else:
+              try:
+                  token = get_access_token()
+                  res = requests.get(
+                      "https://api.kick.com/public/v1/channels",
+                      headers={"Authorization": f"Bearer {token}"},
+                      params={"slug": CHANNEL_SLUG},
+                      timeout=10,
+                  )
+                  if res.status_code == 200:
+                      data = res.json().get("data", [])
+                      if data:
+                          is_live = bool(data[0].get("stream", {}).get("is_live", False))
+                  else:
+                      print(f"Failed to fetch channel: {res.status_code} - {res.text[:300]}")
+              except Exception as e:
+                  print("Error fetching live status:", e)
+ 
+          os.makedirs("data", exist_ok=True)
+          with open("data/kick_live.json", "w", encoding="utf-8") as f:
+              json.dump({"is_live": is_live}, f)
+          PYEOF
  
       # ==========================================
       # 4. שמירה ודחיפה של כל הקבצים לאתר

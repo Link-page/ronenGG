@@ -2,7 +2,7 @@ name: Update All Leaderboards
 
 on:
   schedule:
-    - cron: '*/15 * * * *' # מעדכן כל רבע שעה. אם אתה רוצה מהר יותר, תשנה ל- '*/5 * * * *'
+    - cron: '*/15 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -40,15 +40,49 @@ jobs:
         run: python fetch_data.py
 
       # ==========================================
-      # 3. שמירה ודחיפה של כל הקבצים לאתר
+      # 3. בדיקת סטטוס לייב (Kick Official API) - חדש ומאובטח!
+      # ==========================================
+      - name: Check Kick Live Status
+        env:
+          KICK_API_KEY: ${{ secrets.KICK_API_KEY }}
+        run: |
+          python -c '
+          import urllib.request
+          import json
+          import os
+
+          api_key = os.environ.get("KICK_API_KEY", "")
+          url = "https://api.kick.com/public/v1/channels/ronengg"
+          
+          req = urllib.request.Request(url, headers={
+              "Authorization": f"Bearer {api_key}",
+              "Accept": "application/json"
+          })
+          
+          is_live = False
+          try:
+              with urllib.request.urlopen(req) as response:
+                  data = json.loads(response.read().decode())
+                  if data.get("livestream"):
+                      is_live = True
+          except Exception as e:
+              print(f"Error fetching live status: {e}")
+
+          os.makedirs("data", exist_ok=True)
+          with open("data/kick_live.json", "w") as f:
+              json.dump({"is_live": is_live}, f)
+          '
+
+      # ==========================================
+      # 4. שמירה ודחיפה של כל הקבצים לאתר
       # ==========================================
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
-          # מוסיף גם את הקבצים של קיק וגם את תיקיית הדאטה של ההימורים
+          # מוסיף גם את הקבצים של קיק וגם את תיקיית הדאטה של ההימורים וסטטוס הלייב
           git add leaderboard.json subs.json data/
           
-          git commit -m "Auto-update Kick and Wager leaderboards data" || echo "No changes to commit"
+          git commit -m "Auto-update Kick, Wager leaderboards, and Live Status" || echo "No changes to commit"
           git push

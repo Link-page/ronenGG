@@ -148,14 +148,14 @@
         "username": "Avety"
       },
       {
+        "quantity": 4500,
+        "user_id": 119023182,
+        "username": "OfficialBOBO"
+      },
+      {
         "quantity": 4002,
         "user_id": 69765661,
         "username": "BenZion3"
-      },
-      {
-        "quantity": 3500,
-        "user_id": 78275186,
-        "username": "Dor_103"
       }
     ],
     "kicks_gifts_week_enabled": true

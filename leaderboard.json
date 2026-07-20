@@ -37,7 +37,7 @@
         "username": "Dor_103"
       },
       {
-        "quantity": 31500,
+        "quantity": 32000,
         "user_id": 67453019,
         "username": "natanelf"
       },
@@ -60,7 +60,7 @@
         "username": "RB6666"
       },
       {
-        "quantity": 16500,
+        "quantity": 17000,
         "user_id": 67453019,
         "username": "natanelf"
       },
@@ -108,7 +108,7 @@
     "kicks_gifts_month_enabled": true,
     "kicks_gifts_week": [
       {
-        "quantity": 15500,
+        "quantity": 16000,
         "user_id": 67453019,
         "username": "natanelf"
       },

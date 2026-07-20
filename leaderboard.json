@@ -37,7 +37,7 @@
         "username": "bestNIVil"
       },
       {
-        "quantity": 32500,
+        "quantity": 33000,
         "user_id": 67453019,
         "username": "natanelf"
       },
@@ -55,14 +55,14 @@
     "kicks_gifts_lifetime_enabled": true,
     "kicks_gifts_month": [
       {
-        "quantity": 17500,
-        "user_id": 87190114,
-        "username": "RB6666"
+        "quantity": 18000,
+        "user_id": 67453019,
+        "username": "natanelf"
       },
       {
         "quantity": 17500,
-        "user_id": 67453019,
-        "username": "natanelf"
+        "user_id": 87190114,
+        "username": "RB6666"
       },
       {
         "quantity": 15000,
@@ -108,7 +108,7 @@
     "kicks_gifts_month_enabled": true,
     "kicks_gifts_week": [
       {
-        "quantity": 16500,
+        "quantity": 17000,
         "user_id": 67453019,
         "username": "natanelf"
       },
@@ -154,8 +154,8 @@
       },
       {
         "quantity": 5000,
-        "user_id": 80149843,
-        "username": "Avety"
+        "user_id": 82042922,
+        "username": "dodikosoliko"
       }
     ],
     "kicks_gifts_week_enabled": true

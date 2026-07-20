@@ -28,13 +28,13 @@
       },
       {
         "quantity": 34500,
-        "user_id": 69220525,
-        "username": "bestNIVil"
-      },
-      {
-        "quantity": 33000,
         "user_id": 78275186,
         "username": "Dor_103"
+      },
+      {
+        "quantity": 34500,
+        "user_id": 69220525,
+        "username": "bestNIVil"
       },
       {
         "quantity": 32000,
@@ -96,13 +96,13 @@
       },
       {
         "quantity": 6500,
-        "user_id": 76334394,
-        "username": "PostB"
+        "user_id": 78275186,
+        "username": "Dor_103"
       },
       {
-        "quantity": 5000,
-        "user_id": 80149843,
-        "username": "Avety"
+        "quantity": 6500,
+        "user_id": 76334394,
+        "username": "PostB"
       }
     ],
     "kicks_gifts_month_enabled": true,
@@ -153,9 +153,9 @@
         "username": "BenZion3"
       },
       {
-        "quantity": 3000,
-        "user_id": 119023182,
-        "username": "OfficialBOBO"
+        "quantity": 3500,
+        "user_id": 78275186,
+        "username": "Dor_103"
       }
     ],
     "kicks_gifts_week_enabled": true

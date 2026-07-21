@@ -27,7 +27,12 @@
         "username": "ofek_zirring"
       },
       {
-        "quantity": 34500,
+        "quantity": 35362,
+        "user_id": 86310892,
+        "username": "Yuri_ishakov"
+      },
+      {
+        "quantity": 35000,
         "user_id": 78275186,
         "username": "Dor_103"
       },
@@ -37,7 +42,7 @@
         "username": "bestNIVil"
       },
       {
-        "quantity": 33000,
+        "quantity": 33500,
         "user_id": 67453019,
         "username": "natanelf"
       },
@@ -45,17 +50,12 @@
         "quantity": 30500,
         "user_id": 71893948,
         "username": "JustLiors"
-      },
-      {
-        "quantity": 29000,
-        "user_id": 104398609,
-        "username": "SUPERGAMINGIL"
       }
     ],
     "kicks_gifts_lifetime_enabled": true,
     "kicks_gifts_month": [
       {
-        "quantity": 18000,
+        "quantity": 18500,
         "user_id": 67453019,
         "username": "natanelf"
       },
@@ -63,6 +63,11 @@
         "quantity": 17500,
         "user_id": 87190114,
         "username": "RB6666"
+      },
+      {
+        "quantity": 15500,
+        "user_id": 86310892,
+        "username": "Yuri_ishakov"
       },
       {
         "quantity": 15000,
@@ -95,11 +100,6 @@
         "username": "farukilmao"
       },
       {
-        "quantity": 8500,
-        "user_id": 86310892,
-        "username": "Yuri_ishakov"
-      },
-      {
         "quantity": 8356,
         "user_id": 37376706,
         "username": "Friedman1"
@@ -108,9 +108,14 @@
     "kicks_gifts_month_enabled": true,
     "kicks_gifts_week": [
       {
-        "quantity": 17000,
+        "quantity": 17500,
         "user_id": 67453019,
         "username": "natanelf"
+      },
+      {
+        "quantity": 13500,
+        "user_id": 86310892,
+        "username": "Yuri_ishakov"
       },
       {
         "quantity": 13000,
@@ -136,11 +141,6 @@
         "quantity": 7000,
         "user_id": 109231779,
         "username": "nehoraybhm"
-      },
-      {
-        "quantity": 6500,
-        "user_id": 86310892,
-        "username": "Yuri_ishakov"
       },
       {
         "quantity": 6000,

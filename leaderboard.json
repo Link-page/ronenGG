@@ -27,14 +27,14 @@
         "username": "Dor_103"
       },
       {
+        "quantity": 36362,
+        "user_id": 86310892,
+        "username": "Yuri_ishakov"
+      },
+      {
         "quantity": 36000,
         "user_id": 102393056,
         "username": "ofek_zirring"
-      },
-      {
-        "quantity": 35362,
-        "user_id": 86310892,
-        "username": "Yuri_ishakov"
       },
       {
         "quantity": 34500,
@@ -65,7 +65,7 @@
         "username": "natanelf"
       },
       {
-        "quantity": 15500,
+        "quantity": 16500,
         "user_id": 86310892,
         "username": "Yuri_ishakov"
       },
@@ -128,7 +128,7 @@
         "username": "farukilmao"
       },
       {
-        "quantity": 13500,
+        "quantity": 14500,
         "user_id": 86310892,
         "username": "Yuri_ishakov"
       },
@@ -149,13 +149,13 @@
       },
       {
         "quantity": 6500,
-        "user_id": 78275186,
-        "username": "Dor_103"
+        "user_id": 82042922,
+        "username": "dodikosoliko"
       },
       {
-        "quantity": 6000,
-        "user_id": 79823917,
-        "username": "Nakash128"
+        "quantity": 6500,
+        "user_id": 78275186,
+        "username": "Dor_103"
       }
     ],
     "kicks_gifts_week_enabled": true

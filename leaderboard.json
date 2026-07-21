@@ -22,7 +22,7 @@
         "username": "AmitLux"
       },
       {
-        "quantity": 37500,
+        "quantity": 40500,
         "user_id": 78275186,
         "username": "Dor_103"
       },
@@ -42,14 +42,14 @@
         "username": "bestNIVil"
       },
       {
-        "quantity": 33500,
+        "quantity": 34000,
         "user_id": 67453019,
         "username": "natanelf"
       },
       {
-        "quantity": 30500,
-        "user_id": 71893948,
-        "username": "JustLiors"
+        "quantity": 31000,
+        "user_id": 67144059,
+        "username": "Space_Itay"
       }
     ],
     "kicks_gifts_lifetime_enabled": true,
@@ -60,7 +60,7 @@
         "username": "RB6666"
       },
       {
-        "quantity": 18500,
+        "quantity": 19000,
         "user_id": 67453019,
         "username": "natanelf"
       },
@@ -90,6 +90,11 @@
         "username": "beneiny"
       },
       {
+        "quantity": 12500,
+        "user_id": 78275186,
+        "username": "Dor_103"
+      },
+      {
         "quantity": 11000,
         "user_id": 81937117,
         "username": "kgsx"
@@ -98,17 +103,12 @@
         "quantity": 10500,
         "user_id": 9416276,
         "username": "TheZohanLIVE"
-      },
-      {
-        "quantity": 9500,
-        "user_id": 78275186,
-        "username": "Dor_103"
       }
     ],
     "kicks_gifts_month_enabled": true,
     "kicks_gifts_week": [
       {
-        "quantity": 17500,
+        "quantity": 18000,
         "user_id": 67453019,
         "username": "natanelf"
       },
@@ -143,6 +143,11 @@
         "username": "TheZohanLIVE"
       },
       {
+        "quantity": 9500,
+        "user_id": 78275186,
+        "username": "Dor_103"
+      },
+      {
         "quantity": 7000,
         "user_id": 92670955,
         "username": "job_man"
@@ -151,11 +156,6 @@
         "quantity": 7000,
         "user_id": 109231779,
         "username": "nehoraybhm"
-      },
-      {
-        "quantity": 6500,
-        "user_id": 82042922,
-        "username": "dodikosoliko"
       }
     ],
     "kicks_gifts_week_enabled": true

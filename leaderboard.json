@@ -7,7 +7,7 @@
         "username": "RB6666"
       },
       {
-        "quantity": 59000,
+        "quantity": 60000,
         "user_id": 76334394,
         "username": "PostB"
       },
@@ -65,19 +65,19 @@
         "username": "natanelf"
       },
       {
-        "quantity": 16500,
-        "user_id": 86310892,
-        "username": "Yuri_ishakov"
-      },
-      {
-        "quantity": 16500,
+        "quantity": 18500,
         "user_id": 119508434,
         "username": "beneiny"
       },
       {
-        "quantity": 16000,
+        "quantity": 17000,
         "user_id": 76334394,
         "username": "PostB"
+      },
+      {
+        "quantity": 16500,
+        "user_id": 86310892,
+        "username": "Yuri_ishakov"
       },
       {
         "quantity": 15000,
@@ -113,9 +113,14 @@
         "username": "natanelf"
       },
       {
-        "quantity": 16000,
+        "quantity": 17000,
         "user_id": 76334394,
         "username": "PostB"
+      },
+      {
+        "quantity": 17000,
+        "user_id": 119508434,
+        "username": "beneiny"
       },
       {
         "quantity": 15000,
@@ -126,11 +131,6 @@
         "quantity": 15000,
         "user_id": 29939300,
         "username": "farukilmao"
-      },
-      {
-        "quantity": 15000,
-        "user_id": 119508434,
-        "username": "beneiny"
       },
       {
         "quantity": 14500,

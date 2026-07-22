@@ -2,7 +2,7 @@
   "data": {
     "kicks_gifts_lifetime": [
       {
-        "quantity": 100500,
+        "quantity": 102500,
         "user_id": 87190114,
         "username": "RB6666"
       },
@@ -12,7 +12,7 @@
         "username": "PostB"
       },
       {
-        "quantity": 49810,
+        "quantity": 51310,
         "user_id": 9416276,
         "username": "TheZohanLIVE"
       },
@@ -22,12 +22,17 @@
         "username": "AmitLux"
       },
       {
-        "quantity": 42000,
+        "quantity": 44000,
         "user_id": 78275186,
         "username": "Dor_103"
       },
       {
-        "quantity": 36362,
+        "quantity": 39000,
+        "user_id": 67453019,
+        "username": "natanelf"
+      },
+      {
+        "quantity": 37862,
         "user_id": 86310892,
         "username": "Yuri_ishakov"
       },
@@ -42,11 +47,6 @@
         "username": "bestNIVil"
       },
       {
-        "quantity": 34000,
-        "user_id": 67453019,
-        "username": "natanelf"
-      },
-      {
         "quantity": 31000,
         "user_id": 67144059,
         "username": "Space_Itay"
@@ -55,12 +55,17 @@
     "kicks_gifts_lifetime_enabled": true,
     "kicks_gifts_month": [
       {
-        "quantity": 27500,
+        "quantity": 29500,
         "user_id": 87190114,
         "username": "RB6666"
       },
       {
-        "quantity": 19000,
+        "quantity": 25000,
+        "user_id": 29939300,
+        "username": "farukilmao"
+      },
+      {
+        "quantity": 24000,
         "user_id": 67453019,
         "username": "natanelf"
       },
@@ -70,14 +75,19 @@
         "username": "beneiny"
       },
       {
+        "quantity": 18000,
+        "user_id": 86310892,
+        "username": "Yuri_ishakov"
+      },
+      {
         "quantity": 17000,
         "user_id": 76334394,
         "username": "PostB"
       },
       {
-        "quantity": 16500,
-        "user_id": 86310892,
-        "username": "Yuri_ishakov"
+        "quantity": 16000,
+        "user_id": 78275186,
+        "username": "Dor_103"
       },
       {
         "quantity": 15000,
@@ -85,32 +95,32 @@
         "username": "Nakash128"
       },
       {
-        "quantity": 15000,
-        "user_id": 29939300,
-        "username": "farukilmao"
-      },
-      {
-        "quantity": 14000,
-        "user_id": 78275186,
-        "username": "Dor_103"
+        "quantity": 12000,
+        "user_id": 9416276,
+        "username": "TheZohanLIVE"
       },
       {
         "quantity": 11000,
         "user_id": 81937117,
         "username": "kgsx"
-      },
-      {
-        "quantity": 10500,
-        "user_id": 9416276,
-        "username": "TheZohanLIVE"
       }
     ],
     "kicks_gifts_month_enabled": true,
     "kicks_gifts_week": [
       {
-        "quantity": 18000,
+        "quantity": 25000,
+        "user_id": 29939300,
+        "username": "farukilmao"
+      },
+      {
+        "quantity": 23000,
         "user_id": 67453019,
         "username": "natanelf"
+      },
+      {
+        "quantity": 17000,
+        "user_id": 87190114,
+        "username": "RB6666"
       },
       {
         "quantity": 17000,
@@ -123,27 +133,17 @@
         "username": "beneiny"
       },
       {
-        "quantity": 15000,
-        "user_id": 87190114,
-        "username": "RB6666"
-      },
-      {
-        "quantity": 15000,
-        "user_id": 29939300,
-        "username": "farukilmao"
-      },
-      {
-        "quantity": 14500,
+        "quantity": 16000,
         "user_id": 86310892,
         "username": "Yuri_ishakov"
       },
       {
-        "quantity": 11000,
+        "quantity": 13000,
         "user_id": 78275186,
         "username": "Dor_103"
       },
       {
-        "quantity": 10000,
+        "quantity": 11500,
         "user_id": 9416276,
         "username": "TheZohanLIVE"
       },

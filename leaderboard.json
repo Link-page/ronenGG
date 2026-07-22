@@ -148,14 +148,14 @@
         "username": "Dor_103"
       },
       {
+        "quantity": 8000,
+        "user_id": 109231779,
+        "username": "nehoraybhm"
+      },
+      {
         "quantity": 7500,
         "user_id": 92670955,
         "username": "job_man"
-      },
-      {
-        "quantity": 7000,
-        "user_id": 109231779,
-        "username": "nehoraybhm"
       }
     ],
     "kicks_gifts_week_enabled": true

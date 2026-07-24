@@ -2,7 +2,7 @@
   "data": {
     "kicks_gifts_lifetime": [
       {
-        "quantity": 135500,
+        "quantity": 136000,
         "user_id": 87190114,
         "username": "RB6666"
       },
@@ -55,7 +55,7 @@
     "kicks_gifts_lifetime_enabled": true,
     "kicks_gifts_month": [
       {
-        "quantity": 62500,
+        "quantity": 63000,
         "user_id": 87190114,
         "username": "RB6666"
       },
@@ -85,6 +85,11 @@
         "username": "PostB"
       },
       {
+        "quantity": 16500,
+        "user_id": 39366945,
+        "username": "shalev_segev"
+      },
+      {
         "quantity": 16000,
         "user_id": 78275186,
         "username": "Dor_103"
@@ -95,11 +100,6 @@
         "username": "Nakash128"
       },
       {
-        "quantity": 14000,
-        "user_id": 39366945,
-        "username": "shalev_segev"
-      },
-      {
         "quantity": 12000,
         "user_id": 9416276,
         "username": "TheZohanLIVE"
@@ -108,7 +108,7 @@
     "kicks_gifts_month_enabled": true,
     "kicks_gifts_week": [
       {
-        "quantity": 50000,
+        "quantity": 50500,
         "user_id": 87190114,
         "username": "RB6666"
       },
@@ -138,7 +138,7 @@
         "username": "beneiny"
       },
       {
-        "quantity": 14000,
+        "quantity": 16500,
         "user_id": 39366945,
         "username": "shalev_segev"
       },

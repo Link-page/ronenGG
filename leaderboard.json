@@ -80,14 +80,14 @@
         "username": "Yuri_ishakov"
       },
       {
+        "quantity": 18500,
+        "user_id": 39366945,
+        "username": "shalev_segev"
+      },
+      {
         "quantity": 18000,
         "user_id": 76334394,
         "username": "PostB"
-      },
-      {
-        "quantity": 17500,
-        "user_id": 39366945,
-        "username": "shalev_segev"
       },
       {
         "quantity": 16000,
@@ -123,6 +123,11 @@
         "username": "farukilmao"
       },
       {
+        "quantity": 18500,
+        "user_id": 39366945,
+        "username": "shalev_segev"
+      },
+      {
         "quantity": 18000,
         "user_id": 76334394,
         "username": "PostB"
@@ -131,11 +136,6 @@
         "quantity": 18000,
         "user_id": 119508434,
         "username": "beneiny"
-      },
-      {
-        "quantity": 17500,
-        "user_id": 39366945,
-        "username": "shalev_segev"
       },
       {
         "quantity": 17000,

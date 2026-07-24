@@ -2,7 +2,7 @@
   "data": {
     "kicks_gifts_lifetime": [
       {
-        "quantity": 121500,
+        "quantity": 122000,
         "user_id": 87190114,
         "username": "RB6666"
       },
@@ -55,7 +55,7 @@
     "kicks_gifts_lifetime_enabled": true,
     "kicks_gifts_month": [
       {
-        "quantity": 48500,
+        "quantity": 49000,
         "user_id": 87190114,
         "username": "RB6666"
       },
@@ -108,7 +108,7 @@
     "kicks_gifts_month_enabled": true,
     "kicks_gifts_week": [
       {
-        "quantity": 36000,
+        "quantity": 36500,
         "user_id": 87190114,
         "username": "RB6666"
       },

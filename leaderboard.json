@@ -2,17 +2,17 @@
   "data": {
     "kicks_gifts_lifetime": [
       {
-        "quantity": 151000,
+        "quantity": 151500,
         "user_id": 87190114,
         "username": "RB6666"
       },
       {
-        "quantity": 61500,
+        "quantity": 62500,
         "user_id": 76334394,
         "username": "PostB"
       },
       {
-        "quantity": 53810,
+        "quantity": 54310,
         "user_id": 9416276,
         "username": "TheZohanLIVE"
       },
@@ -37,7 +37,7 @@
         "username": "Yuri_ishakov"
       },
       {
-        "quantity": 37500,
+        "quantity": 38000,
         "user_id": 67144059,
         "username": "Space_Itay"
       },
@@ -55,7 +55,7 @@
     "kicks_gifts_lifetime_enabled": true,
     "kicks_gifts_month": [
       {
-        "quantity": 78000,
+        "quantity": 78500,
         "user_id": 87190114,
         "username": "RB6666"
       },
@@ -80,14 +80,14 @@
         "username": "shalev_segev"
       },
       {
+        "quantity": 19500,
+        "user_id": 76334394,
+        "username": "PostB"
+      },
+      {
         "quantity": 19000,
         "user_id": 86310892,
         "username": "Yuri_ishakov"
-      },
-      {
-        "quantity": 18500,
-        "user_id": 76334394,
-        "username": "PostB"
       },
       {
         "quantity": 16500,
@@ -100,7 +100,7 @@
         "username": "Dor_103"
       },
       {
-        "quantity": 14500,
+        "quantity": 15000,
         "user_id": 9416276,
         "username": "TheZohanLIVE"
       }
@@ -108,7 +108,7 @@
     "kicks_gifts_month_enabled": true,
     "kicks_gifts_week": [
       {
-        "quantity": 65500,
+        "quantity": 66000,
         "user_id": 87190114,
         "username": "RB6666"
       },
@@ -133,7 +133,7 @@
         "username": "beneiny"
       },
       {
-        "quantity": 18500,
+        "quantity": 19500,
         "user_id": 76334394,
         "username": "PostB"
       },
@@ -143,7 +143,7 @@
         "username": "Yuri_ishakov"
       },
       {
-        "quantity": 14000,
+        "quantity": 14500,
         "user_id": 9416276,
         "username": "TheZohanLIVE"
       },

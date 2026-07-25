@@ -37,6 +37,11 @@
         "username": "Yuri_ishakov"
       },
       {
+        "quantity": 36500,
+        "user_id": 67144059,
+        "username": "Space_Itay"
+      },
+      {
         "quantity": 36000,
         "user_id": 102393056,
         "username": "ofek_zirring"
@@ -45,11 +50,6 @@
         "quantity": 34500,
         "user_id": 69220525,
         "username": "bestNIVil"
-      },
-      {
-        "quantity": 34000,
-        "user_id": 67144059,
-        "username": "Space_Itay"
       }
     ],
     "kicks_gifts_lifetime_enabled": true,
@@ -70,7 +70,7 @@
         "username": "farukilmao"
       },
       {
-        "quantity": 22000,
+        "quantity": 22500,
         "user_id": 119508434,
         "username": "beneiny"
       },
@@ -90,7 +90,7 @@
         "username": "PostB"
       },
       {
-        "quantity": 16000,
+        "quantity": 16500,
         "user_id": 79823917,
         "username": "Nakash128"
       },
@@ -128,7 +128,7 @@
         "username": "shalev_segev"
       },
       {
-        "quantity": 20500,
+        "quantity": 21000,
         "user_id": 119508434,
         "username": "beneiny"
       },

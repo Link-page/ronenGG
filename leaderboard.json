@@ -2,7 +2,7 @@
   "data": {
     "kicks_gifts_lifetime": [
       {
-        "quantity": 154000,
+        "quantity": 154500,
         "user_id": 87190114,
         "username": "RB6666"
       },
@@ -17,7 +17,7 @@
         "username": "TheZohanLIVE"
       },
       {
-        "quantity": 52500,
+        "quantity": 53000,
         "user_id": 78275186,
         "username": "Dor_103"
       },
@@ -32,14 +32,14 @@
         "username": "AmitLux"
       },
       {
+        "quantity": 40000,
+        "user_id": 67144059,
+        "username": "Space_Itay"
+      },
+      {
         "quantity": 39862,
         "user_id": 86310892,
         "username": "Yuri_ishakov"
-      },
-      {
-        "quantity": 39000,
-        "user_id": 67144059,
-        "username": "Space_Itay"
       },
       {
         "quantity": 36000,
@@ -55,7 +55,7 @@
     "kicks_gifts_lifetime_enabled": true,
     "kicks_gifts_month": [
       {
-        "quantity": 81000,
+        "quantity": 81500,
         "user_id": 87190114,
         "username": "RB6666"
       },
@@ -66,6 +66,11 @@
       },
       {
         "quantity": 25000,
+        "user_id": 78275186,
+        "username": "Dor_103"
+      },
+      {
+        "quantity": 25000,
         "user_id": 29939300,
         "username": "farukilmao"
       },
@@ -73,11 +78,6 @@
         "quantity": 25000,
         "user_id": 119508434,
         "username": "beneiny"
-      },
-      {
-        "quantity": 24500,
-        "user_id": 78275186,
-        "username": "Dor_103"
       },
       {
         "quantity": 22500,
@@ -118,19 +118,24 @@
         "username": "YUDA69"
       },
       {
-        "quantity": 1000,
+        "quantity": 1500,
         "user_id": 78275186,
         "username": "Dor_103"
       },
       {
         "quantity": 1000,
-        "user_id": 100841871,
-        "username": "AVIathol"
-      },
-      {
-        "quantity": 500,
         "user_id": 87190114,
         "username": "RB6666"
+      },
+      {
+        "quantity": 1000,
+        "user_id": 67144059,
+        "username": "Space_Itay"
+      },
+      {
+        "quantity": 1000,
+        "user_id": 100841871,
+        "username": "AVIathol"
       },
       {
         "quantity": 500,
@@ -151,11 +156,6 @@
         "quantity": 500,
         "user_id": 78819415,
         "username": "Tzach_sabov"
-      },
-      {
-        "quantity": 500,
-        "user_id": 78744460,
-        "username": "Liad_Charlie"
       }
     ],
     "kicks_gifts_week_enabled": true

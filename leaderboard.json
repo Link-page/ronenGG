@@ -2,7 +2,7 @@
   "data": {
     "kicks_gifts_lifetime": [
       {
-        "quantity": 153500,
+        "quantity": 154000,
         "user_id": 87190114,
         "username": "RB6666"
       },
@@ -55,7 +55,7 @@
     "kicks_gifts_lifetime_enabled": true,
     "kicks_gifts_month": [
       {
-        "quantity": 80500,
+        "quantity": 81000,
         "user_id": 87190114,
         "username": "RB6666"
       },
@@ -107,6 +107,51 @@
     ],
     "kicks_gifts_month_enabled": true,
     "kicks_gifts_week": [
+      {
+        "quantity": 2000,
+        "user_id": 8268329,
+        "username": "Trexthefrog"
+      },
+      {
+        "quantity": 500,
+        "user_id": 87190114,
+        "username": "RB6666"
+      },
+      {
+        "quantity": 500,
+        "user_id": 86831771,
+        "username": "YUDA69"
+      },
+      {
+        "quantity": 500,
+        "user_id": 8402653,
+        "username": "Survivor5"
+      },
+      {
+        "quantity": 500,
+        "user_id": 78819415,
+        "username": "Tzach_sabov"
+      },
+      {
+        "quantity": 500,
+        "user_id": 60532345,
+        "username": "shawarmaland"
+      },
+      {
+        "quantity": 500,
+        "user_id": 45107336,
+        "username": "y_dinari"
+      },
+      {
+        "quantity": 500,
+        "user_id": 33886367,
+        "username": "Ganani"
+      },
+      {
+        "quantity": 10,
+        "user_id": 80865788,
+        "username": "Narbata134"
+      },
       {
         "quantity": 9,
         "user_id": 102255356,

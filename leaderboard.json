@@ -2,7 +2,7 @@
   "data": {
     "kicks_gifts_lifetime": [
       {
-        "quantity": 154500,
+        "quantity": 155000,
         "user_id": 87190114,
         "username": "RB6666"
       },
@@ -17,7 +17,7 @@
         "username": "TheZohanLIVE"
       },
       {
-        "quantity": 54000,
+        "quantity": 55000,
         "user_id": 78275186,
         "username": "Dor_103"
       },
@@ -55,7 +55,7 @@
     "kicks_gifts_lifetime_enabled": true,
     "kicks_gifts_month": [
       {
-        "quantity": 81500,
+        "quantity": 82000,
         "user_id": 87190114,
         "username": "RB6666"
       },
@@ -65,7 +65,7 @@
         "username": "natanelf"
       },
       {
-        "quantity": 26000,
+        "quantity": 27000,
         "user_id": 78275186,
         "username": "Dor_103"
       },
@@ -80,7 +80,7 @@
         "username": "farukilmao"
       },
       {
-        "quantity": 22500,
+        "quantity": 23000,
         "user_id": 79823917,
         "username": "Nakash128"
       },
@@ -108,6 +108,11 @@
     "kicks_gifts_month_enabled": true,
     "kicks_gifts_week": [
       {
+        "quantity": 3500,
+        "user_id": 78275186,
+        "username": "Dor_103"
+      },
+      {
         "quantity": 3000,
         "user_id": 77988961,
         "username": "Roy5431"
@@ -118,14 +123,14 @@
         "username": "Guypopi"
       },
       {
-        "quantity": 2500,
-        "user_id": 78275186,
-        "username": "Dor_103"
-      },
-      {
         "quantity": 2000,
         "user_id": 8268329,
         "username": "Trexthefrog"
+      },
+      {
+        "quantity": 1500,
+        "user_id": 87190114,
+        "username": "RB6666"
       },
       {
         "quantity": 1500,
@@ -133,9 +138,9 @@
         "username": "YUDA69"
       },
       {
-        "quantity": 1000,
-        "user_id": 87190114,
-        "username": "RB6666"
+        "quantity": 1500,
+        "user_id": 119023182,
+        "username": "OfficialBOBO"
       },
       {
         "quantity": 1000,
@@ -146,11 +151,6 @@
         "quantity": 1000,
         "user_id": 67144059,
         "username": "Space_Itay"
-      },
-      {
-        "quantity": 1000,
-        "user_id": 119023182,
-        "username": "OfficialBOBO"
       },
       {
         "quantity": 1000,

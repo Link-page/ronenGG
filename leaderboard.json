@@ -7,7 +7,7 @@
         "username": "RB6666"
       },
       {
-        "quantity": 63500,
+        "quantity": 64000,
         "user_id": 76334394,
         "username": "PostB"
       },
@@ -17,7 +17,7 @@
         "username": "TheZohanLIVE"
       },
       {
-        "quantity": 51500,
+        "quantity": 52000,
         "user_id": 78275186,
         "username": "Dor_103"
       },
@@ -75,7 +75,7 @@
         "username": "beneiny"
       },
       {
-        "quantity": 23500,
+        "quantity": 24000,
         "user_id": 78275186,
         "username": "Dor_103"
       },
@@ -90,7 +90,7 @@
         "username": "shalev_segev"
       },
       {
-        "quantity": 20500,
+        "quantity": 21000,
         "user_id": 76334394,
         "username": "PostB"
       },
@@ -113,6 +113,11 @@
         "username": "Trexthefrog"
       },
       {
+        "quantity": 1000,
+        "user_id": 100841871,
+        "username": "AVIathol"
+      },
+      {
         "quantity": 500,
         "user_id": 87190114,
         "username": "RB6666"
@@ -124,8 +129,18 @@
       },
       {
         "quantity": 500,
+        "user_id": 8408123,
+        "username": "shayprox"
+      },
+      {
+        "quantity": 500,
         "user_id": 8402653,
         "username": "Survivor5"
+      },
+      {
+        "quantity": 500,
+        "user_id": 81951167,
+        "username": "AsafYaffe3"
       },
       {
         "quantity": 500,
@@ -134,28 +149,13 @@
       },
       {
         "quantity": 500,
-        "user_id": 60532345,
-        "username": "shawarmaland"
+        "user_id": 78744460,
+        "username": "Liad_Charlie"
       },
       {
         "quantity": 500,
-        "user_id": 45107336,
-        "username": "y_dinari"
-      },
-      {
-        "quantity": 500,
-        "user_id": 33886367,
-        "username": "Ganani"
-      },
-      {
-        "quantity": 10,
-        "user_id": 80865788,
-        "username": "Narbata134"
-      },
-      {
-        "quantity": 9,
-        "user_id": 102255356,
-        "username": "dorraz1911"
+        "user_id": 78275186,
+        "username": "Dor_103"
       }
     ],
     "kicks_gifts_week_enabled": true

@@ -27,7 +27,7 @@
         "username": "SUPERGAMINGIL"
       },
       {
-        "quantity": 56000,
+        "quantity": 56500,
         "user_id": 78275186,
         "username": "Dor_103"
       },
@@ -80,7 +80,7 @@
         "username": "beneiny"
       },
       {
-        "quantity": 28000,
+        "quantity": 28500,
         "user_id": 78275186,
         "username": "Dor_103"
       },
@@ -95,7 +95,7 @@
         "username": "shalev_segev"
       },
       {
-        "quantity": 23000,
+        "quantity": 23005,
         "user_id": 79823917,
         "username": "Nakash128"
       },
@@ -133,14 +133,14 @@
         "username": "YUDA69"
       },
       {
-        "quantity": 5500,
-        "user_id": 87190114,
-        "username": "RB6666"
+        "quantity": 6500,
+        "user_id": 121490135,
+        "username": "joell000"
       },
       {
         "quantity": 5500,
-        "user_id": 121490135,
-        "username": "joell000"
+        "user_id": 87190114,
+        "username": "RB6666"
       },
       {
         "quantity": 5000,
@@ -149,13 +149,13 @@
       },
       {
         "quantity": 5000,
-        "user_id": 101224552,
-        "username": "Mooshe_KooZaK"
-      },
-      {
-        "quantity": 4500,
         "user_id": 78275186,
         "username": "Dor_103"
+      },
+      {
+        "quantity": 5000,
+        "user_id": 101224552,
+        "username": "Mooshe_KooZaK"
       }
     ],
     "kicks_gifts_week_enabled": true

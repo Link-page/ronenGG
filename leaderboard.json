@@ -27,7 +27,7 @@
         "username": "SUPERGAMINGIL"
       },
       {
-        "quantity": 55000,
+        "quantity": 56000,
         "user_id": 78275186,
         "username": "Dor_103"
       },
@@ -80,7 +80,7 @@
         "username": "beneiny"
       },
       {
-        "quantity": 27000,
+        "quantity": 28000,
         "user_id": 78275186,
         "username": "Dor_103"
       },
@@ -138,14 +138,14 @@
         "username": "RB6666"
       },
       {
-        "quantity": 5000,
-        "user_id": 9416276,
-        "username": "TheZohanLIVE"
+        "quantity": 5500,
+        "user_id": 121490135,
+        "username": "joell000"
       },
       {
         "quantity": 5000,
-        "user_id": 121490135,
-        "username": "joell000"
+        "user_id": 9416276,
+        "username": "TheZohanLIVE"
       },
       {
         "quantity": 5000,
@@ -154,8 +154,8 @@
       },
       {
         "quantity": 4500,
-        "user_id": 119508434,
-        "username": "beneiny"
+        "user_id": 78275186,
+        "username": "Dor_103"
       }
     ],
     "kicks_gifts_week_enabled": true

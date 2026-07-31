@@ -7,12 +7,12 @@
         "username": "RB6666"
       },
       {
-        "quantity": 82500,
+        "quantity": 84000,
         "user_id": 76334394,
         "username": "PostB"
       },
       {
-        "quantity": 72000,
+        "quantity": 82000,
         "user_id": 67453019,
         "username": "natanelf"
       },
@@ -60,12 +60,12 @@
         "username": "RB6666"
       },
       {
-        "quantity": 57000,
+        "quantity": 67000,
         "user_id": 67453019,
         "username": "natanelf"
       },
       {
-        "quantity": 39500,
+        "quantity": 41000,
         "user_id": 76334394,
         "username": "PostB"
       },
@@ -108,14 +108,19 @@
     "kicks_gifts_month_enabled": true,
     "kicks_gifts_week": [
       {
+        "quantity": 31000,
+        "user_id": 67453019,
+        "username": "natanelf"
+      },
+      {
         "quantity": 30000,
         "user_id": 104398609,
         "username": "SUPERGAMINGIL"
       },
       {
-        "quantity": 21000,
-        "user_id": 67453019,
-        "username": "natanelf"
+        "quantity": 20500,
+        "user_id": 76334394,
+        "username": "PostB"
       },
       {
         "quantity": 20000,
@@ -123,9 +128,14 @@
         "username": "RB6666"
       },
       {
-        "quantity": 19000,
-        "user_id": 76334394,
-        "username": "PostB"
+        "quantity": 20000,
+        "user_id": 52117011,
+        "username": "BlackKafe"
+      },
+      {
+        "quantity": 15000,
+        "user_id": 121490135,
+        "username": "joell000"
       },
       {
         "quantity": 14500,
@@ -133,9 +143,9 @@
         "username": "Dor_103"
       },
       {
-        "quantity": 14500,
-        "user_id": 121490135,
-        "username": "joell000"
+        "quantity": 10500,
+        "user_id": 80908105,
+        "username": "Devlqw"
       },
       {
         "quantity": 9000,
@@ -143,19 +153,9 @@
         "username": "kitshawa31"
       },
       {
-        "quantity": 8500,
+        "quantity": 9000,
         "user_id": 100841871,
         "username": "AVIathol"
-      },
-      {
-        "quantity": 7000,
-        "user_id": 121216820,
-        "username": "masterdan150"
-      },
-      {
-        "quantity": 7000,
-        "user_id": 119023182,
-        "username": "OfficialBOBO"
       }
     ],
     "kicks_gifts_week_enabled": true

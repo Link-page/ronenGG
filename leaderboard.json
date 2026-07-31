@@ -148,14 +148,14 @@
         "username": "Devlqw"
       },
       {
+        "quantity": 12000,
+        "user_id": 32602400,
+        "username": "Thekoa1a"
+      },
+      {
         "quantity": 10500,
         "user_id": 100841871,
         "username": "AVIathol"
-      },
-      {
-        "quantity": 9500,
-        "user_id": 113074279,
-        "username": "kitshawa31"
       }
     ],
     "kicks_gifts_week_enabled": true

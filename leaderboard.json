@@ -7,7 +7,7 @@
         "username": "RB6666"
       },
       {
-        "quantity": 89000,
+        "quantity": 90000,
         "user_id": 76334394,
         "username": "PostB"
       },
@@ -17,7 +17,7 @@
         "username": "natanelf"
       },
       {
-        "quantity": 66500,
+        "quantity": 67500,
         "user_id": 78275186,
         "username": "Dor_103"
       },
@@ -38,13 +38,13 @@
       },
       {
         "quantity": 41000,
-        "user_id": 67144059,
-        "username": "Space_Itay"
-      },
-      {
-        "quantity": 40500,
         "user_id": 69220525,
         "username": "bestNIVil"
+      },
+      {
+        "quantity": 41000,
+        "user_id": 67144059,
+        "username": "Space_Itay"
       },
       {
         "quantity": 40362,
@@ -65,12 +65,12 @@
         "username": "natanelf"
       },
       {
-        "quantity": 46000,
+        "quantity": 47000,
         "user_id": 76334394,
         "username": "PostB"
       },
       {
-        "quantity": 38500,
+        "quantity": 39500,
         "user_id": 78275186,
         "username": "Dor_103"
       },
@@ -118,9 +118,14 @@
         "username": "SUPERGAMINGIL"
       },
       {
-        "quantity": 25500,
+        "quantity": 26500,
         "user_id": 76334394,
         "username": "PostB"
+      },
+      {
+        "quantity": 21000,
+        "user_id": 52117011,
+        "username": "BlackKafe"
       },
       {
         "quantity": 20000,
@@ -128,19 +133,14 @@
         "username": "RB6666"
       },
       {
-        "quantity": 20000,
-        "user_id": 52117011,
-        "username": "BlackKafe"
+        "quantity": 16000,
+        "user_id": 78275186,
+        "username": "Dor_103"
       },
       {
         "quantity": 15500,
         "user_id": 121490135,
         "username": "joell000"
-      },
-      {
-        "quantity": 15000,
-        "user_id": 78275186,
-        "username": "Dor_103"
       },
       {
         "quantity": 13500,

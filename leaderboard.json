@@ -17,7 +17,7 @@
         "username": "natanelf"
       },
       {
-        "quantity": 66000,
+        "quantity": 66500,
         "user_id": 78275186,
         "username": "Dor_103"
       },
@@ -70,7 +70,7 @@
         "username": "PostB"
       },
       {
-        "quantity": 38000,
+        "quantity": 38500,
         "user_id": 78275186,
         "username": "Dor_103"
       },
@@ -138,7 +138,7 @@
         "username": "joell000"
       },
       {
-        "quantity": 14500,
+        "quantity": 15000,
         "user_id": 78275186,
         "username": "Dor_103"
       },
@@ -148,14 +148,14 @@
         "username": "Devlqw"
       },
       {
+        "quantity": 10000,
+        "user_id": 100841871,
+        "username": "AVIathol"
+      },
+      {
         "quantity": 9500,
         "user_id": 113074279,
         "username": "kitshawa31"
-      },
-      {
-        "quantity": 9000,
-        "user_id": 100841871,
-        "username": "AVIathol"
       }
     ],
     "kicks_gifts_week_enabled": true

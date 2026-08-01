@@ -3,7 +3,7 @@
         {
             "rank": 1,
             "username": "L******8",
-            "wagered": "124,490",
+            "wagered": "124,491",
             "prize": 3000,
             "img": "https://cdn.empiredrop.com/avatars/default_31.webp"
         },
@@ -51,24 +51,24 @@
         },
         {
             "rank": 8,
-            "username": "O********5",
-            "wagered": "5,901",
+            "username": "p****e",
+            "wagered": "6,132",
             "prize": 350,
-            "img": "https://cdn.empiredrop.com/avatars/default_7.webp"
+            "img": "https://cdn.empiredrop.com/avatars/default_4.webp"
         },
         {
             "rank": 9,
-            "username": "H****i",
-            "wagered": "5,855",
+            "username": "O********5",
+            "wagered": "5,901",
             "prize": 300,
-            "img": "https://cdn.empiredrop.com/avatars/default_32.webp"
+            "img": "https://cdn.empiredrop.com/avatars/default_7.webp"
         },
         {
             "rank": 10,
-            "username": "p****e",
-            "wagered": "5,113",
+            "username": "H****i",
+            "wagered": "5,855",
             "prize": 250,
-            "img": "https://cdn.empiredrop.com/avatars/default_4.webp"
+            "img": "https://cdn.empiredrop.com/avatars/default_32.webp"
         }
     ],
     "start_date": 1783209600,

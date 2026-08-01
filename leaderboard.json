@@ -37,7 +37,7 @@
         "username": "AmitLux"
       },
       {
-        "quantity": 45000,
+        "quantity": 46000,
         "user_id": 67144059,
         "username": "Space_Itay"
       },
@@ -61,6 +61,11 @@
       },
       {
         "quantity": 3000,
+        "user_id": 67144059,
+        "username": "Space_Itay"
+      },
+      {
+        "quantity": 3000,
         "user_id": 113074279,
         "username": "kitshawa31"
       },
@@ -73,11 +78,6 @@
         "quantity": 2000,
         "user_id": 79617772,
         "username": "uriel_ohayon"
-      },
-      {
-        "quantity": 2000,
-        "user_id": 67144059,
-        "username": "Space_Itay"
       },
       {
         "quantity": 2000,
@@ -95,14 +95,14 @@
         "username": "Dor_103"
       },
       {
-        "quantity": 1000,
-        "user_id": 85305486,
-        "username": "liroy_m"
+        "quantity": 1500,
+        "user_id": 37376706,
+        "username": "Rashford333"
       },
       {
         "quantity": 1000,
-        "user_id": 78970924,
-        "username": "David_HD1"
+        "user_id": 85305486,
+        "username": "liroy_m"
       }
     ],
     "kicks_gifts_month_enabled": true,

@@ -81,6 +81,11 @@
       },
       {
         "quantity": 500,
+        "user_id": 91822319,
+        "username": "arthurit0Z"
+      },
+      {
+        "quantity": 500,
         "user_id": 78978858,
         "username": "Itzikjoint"
       },
@@ -98,11 +103,6 @@
         "quantity": 500,
         "user_id": 39366945,
         "username": "shalev_segev"
-      },
-      {
-        "quantity": 500,
-        "user_id": 21440028,
-        "username": "1Naftali"
       }
     ],
     "kicks_gifts_month_enabled": true,

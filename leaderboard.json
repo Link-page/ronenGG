@@ -2,7 +2,7 @@
   "data": {
     "kicks_gifts_lifetime": [
       {
-        "quantity": 174500,
+        "quantity": 176000,
         "user_id": 87190114,
         "username": "RB6666"
       },
@@ -17,7 +17,7 @@
         "username": "natanelf"
       },
       {
-        "quantity": 70000,
+        "quantity": 71000,
         "user_id": 78275186,
         "username": "Dor_103"
       },
@@ -37,7 +37,7 @@
         "username": "AmitLux"
       },
       {
-        "quantity": 43000,
+        "quantity": 43500,
         "user_id": 67144059,
         "username": "Space_Itay"
       },
@@ -55,9 +55,54 @@
     "kicks_gifts_lifetime_enabled": true,
     "kicks_gifts_month": [
       {
-        "quantity": 100,
-        "user_id": 85104274,
-        "username": "etamar1143"
+        "quantity": 1500,
+        "user_id": 87190114,
+        "username": "RB6666"
+      },
+      {
+        "quantity": 1000,
+        "user_id": 78275186,
+        "username": "Dor_103"
+      },
+      {
+        "quantity": 1000,
+        "user_id": 5713832,
+        "username": "Ofekkino"
+      },
+      {
+        "quantity": 500,
+        "user_id": 78978858,
+        "username": "Itzikjoint"
+      },
+      {
+        "quantity": 500,
+        "user_id": 78970924,
+        "username": "David_HD1"
+      },
+      {
+        "quantity": 500,
+        "user_id": 67144059,
+        "username": "Space_Itay"
+      },
+      {
+        "quantity": 500,
+        "user_id": 39366945,
+        "username": "shalev_segev"
+      },
+      {
+        "quantity": 500,
+        "user_id": 21440028,
+        "username": "1Naftali"
+      },
+      {
+        "quantity": 500,
+        "user_id": 103957648,
+        "username": "FE3DBacK"
+      },
+      {
+        "quantity": 500,
+        "user_id": 101847435,
+        "username": "MotiPro74"
       }
     ],
     "kicks_gifts_month_enabled": true,
@@ -78,7 +123,7 @@
         "username": "PostB"
       },
       {
-        "quantity": 21000,
+        "quantity": 22500,
         "user_id": 87190114,
         "username": "RB6666"
       },
@@ -88,7 +133,7 @@
         "username": "BlackKafe"
       },
       {
-        "quantity": 18500,
+        "quantity": 19500,
         "user_id": 78275186,
         "username": "Dor_103"
       },

@@ -17,7 +17,7 @@
         "username": "natanelf"
       },
       {
-        "quantity": 71000,
+        "quantity": 71500,
         "user_id": 78275186,
         "username": "Dor_103"
       },
@@ -37,7 +37,7 @@
         "username": "AmitLux"
       },
       {
-        "quantity": 44000,
+        "quantity": 45000,
         "user_id": 67144059,
         "username": "Space_Itay"
       },
@@ -60,14 +60,24 @@
         "username": "RB6666"
       },
       {
-        "quantity": 2500,
+        "quantity": 3000,
         "user_id": 113074279,
         "username": "kitshawa31"
       },
       {
         "quantity": 2000,
+        "user_id": 80908105,
+        "username": "Devlqw"
+      },
+      {
+        "quantity": 2000,
         "user_id": 79617772,
         "username": "uriel_ohayon"
+      },
+      {
+        "quantity": 2000,
+        "user_id": 67144059,
+        "username": "Space_Itay"
       },
       {
         "quantity": 2000,
@@ -81,8 +91,8 @@
       },
       {
         "quantity": 1500,
-        "user_id": 80908105,
-        "username": "Devlqw"
+        "user_id": 78275186,
+        "username": "Dor_103"
       },
       {
         "quantity": 1000,
@@ -93,16 +103,6 @@
         "quantity": 1000,
         "user_id": 78970924,
         "username": "David_HD1"
-      },
-      {
-        "quantity": 1000,
-        "user_id": 78275186,
-        "username": "Dor_103"
-      },
-      {
-        "quantity": 1000,
-        "user_id": 67144059,
-        "username": "Space_Itay"
       }
     ],
     "kicks_gifts_month_enabled": true,
@@ -133,12 +133,12 @@
         "username": "BlackKafe"
       },
       {
-        "quantity": 19500,
+        "quantity": 20000,
         "user_id": 78275186,
         "username": "Dor_103"
       },
       {
-        "quantity": 16000,
+        "quantity": 16500,
         "user_id": 80908105,
         "username": "Devlqw"
       },
@@ -148,14 +148,14 @@
         "username": "joell000"
       },
       {
-        "quantity": 12000,
-        "user_id": 32602400,
-        "username": "Thekoa1a"
+        "quantity": 12500,
+        "user_id": 113074279,
+        "username": "kitshawa31"
       },
       {
         "quantity": 12000,
-        "user_id": 113074279,
-        "username": "kitshawa31"
+        "user_id": 32602400,
+        "username": "Thekoa1a"
       }
     ],
     "kicks_gifts_week_enabled": true

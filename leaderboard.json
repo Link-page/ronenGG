@@ -53,7 +53,13 @@
       }
     ],
     "kicks_gifts_lifetime_enabled": true,
-    "kicks_gifts_month": [],
+    "kicks_gifts_month": [
+      {
+        "quantity": 100,
+        "user_id": 85104274,
+        "username": "etamar1143"
+      }
+    ],
     "kicks_gifts_month_enabled": true,
     "kicks_gifts_week": [
       {

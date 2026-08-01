@@ -55,9 +55,19 @@
     "kicks_gifts_lifetime_enabled": true,
     "kicks_gifts_month": [
       {
+        "quantity": 2000,
+        "user_id": 101267058,
+        "username": "Comicten"
+      },
+      {
         "quantity": 1500,
         "user_id": 87190114,
         "username": "RB6666"
+      },
+      {
+        "quantity": 1000,
+        "user_id": 78970924,
+        "username": "David_HD1"
       },
       {
         "quantity": 1000,
@@ -76,13 +86,13 @@
       },
       {
         "quantity": 500,
-        "user_id": 78970924,
-        "username": "David_HD1"
+        "user_id": 67144059,
+        "username": "Space_Itay"
       },
       {
         "quantity": 500,
-        "user_id": 67144059,
-        "username": "Space_Itay"
+        "user_id": 49570046,
+        "username": "AS1FCH"
       },
       {
         "quantity": 500,
@@ -93,16 +103,6 @@
         "quantity": 500,
         "user_id": 21440028,
         "username": "1Naftali"
-      },
-      {
-        "quantity": 500,
-        "user_id": 103957648,
-        "username": "FE3DBacK"
-      },
-      {
-        "quantity": 500,
-        "user_id": 101847435,
-        "username": "MotiPro74"
       }
     ],
     "kicks_gifts_month_enabled": true,

@@ -2,7 +2,7 @@
   "data": {
     "kicks_gifts_lifetime": [
       {
-        "quantity": 178500,
+        "quantity": 180500,
         "user_id": 87190114,
         "username": "RB6666"
       },
@@ -55,7 +55,7 @@
     "kicks_gifts_lifetime_enabled": true,
     "kicks_gifts_month": [
       {
-        "quantity": 4000,
+        "quantity": 6000,
         "user_id": 87190114,
         "username": "RB6666"
       },
@@ -71,23 +71,23 @@
       },
       {
         "quantity": 2000,
+        "user_id": 39366945,
+        "username": "shalev_segev"
+      },
+      {
+        "quantity": 2000,
         "user_id": 101267058,
         "username": "Comicten"
       },
       {
         "quantity": 1500,
-        "user_id": 39366945,
-        "username": "shalev_segev"
+        "user_id": 80908105,
+        "username": "Devlqw"
       },
       {
         "quantity": 1000,
         "user_id": 85305486,
         "username": "liroy_m"
-      },
-      {
-        "quantity": 1000,
-        "user_id": 80908105,
-        "username": "Devlqw"
       },
       {
         "quantity": 1000,
@@ -123,7 +123,7 @@
         "username": "PostB"
       },
       {
-        "quantity": 25000,
+        "quantity": 27000,
         "user_id": 87190114,
         "username": "RB6666"
       },
@@ -139,13 +139,13 @@
       },
       {
         "quantity": 16000,
-        "user_id": 121490135,
-        "username": "joell000"
-      },
-      {
-        "quantity": 15500,
         "user_id": 80908105,
         "username": "Devlqw"
+      },
+      {
+        "quantity": 16000,
+        "user_id": 121490135,
+        "username": "joell000"
       },
       {
         "quantity": 12000,

@@ -55,6 +55,11 @@
     "kicks_gifts_lifetime_enabled": true,
     "kicks_gifts_month": [
       {
+        "quantity": 9530,
+        "user_id": 81740660,
+        "username": "Octobercom"
+      },
+      {
         "quantity": 8500,
         "user_id": 113074279,
         "username": "kitshawa31"
@@ -63,11 +68,6 @@
         "quantity": 8000,
         "user_id": 87190114,
         "username": "RB6666"
-      },
-      {
-        "quantity": 7020,
-        "user_id": 81740660,
-        "username": "Octobercom"
       },
       {
         "quantity": 5500,

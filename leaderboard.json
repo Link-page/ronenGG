@@ -2,7 +2,7 @@
   "data": {
     "kicks_gifts_lifetime": [
       {
-        "quantity": 180500,
+        "quantity": 182500,
         "user_id": 87190114,
         "username": "RB6666"
       },
@@ -55,24 +55,29 @@
     "kicks_gifts_lifetime_enabled": true,
     "kicks_gifts_month": [
       {
-        "quantity": 6000,
+        "quantity": 8000,
         "user_id": 87190114,
         "username": "RB6666"
       },
       {
-        "quantity": 4000,
+        "quantity": 7020,
+        "user_id": 81740660,
+        "username": "Octobercom"
+      },
+      {
+        "quantity": 4500,
         "user_id": 121490135,
         "username": "joell000"
+      },
+      {
+        "quantity": 3500,
+        "user_id": 113074279,
+        "username": "kitshawa31"
       },
       {
         "quantity": 3000,
         "user_id": 67144059,
         "username": "Space_Itay"
-      },
-      {
-        "quantity": 3000,
-        "user_id": 113074279,
-        "username": "kitshawa31"
       },
       {
         "quantity": 2500,
@@ -98,11 +103,6 @@
         "quantity": 2000,
         "user_id": 101267058,
         "username": "Comicten"
-      },
-      {
-        "quantity": 1500,
-        "user_id": 78275186,
-        "username": "Dor_103"
       }
     ],
     "kicks_gifts_month_enabled": true,
@@ -118,14 +118,14 @@
         "username": "SUPERGAMINGIL"
       },
       {
+        "quantity": 29000,
+        "user_id": 87190114,
+        "username": "RB6666"
+      },
+      {
         "quantity": 27500,
         "user_id": 76334394,
         "username": "PostB"
-      },
-      {
-        "quantity": 27000,
-        "user_id": 87190114,
-        "username": "RB6666"
       },
       {
         "quantity": 21000,
@@ -133,14 +133,14 @@
         "username": "BlackKafe"
       },
       {
-        "quantity": 20000,
-        "user_id": 78275186,
-        "username": "Dor_103"
+        "quantity": 20500,
+        "user_id": 121490135,
+        "username": "joell000"
       },
       {
         "quantity": 20000,
-        "user_id": 121490135,
-        "username": "joell000"
+        "user_id": 78275186,
+        "username": "Dor_103"
       },
       {
         "quantity": 17000,
@@ -148,7 +148,7 @@
         "username": "Devlqw"
       },
       {
-        "quantity": 12500,
+        "quantity": 13000,
         "user_id": 113074279,
         "username": "kitshawa31"
       },

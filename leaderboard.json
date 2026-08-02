@@ -60,6 +60,11 @@
         "username": "RB6666"
       },
       {
+        "quantity": 4000,
+        "user_id": 121490135,
+        "username": "joell000"
+      },
+      {
         "quantity": 3000,
         "user_id": 67144059,
         "username": "Space_Itay"
@@ -70,7 +75,7 @@
         "username": "kitshawa31"
       },
       {
-        "quantity": 2000,
+        "quantity": 2500,
         "user_id": 80908105,
         "username": "Devlqw"
       },
@@ -86,6 +91,11 @@
       },
       {
         "quantity": 2000,
+        "user_id": 121531222,
+        "username": "Resivo"
+      },
+      {
+        "quantity": 2000,
         "user_id": 101267058,
         "username": "Comicten"
       },
@@ -93,16 +103,6 @@
         "quantity": 1500,
         "user_id": 78275186,
         "username": "Dor_103"
-      },
-      {
-        "quantity": 1500,
-        "user_id": 37376706,
-        "username": "Rashford333"
-      },
-      {
-        "quantity": 1000,
-        "user_id": 92781904,
-        "username": "EminQp100"
       }
     ],
     "kicks_gifts_month_enabled": true,
@@ -138,12 +138,12 @@
         "username": "Dor_103"
       },
       {
-        "quantity": 17000,
+        "quantity": 20000,
         "user_id": 121490135,
         "username": "joell000"
       },
       {
-        "quantity": 16500,
+        "quantity": 17000,
         "user_id": 80908105,
         "username": "Devlqw"
       },

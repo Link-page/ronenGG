@@ -55,6 +55,11 @@
     "kicks_gifts_lifetime_enabled": true,
     "kicks_gifts_month": [
       {
+        "quantity": 8500,
+        "user_id": 113074279,
+        "username": "kitshawa31"
+      },
+      {
         "quantity": 8000,
         "user_id": 87190114,
         "username": "RB6666"
@@ -65,14 +70,9 @@
         "username": "Octobercom"
       },
       {
-        "quantity": 5000,
+        "quantity": 5500,
         "user_id": 121490135,
         "username": "joell000"
-      },
-      {
-        "quantity": 3500,
-        "user_id": 113074279,
-        "username": "kitshawa31"
       },
       {
         "quantity": 3000,
@@ -128,14 +128,14 @@
         "username": "PostB"
       },
       {
-        "quantity": 21000,
-        "user_id": 52117011,
-        "username": "BlackKafe"
+        "quantity": 21500,
+        "user_id": 121490135,
+        "username": "joell000"
       },
       {
         "quantity": 21000,
-        "user_id": 121490135,
-        "username": "joell000"
+        "user_id": 52117011,
+        "username": "BlackKafe"
       },
       {
         "quantity": 20000,
@@ -143,14 +143,14 @@
         "username": "Dor_103"
       },
       {
+        "quantity": 18000,
+        "user_id": 113074279,
+        "username": "kitshawa31"
+      },
+      {
         "quantity": 17000,
         "user_id": 80908105,
         "username": "Devlqw"
-      },
-      {
-        "quantity": 13000,
-        "user_id": 113074279,
-        "username": "kitshawa31"
       },
       {
         "quantity": 12000,

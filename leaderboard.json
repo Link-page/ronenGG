@@ -55,19 +55,24 @@
     "kicks_gifts_lifetime_enabled": true,
     "kicks_gifts_month": [
       {
+        "quantity": 15000,
+        "user_id": 113074279,
+        "username": "kitshawa31"
+      },
+      {
         "quantity": 10030,
         "user_id": 81740660,
         "username": "Octobercom"
       },
       {
-        "quantity": 8500,
-        "user_id": 113074279,
-        "username": "kitshawa31"
-      },
-      {
         "quantity": 8000,
         "user_id": 87190114,
         "username": "RB6666"
+      },
+      {
+        "quantity": 7000,
+        "user_id": 100841871,
+        "username": "AVIathol"
       },
       {
         "quantity": 5500,
@@ -78,6 +83,11 @@
         "quantity": 3000,
         "user_id": 67144059,
         "username": "Space_Itay"
+      },
+      {
+        "quantity": 3000,
+        "user_id": 102754372,
+        "username": "Mar_Alpha"
       },
       {
         "quantity": 2500,
@@ -93,16 +103,6 @@
         "quantity": 2000,
         "user_id": 39366945,
         "username": "shalev_segev"
-      },
-      {
-        "quantity": 2000,
-        "user_id": 121531222,
-        "username": "Resivo"
-      },
-      {
-        "quantity": 2000,
-        "user_id": 101267058,
-        "username": "Comicten"
       }
     ],
     "kicks_gifts_month_enabled": true,
@@ -128,6 +128,11 @@
         "username": "PostB"
       },
       {
+        "quantity": 24500,
+        "user_id": 113074279,
+        "username": "kitshawa31"
+      },
+      {
         "quantity": 21500,
         "user_id": 121490135,
         "username": "joell000"
@@ -143,19 +148,14 @@
         "username": "Dor_103"
       },
       {
-        "quantity": 18000,
-        "user_id": 113074279,
-        "username": "kitshawa31"
+        "quantity": 17500,
+        "user_id": 100841871,
+        "username": "AVIathol"
       },
       {
         "quantity": 17000,
         "user_id": 80908105,
         "username": "Devlqw"
-      },
-      {
-        "quantity": 12000,
-        "user_id": 32602400,
-        "username": "Thekoa1a"
       }
     ],
     "kicks_gifts_week_enabled": true

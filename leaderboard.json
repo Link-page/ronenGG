@@ -95,18 +95,28 @@
         "username": "Devlqw"
       },
       {
-        "quantity": 2000,
-        "user_id": 79617772,
-        "username": "uriel_ohayon"
+        "quantity": 2500,
+        "user_id": 121531222,
+        "username": "Resivo"
       },
       {
         "quantity": 2000,
-        "user_id": 77876273,
-        "username": "BoXe6"
+        "user_id": 79617772,
+        "username": "uriel_ohayon"
       }
     ],
     "kicks_gifts_month_enabled": true,
     "kicks_gifts_week": [
+      {
+        "quantity": 500,
+        "user_id": 67685767,
+        "username": "aLnz0r"
+      },
+      {
+        "quantity": 500,
+        "user_id": 121531222,
+        "username": "Resivo"
+      },
       {
         "quantity": 500,
         "user_id": 100074564,

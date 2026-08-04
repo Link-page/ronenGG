@@ -60,7 +60,7 @@
         "username": "kitshawa31"
       },
       {
-        "quantity": 12000,
+        "quantity": 12500,
         "user_id": 100841871,
         "username": "AVIathol"
       },
@@ -108,7 +108,7 @@
     "kicks_gifts_month_enabled": true,
     "kicks_gifts_week": [
       {
-        "quantity": 5000,
+        "quantity": 5500,
         "user_id": 100841871,
         "username": "AVIathol"
       },

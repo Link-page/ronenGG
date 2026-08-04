@@ -2,7 +2,7 @@
   "data": {
     "kicks_gifts_lifetime": [
       {
-        "quantity": 184000,
+        "quantity": 185000,
         "user_id": 87190114,
         "username": "RB6666"
       },
@@ -55,24 +55,24 @@
     "kicks_gifts_lifetime_enabled": true,
     "kicks_gifts_month": [
       {
-        "quantity": 15500,
+        "quantity": 26000,
         "user_id": 113074279,
         "username": "kitshawa31"
       },
       {
-        "quantity": 12500,
+        "quantity": 13000,
         "user_id": 100841871,
         "username": "AVIathol"
+      },
+      {
+        "quantity": 10500,
+        "user_id": 87190114,
+        "username": "RB6666"
       },
       {
         "quantity": 10170,
         "user_id": 81740660,
         "username": "Octobercom"
-      },
-      {
-        "quantity": 9500,
-        "user_id": 87190114,
-        "username": "RB6666"
       },
       {
         "quantity": 6000,
@@ -96,19 +96,24 @@
       },
       {
         "quantity": 3500,
-        "user_id": 77753946,
-        "username": "ori_1913"
+        "user_id": 78970924,
+        "username": "David_HD1"
       },
       {
         "quantity": 3500,
-        "user_id": 119023182,
-        "username": "OfficialBOBO"
+        "user_id": 77753946,
+        "username": "ori_1913"
       }
     ],
     "kicks_gifts_month_enabled": true,
     "kicks_gifts_week": [
       {
-        "quantity": 5500,
+        "quantity": 10500,
+        "user_id": 113074279,
+        "username": "kitshawa31"
+      },
+      {
+        "quantity": 6000,
         "user_id": 100841871,
         "username": "AVIathol"
       },
@@ -133,6 +138,11 @@
         "username": "OfficialBOBO"
       },
       {
+        "quantity": 3500,
+        "user_id": 104600021,
+        "username": "LeoM_1"
+      },
+      {
         "quantity": 3000,
         "user_id": 67144059,
         "username": "Space_Itay"
@@ -143,19 +153,9 @@
         "username": "ilaykook"
       },
       {
-        "quantity": 3000,
-        "user_id": 104600021,
-        "username": "LeoM_1"
-      },
-      {
         "quantity": 2500,
         "user_id": 9416276,
         "username": "TheZohanLIVE"
-      },
-      {
-        "quantity": 2500,
-        "user_id": 76334394,
-        "username": "PostB"
       }
     ],
     "kicks_gifts_week_enabled": true

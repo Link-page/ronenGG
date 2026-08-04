@@ -138,6 +138,11 @@
         "username": "OfficialBOBO"
       },
       {
+        "quantity": 4000,
+        "user_id": 104600021,
+        "username": "LeoM_1"
+      },
+      {
         "quantity": 3500,
         "user_id": 84676962,
         "username": "osher246"
@@ -151,11 +156,6 @@
         "quantity": 3500,
         "user_id": 56738129,
         "username": "eillay22"
-      },
-      {
-        "quantity": 3500,
-        "user_id": 104600021,
-        "username": "LeoM_1"
       }
     ],
     "kicks_gifts_week_enabled": true

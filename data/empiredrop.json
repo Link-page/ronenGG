@@ -16,45 +16,45 @@
         },
         {
             "rank": 3,
-            "username": "m******2",
-            "wagered": "7",
-            "prize": 1500,
-            "img": "https://cdn.empiredrop.com/avatars/default_8.webp"
-        },
-        {
-            "rank": 4,
-            "username": "i**********l",
-            "wagered": "0",
-            "prize": 1000,
-            "img": "https://cdn.empiredrop.com/avatars/default_13.webp"
-        },
-        {
-            "rank": 5,
-            "username": "A**************9",
-            "wagered": "0",
-            "prize": 700,
-            "img": "https://cdn.empiredrop.com/avatars/default_28.webp"
-        },
-        {
-            "rank": 6,
             "username": "b********7",
-            "wagered": "0",
-            "prize": 500,
+            "wagered": "103",
+            "prize": 1500,
             "img": "https://cdn.empiredrop.com/avatars/default_1.webp"
         },
         {
+            "rank": 4,
+            "username": "L***5",
+            "wagered": "87",
+            "prize": 1000,
+            "img": "https://cdn.empiredrop.com/avatars/default_20.webp"
+        },
+        {
+            "rank": 5,
+            "username": "m******2",
+            "wagered": "7",
+            "prize": 700,
+            "img": "https://cdn.empiredrop.com/avatars/default_8.webp"
+        },
+        {
+            "rank": 6,
+            "username": "i**********l",
+            "wagered": "0",
+            "prize": 500,
+            "img": "https://cdn.empiredrop.com/avatars/default_13.webp"
+        },
+        {
             "rank": 7,
-            "username": "-",
-            "wagered": 0,
+            "username": "A**************9",
+            "wagered": "0",
             "prize": 400,
-            "img": "/assets/images/empiredrop-small.png"
+            "img": "https://cdn.empiredrop.com/avatars/default_28.webp"
         },
         {
             "rank": 8,
-            "username": "-",
-            "wagered": 0,
+            "username": "Y*****X",
+            "wagered": "0",
             "prize": 350,
-            "img": "/assets/images/empiredrop-small.png"
+            "img": "https://cdn.empiredrop.com/avatars/default_17.webp"
         },
         {
             "rank": 9,

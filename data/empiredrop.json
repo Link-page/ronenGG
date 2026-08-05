@@ -17,7 +17,7 @@
         {
             "rank": 3,
             "username": "L***5",
-            "wagered": "200",
+            "wagered": "201",
             "prize": 1500,
             "img": "https://cdn.empiredrop.com/avatars/default_20.webp"
         },
@@ -44,31 +44,31 @@
         },
         {
             "rank": 7,
-            "username": "m******2",
-            "wagered": "7",
+            "username": "R****1",
+            "wagered": "31",
             "prize": 400,
-            "img": "https://cdn.empiredrop.com/avatars/default_8.webp"
+            "img": "https://cdn.empiredrop.com/avatars/default_3.webp"
         },
         {
             "rank": 8,
-            "username": "m***r",
-            "wagered": "1",
+            "username": "A**************9",
+            "wagered": "15",
             "prize": 350,
-            "img": "https://cdn.empiredrop.com/avatars/default_36.webp"
+            "img": "https://cdn.empiredrop.com/avatars/default_18.webp"
         },
         {
             "rank": 9,
-            "username": "i**********l",
-            "wagered": "0",
+            "username": "m******2",
+            "wagered": "7",
             "prize": 300,
-            "img": "https://cdn.empiredrop.com/avatars/default_13.webp"
+            "img": "https://cdn.empiredrop.com/avatars/default_8.webp"
         },
         {
             "rank": 10,
-            "username": "A**************9",
-            "wagered": "0",
+            "username": "m***r",
+            "wagered": "1",
             "prize": 250,
-            "img": "https://cdn.empiredrop.com/avatars/default_28.webp"
+            "img": "https://cdn.empiredrop.com/avatars/default_36.webp"
         }
     ],
     "start_date": 1785888000,

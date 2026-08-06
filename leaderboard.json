@@ -7,7 +7,7 @@
         "username": "RB6666"
       },
       {
-        "quantity": 100500,
+        "quantity": 101000,
         "user_id": 76334394,
         "username": "PostB"
       },
@@ -70,7 +70,7 @@
         "username": "OGF1231"
       },
       {
-        "quantity": 15000,
+        "quantity": 15500,
         "user_id": 100841871,
         "username": "AVIathol"
       },
@@ -96,13 +96,13 @@
       },
       {
         "quantity": 10000,
-        "user_id": 67453019,
-        "username": "natanelf"
+        "user_id": 76334394,
+        "username": "PostB"
       },
       {
         "quantity": 10000,
-        "user_id": 122451530,
-        "username": "Asynctest1"
+        "user_id": 67453019,
+        "username": "natanelf"
       }
     ],
     "kicks_gifts_month_enabled": true,
@@ -139,6 +139,11 @@
       },
       {
         "quantity": 10000,
+        "user_id": 76334394,
+        "username": "PostB"
+      },
+      {
+        "quantity": 10000,
         "user_id": 67453019,
         "username": "natanelf"
       },
@@ -148,12 +153,7 @@
         "username": "Asynctest1"
       },
       {
-        "quantity": 9500,
-        "user_id": 76334394,
-        "username": "PostB"
-      },
-      {
-        "quantity": 8000,
+        "quantity": 8500,
         "user_id": 100841871,
         "username": "AVIathol"
       }

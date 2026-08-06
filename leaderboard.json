@@ -85,6 +85,11 @@
         "username": "ROPIX5"
       },
       {
+        "quantity": 11500,
+        "user_id": 122588677,
+        "username": "arielgg9"
+      },
+      {
         "quantity": 10000,
         "user_id": 8859046,
         "username": "Yoav1"
@@ -98,11 +103,6 @@
         "quantity": 10000,
         "user_id": 122451530,
         "username": "Asynctest1"
-      },
-      {
-        "quantity": 9000,
-        "user_id": 76334394,
-        "username": "PostB"
       }
     ],
     "kicks_gifts_month_enabled": true,
@@ -121,6 +121,11 @@
         "quantity": 13500,
         "user_id": 87190114,
         "username": "RB6666"
+      },
+      {
+        "quantity": 11500,
+        "user_id": 122588677,
+        "username": "arielgg9"
       },
       {
         "quantity": 10500,
@@ -146,11 +151,6 @@
         "quantity": 9000,
         "user_id": 76334394,
         "username": "PostB"
-      },
-      {
-        "quantity": 9000,
-        "user_id": 122588677,
-        "username": "arielgg9"
       },
       {
         "quantity": 7500,

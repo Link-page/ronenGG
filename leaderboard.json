@@ -86,6 +86,11 @@
       },
       {
         "quantity": 12500,
+        "user_id": 8859046,
+        "username": "Yoav1"
+      },
+      {
+        "quantity": 12500,
         "user_id": 25628328,
         "username": "ROPIX5"
       },
@@ -93,11 +98,6 @@
         "quantity": 11500,
         "user_id": 122588677,
         "username": "arielgg9"
-      },
-      {
-        "quantity": 10500,
-        "user_id": 8859046,
-        "username": "Yoav1"
       },
       {
         "quantity": 10000,
@@ -128,6 +128,11 @@
         "username": "OGF1231"
       },
       {
+        "quantity": 12500,
+        "user_id": 8859046,
+        "username": "Yoav1"
+      },
+      {
         "quantity": 11500,
         "user_id": 122588677,
         "username": "arielgg9"
@@ -136,11 +141,6 @@
         "quantity": 11000,
         "user_id": 100841871,
         "username": "AVIathol"
-      },
-      {
-        "quantity": 10500,
-        "user_id": 8859046,
-        "username": "Yoav1"
       },
       {
         "quantity": 10500,

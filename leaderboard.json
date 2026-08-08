@@ -22,7 +22,7 @@
         "username": "Dor_103"
       },
       {
-        "quantity": 67500,
+        "quantity": 68000,
         "user_id": 113074279,
         "username": "kitshawa31"
       },
@@ -55,7 +55,7 @@
     "kicks_gifts_lifetime_enabled": true,
     "kicks_gifts_month": [
       {
-        "quantity": 58000,
+        "quantity": 58500,
         "user_id": 113074279,
         "username": "kitshawa31"
       },
@@ -108,7 +108,7 @@
     "kicks_gifts_month_enabled": true,
     "kicks_gifts_week": [
       {
-        "quantity": 42500,
+        "quantity": 43000,
         "user_id": 113074279,
         "username": "kitshawa31"
       },

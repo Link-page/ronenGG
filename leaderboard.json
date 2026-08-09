@@ -12,14 +12,14 @@
         "username": "PostB"
       },
       {
+        "quantity": 102500,
+        "user_id": 123152140,
+        "username": "Shor3tyy"
+      },
+      {
         "quantity": 92000,
         "user_id": 67453019,
         "username": "natanelf"
-      },
-      {
-        "quantity": 87500,
-        "user_id": 123152140,
-        "username": "Shor3tyy"
       },
       {
         "quantity": 76500,
@@ -55,7 +55,7 @@
     "kicks_gifts_lifetime_enabled": true,
     "kicks_gifts_month": [
       {
-        "quantity": 87500,
+        "quantity": 102500,
         "user_id": 123152140,
         "username": "Shor3tyy"
       },
@@ -108,7 +108,7 @@
     "kicks_gifts_month_enabled": true,
     "kicks_gifts_week": [
       {
-        "quantity": 87500,
+        "quantity": 102500,
         "user_id": 123152140,
         "username": "Shor3tyy"
       },

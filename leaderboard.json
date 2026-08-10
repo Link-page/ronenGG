@@ -118,9 +118,19 @@
         "username": "eliam1312e"
       },
       {
+        "quantity": 1000,
+        "user_id": 123443960,
+        "username": "papa_uni"
+      },
+      {
         "quantity": 500,
         "user_id": 86198233,
         "username": "oveddmc"
+      },
+      {
+        "quantity": 500,
+        "user_id": 76313220,
+        "username": "RonPeretz"
       },
       {
         "quantity": 500,
@@ -144,18 +154,8 @@
       },
       {
         "quantity": 500,
-        "user_id": 103247941,
-        "username": "CRyam"
-      },
-      {
-        "quantity": 500,
-        "user_id": 100841871,
-        "username": "AVIathol"
-      },
-      {
-        "quantity": 50,
-        "user_id": 82050806,
-        "username": "cookiegamingIL"
+        "user_id": 107521946,
+        "username": "Itamar35345"
       }
     ],
     "kicks_gifts_week_enabled": true

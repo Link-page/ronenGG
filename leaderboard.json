@@ -108,19 +108,19 @@
     "kicks_gifts_month_enabled": true,
     "kicks_gifts_week": [
       {
-        "quantity": 1500,
+        "quantity": 2500,
         "user_id": 114548439,
         "username": "Draizo7"
+      },
+      {
+        "quantity": 1000,
+        "user_id": 81791655,
+        "username": "eliam1312e"
       },
       {
         "quantity": 500,
         "user_id": 86198233,
         "username": "oveddmc"
-      },
-      {
-        "quantity": 500,
-        "user_id": 81791655,
-        "username": "eliam1312e"
       },
       {
         "quantity": 500,

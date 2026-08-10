@@ -75,7 +75,7 @@
         "username": "PostB"
       },
       {
-        "quantity": 19000,
+        "quantity": 19500,
         "user_id": 100841871,
         "username": "AVIathol"
       },
@@ -106,7 +106,18 @@
       }
     ],
     "kicks_gifts_month_enabled": true,
-    "kicks_gifts_week": [],
+    "kicks_gifts_week": [
+      {
+        "quantity": 500,
+        "user_id": 122197956,
+        "username": "dder11"
+      },
+      {
+        "quantity": 500,
+        "user_id": 100841871,
+        "username": "AVIathol"
+      }
+    ],
     "kicks_gifts_week_enabled": true
   },
   "message": "Success"

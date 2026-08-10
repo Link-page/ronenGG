@@ -17,12 +17,12 @@
         "username": "PostB"
       },
       {
-        "quantity": 92000,
+        "quantity": 92500,
         "user_id": 67453019,
         "username": "natanelf"
       },
       {
-        "quantity": 82500,
+        "quantity": 83500,
         "user_id": 113074279,
         "username": "kitshawa31"
       },
@@ -42,7 +42,7 @@
         "username": "SUPERGAMINGIL"
       },
       {
-        "quantity": 51000,
+        "quantity": 51500,
         "user_id": 67144059,
         "username": "Space_Itay"
       },
@@ -60,7 +60,7 @@
         "username": "Shor3tyy"
       },
       {
-        "quantity": 73000,
+        "quantity": 74000,
         "user_id": 113074279,
         "username": "kitshawa31"
       },
@@ -113,7 +113,7 @@
         "username": "Shor3tyy"
       },
       {
-        "quantity": 6000,
+        "quantity": 7000,
         "user_id": 113074279,
         "username": "kitshawa31"
       },
@@ -128,9 +128,19 @@
         "username": "uriel_ohayon"
       },
       {
+        "quantity": 3000,
+        "user_id": 117224631,
+        "username": "YarinBiton221"
+      },
+      {
         "quantity": 2500,
         "user_id": 86310892,
         "username": "Yuri_ishakov"
+      },
+      {
+        "quantity": 2500,
+        "user_id": 4959022,
+        "username": "AmhariMagniv11"
       },
       {
         "quantity": 2500,
@@ -146,16 +156,6 @@
         "quantity": 2000,
         "user_id": 88575794,
         "username": "Yishaias"
-      },
-      {
-        "quantity": 1500,
-        "user_id": 66830406,
-        "username": "im_Patron"
-      },
-      {
-        "quantity": 1100,
-        "user_id": 117224631,
-        "username": "YarinBiton221"
       }
     ],
     "kicks_gifts_week_enabled": true

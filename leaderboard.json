@@ -22,7 +22,7 @@
         "username": "natanelf"
       },
       {
-        "quantity": 76500,
+        "quantity": 77000,
         "user_id": 113074279,
         "username": "kitshawa31"
       },
@@ -60,7 +60,7 @@
         "username": "Shor3tyy"
       },
       {
-        "quantity": 67000,
+        "quantity": 67500,
         "user_id": 113074279,
         "username": "kitshawa31"
       },
@@ -108,14 +108,54 @@
     "kicks_gifts_month_enabled": true,
     "kicks_gifts_week": [
       {
+        "quantity": 1500,
+        "user_id": 114548439,
+        "username": "Draizo7"
+      },
+      {
+        "quantity": 500,
+        "user_id": 86198233,
+        "username": "oveddmc"
+      },
+      {
+        "quantity": 500,
+        "user_id": 81791655,
+        "username": "eliam1312e"
+      },
+      {
+        "quantity": 500,
+        "user_id": 37376706,
+        "username": "Rashford333"
+      },
+      {
         "quantity": 500,
         "user_id": 122197956,
         "username": "dder11"
       },
       {
         "quantity": 500,
+        "user_id": 120418707,
+        "username": "talik1"
+      },
+      {
+        "quantity": 500,
+        "user_id": 113074279,
+        "username": "kitshawa31"
+      },
+      {
+        "quantity": 500,
+        "user_id": 103247941,
+        "username": "CRyam"
+      },
+      {
+        "quantity": 500,
         "user_id": 100841871,
         "username": "AVIathol"
+      },
+      {
+        "quantity": 50,
+        "user_id": 82050806,
+        "username": "cookiegamingIL"
       }
     ],
     "kicks_gifts_week_enabled": true

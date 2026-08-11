@@ -123,6 +123,11 @@
         "username": "natanelf"
       },
       {
+        "quantity": 10000,
+        "user_id": 32602400,
+        "username": "Thekoa1a"
+      },
+      {
         "quantity": 7500,
         "user_id": 120220803,
         "username": "Liav2003"
@@ -151,11 +156,6 @@
         "quantity": 2500,
         "user_id": 86310892,
         "username": "Yuri_ishakov"
-      },
-      {
-        "quantity": 2500,
-        "user_id": 80628404,
-        "username": "gritza"
       }
     ],
     "kicks_gifts_week_enabled": true

@@ -12,6 +12,11 @@
         "username": "Shor3tyy"
       },
       {
+        "quantity": 140500,
+        "user_id": 113074279,
+        "username": "kitshawa31"
+      },
+      {
         "quantity": 115500,
         "user_id": 76334394,
         "username": "PostB"
@@ -20,11 +25,6 @@
         "quantity": 102500,
         "user_id": 67453019,
         "username": "natanelf"
-      },
-      {
-        "quantity": 89500,
-        "user_id": 113074279,
-        "username": "kitshawa31"
       },
       {
         "quantity": 72000,
@@ -60,7 +60,7 @@
         "username": "Shor3tyy"
       },
       {
-        "quantity": 80000,
+        "quantity": 131000,
         "user_id": 113074279,
         "username": "kitshawa31"
       },
@@ -108,14 +108,14 @@
     "kicks_gifts_month_enabled": true,
     "kicks_gifts_week": [
       {
+        "quantity": 64000,
+        "user_id": 113074279,
+        "username": "kitshawa31"
+      },
+      {
         "quantity": 20000,
         "user_id": 123152140,
         "username": "Shor3tyy"
-      },
-      {
-        "quantity": 13000,
-        "user_id": 113074279,
-        "username": "kitshawa31"
       },
       {
         "quantity": 10500,

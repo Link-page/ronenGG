@@ -148,14 +148,14 @@
         "username": "AllenBlyat"
       },
       {
+        "quantity": 4000,
+        "user_id": 4959022,
+        "username": "AmhariMagniv11"
+      },
+      {
         "quantity": 3000,
         "user_id": 117224631,
         "username": "YarinBiton221"
-      },
-      {
-        "quantity": 2500,
-        "user_id": 86310892,
-        "username": "Yuri_ishakov"
       }
     ],
     "kicks_gifts_week_enabled": true

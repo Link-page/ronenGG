@@ -32,7 +32,7 @@
         "username": "Dor_103"
       },
       {
-        "quantity": 63810,
+        "quantity": 68810,
         "user_id": 9416276,
         "username": "TheZohanLIVE"
       },
@@ -139,6 +139,11 @@
       },
       {
         "quantity": 5000,
+        "user_id": 9416276,
+        "username": "TheZohanLIVE"
+      },
+      {
+        "quantity": 5000,
         "user_id": 71907441,
         "username": "liormk"
       },
@@ -151,11 +156,6 @@
         "quantity": 4000,
         "user_id": 4959022,
         "username": "AmhariMagniv11"
-      },
-      {
-        "quantity": 3000,
-        "user_id": 117224631,
-        "username": "YarinBiton221"
       }
     ],
     "kicks_gifts_week_enabled": true

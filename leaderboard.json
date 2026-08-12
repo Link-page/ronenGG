@@ -139,6 +139,11 @@
       },
       {
         "quantity": 6500,
+        "user_id": 71907441,
+        "username": "liormk"
+      },
+      {
+        "quantity": 6500,
         "user_id": 37376706,
         "username": "Rashford333"
       },
@@ -146,11 +151,6 @@
         "quantity": 6500,
         "user_id": 33886367,
         "username": "Ganani"
-      },
-      {
-        "quantity": 5500,
-        "user_id": 71907441,
-        "username": "liormk"
       },
       {
         "quantity": 5000,

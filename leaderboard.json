@@ -12,7 +12,7 @@
         "username": "Shor3tyy"
       },
       {
-        "quantity": 141500,
+        "quantity": 142000,
         "user_id": 113074279,
         "username": "kitshawa31"
       },
@@ -22,7 +22,7 @@
         "username": "PostB"
       },
       {
-        "quantity": 102500,
+        "quantity": 103000,
         "user_id": 67453019,
         "username": "natanelf"
       },
@@ -60,7 +60,7 @@
         "username": "Shor3tyy"
       },
       {
-        "quantity": 132000,
+        "quantity": 132500,
         "user_id": 113074279,
         "username": "kitshawa31"
       },
@@ -75,7 +75,7 @@
         "username": "PostB"
       },
       {
-        "quantity": 20500,
+        "quantity": 21000,
         "user_id": 67453019,
         "username": "natanelf"
       },
@@ -83,6 +83,16 @@
         "quantity": 19500,
         "user_id": 100841871,
         "username": "AVIathol"
+      },
+      {
+        "quantity": 17000,
+        "user_id": 25628328,
+        "username": "ROPIX5"
+      },
+      {
+        "quantity": 15500,
+        "user_id": 32602400,
+        "username": "Thekoa1a"
       },
       {
         "quantity": 15500,
@@ -93,22 +103,12 @@
         "quantity": 13700,
         "user_id": 81740660,
         "username": "Octobercom"
-      },
-      {
-        "quantity": 13000,
-        "user_id": 8859046,
-        "username": "Yoav1"
-      },
-      {
-        "quantity": 13000,
-        "user_id": 25628328,
-        "username": "ROPIX5"
       }
     ],
     "kicks_gifts_month_enabled": true,
     "kicks_gifts_week": [
       {
-        "quantity": 65000,
+        "quantity": 65500,
         "user_id": 113074279,
         "username": "kitshawa31"
       },
@@ -118,14 +118,24 @@
         "username": "Shor3tyy"
       },
       {
-        "quantity": 10500,
+        "quantity": 15000,
+        "user_id": 32602400,
+        "username": "Thekoa1a"
+      },
+      {
+        "quantity": 11000,
         "user_id": 67453019,
         "username": "natanelf"
       },
       {
-        "quantity": 10000,
-        "user_id": 32602400,
-        "username": "Thekoa1a"
+        "quantity": 8500,
+        "user_id": 71907441,
+        "username": "liormk"
+      },
+      {
+        "quantity": 8000,
+        "user_id": 37376706,
+        "username": "Rashford333"
       },
       {
         "quantity": 7500,
@@ -136,16 +146,6 @@
         "quantity": 6500,
         "user_id": 79617772,
         "username": "uriel_ohayon"
-      },
-      {
-        "quantity": 6500,
-        "user_id": 71907441,
-        "username": "liormk"
-      },
-      {
-        "quantity": 6500,
-        "user_id": 37376706,
-        "username": "Rashford333"
       },
       {
         "quantity": 6500,

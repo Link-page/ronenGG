@@ -138,6 +138,16 @@
         "username": "uriel_ohayon"
       },
       {
+        "quantity": 6500,
+        "user_id": 37376706,
+        "username": "Rashford333"
+      },
+      {
+        "quantity": 6500,
+        "user_id": 33886367,
+        "username": "Ganani"
+      },
+      {
         "quantity": 5500,
         "user_id": 71907441,
         "username": "liormk"
@@ -146,16 +156,6 @@
         "quantity": 5000,
         "user_id": 9416276,
         "username": "TheZohanLIVE"
-      },
-      {
-        "quantity": 5000,
-        "user_id": 101140607,
-        "username": "AllenBlyat"
-      },
-      {
-        "quantity": 4000,
-        "user_id": 4959022,
-        "username": "AmhariMagniv11"
       }
     ],
     "kicks_gifts_week_enabled": true

@@ -3,7 +3,7 @@
         {
             "rank": 1,
             "username": "Y*****X",
-            "wagered": "129,702",
+            "wagered": "131,914",
             "prize": 3000,
             "img": "https://cdn.empiredrop.com/avatars/default_11.webp"
         },
@@ -23,52 +23,52 @@
         },
         {
             "rank": 4,
-            "username": "b********7",
-            "wagered": "9,411",
-            "prize": 1000,
-            "img": "https://cdn.empiredrop.com/avatars/default_1.webp"
-        },
-        {
-            "rank": 5,
             "username": "p****e",
-            "wagered": "8,170",
-            "prize": 700,
+            "wagered": "8,172",
+            "prize": 1000,
             "img": "https://cdn.empiredrop.com/avatars/default_4.webp"
         },
         {
-            "rank": 6,
+            "rank": 5,
             "username": "L******8",
             "wagered": "6,853",
-            "prize": 500,
+            "prize": 700,
             "img": "https://cdn.empiredrop.com/avatars/default_31.webp"
         },
         {
-            "rank": 7,
+            "rank": 6,
             "username": "O********I",
             "wagered": "5,397",
-            "prize": 400,
+            "prize": 500,
             "img": "https://cdn.empiredrop.com/avatars/default_5.webp"
         },
         {
-            "rank": 8,
+            "rank": 7,
             "username": "T****R",
             "wagered": "4,420",
-            "prize": 350,
+            "prize": 400,
             "img": "https://cdn.empiredrop.com/avatars/default_18.webp"
         },
         {
-            "rank": 9,
+            "rank": 8,
             "username": "r***c",
             "wagered": "2,232",
-            "prize": 300,
+            "prize": 350,
             "img": "https://cdn.empiredrop.com/avatars/default_1.webp"
         },
         {
-            "rank": 10,
+            "rank": 9,
             "username": "A**************3",
             "wagered": "2,136",
-            "prize": 250,
+            "prize": 300,
             "img": "https://cdn.empiredrop.com/avatars/default_3.webp"
+        },
+        {
+            "rank": 10,
+            "username": "k***",
+            "wagered": "2,047",
+            "prize": 250,
+            "img": "https://cdn.empiredrop.com/avatars/default_32.webp"
         }
     ],
     "start_date": 1785888000,

@@ -106,7 +106,13 @@
       }
     ],
     "kicks_gifts_month_enabled": true,
-    "kicks_gifts_week": [],
+    "kicks_gifts_week": [
+      {
+        "quantity": 5,
+        "user_id": 77643555,
+        "username": "lakax"
+      }
+    ],
     "kicks_gifts_week_enabled": true
   },
   "message": "Success"

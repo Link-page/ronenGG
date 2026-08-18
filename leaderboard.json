@@ -32,7 +32,7 @@
         "username": "Dor_103"
       },
       {
-        "quantity": 68810,
+        "quantity": 69310,
         "user_id": 9416276,
         "username": "TheZohanLIVE"
       },
@@ -108,9 +108,39 @@
     "kicks_gifts_month_enabled": true,
     "kicks_gifts_week": [
       {
+        "quantity": 1500,
+        "user_id": 79623134,
+        "username": "FlowT3x"
+      },
+      {
+        "quantity": 1000,
+        "user_id": 89615397,
+        "username": "rocklikeme"
+      },
+      {
         "quantity": 1000,
         "user_id": 79963921,
         "username": "yuval_tib"
+      },
+      {
+        "quantity": 1000,
+        "user_id": 66833592,
+        "username": "TheMahvat"
+      },
+      {
+        "quantity": 1000,
+        "user_id": 104600021,
+        "username": "LeoM_1"
+      },
+      {
+        "quantity": 500,
+        "user_id": 9416276,
+        "username": "TheZohanLIVE"
+      },
+      {
+        "quantity": 500,
+        "user_id": 94022435,
+        "username": "daniel1906pinto"
       },
       {
         "quantity": 500,
@@ -126,36 +156,6 @@
         "quantity": 500,
         "user_id": 76472252,
         "username": "EyalBerman"
-      },
-      {
-        "quantity": 500,
-        "user_id": 66833592,
-        "username": "TheMahvat"
-      },
-      {
-        "quantity": 500,
-        "user_id": 5602153,
-        "username": "itayjs"
-      },
-      {
-        "quantity": 500,
-        "user_id": 1085475,
-        "username": "GozlanNoam"
-      },
-      {
-        "quantity": 500,
-        "user_id": 107721285,
-        "username": "Liamram"
-      },
-      {
-        "quantity": 500,
-        "user_id": 103957648,
-        "username": "FE3DBacK"
-      },
-      {
-        "quantity": 500,
-        "user_id": 10120495,
-        "username": "itaymalka1"
       }
     ],
     "kicks_gifts_week_enabled": true

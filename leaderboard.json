@@ -119,8 +119,18 @@
       },
       {
         "quantity": 500,
+        "user_id": 83774993,
+        "username": "yosef22136"
+      },
+      {
+        "quantity": 500,
         "user_id": 76472252,
         "username": "EyalBerman"
+      },
+      {
+        "quantity": 500,
+        "user_id": 66833592,
+        "username": "TheMahvat"
       },
       {
         "quantity": 500,
@@ -139,18 +149,13 @@
       },
       {
         "quantity": 500,
+        "user_id": 103957648,
+        "username": "FE3DBacK"
+      },
+      {
+        "quantity": 500,
         "user_id": 10120495,
         "username": "itaymalka1"
-      },
-      {
-        "quantity": 100,
-        "user_id": 99922200,
-        "username": "nitzansheinber"
-      },
-      {
-        "quantity": 5,
-        "user_id": 77643555,
-        "username": "lakax"
       }
     ],
     "kicks_gifts_week_enabled": true

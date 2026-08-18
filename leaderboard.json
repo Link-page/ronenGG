@@ -108,14 +108,14 @@
     "kicks_gifts_month_enabled": true,
     "kicks_gifts_week": [
       {
+        "quantity": 2500,
+        "user_id": 107721285,
+        "username": "Liamram"
+      },
+      {
         "quantity": 2000,
         "user_id": 79623134,
         "username": "FlowT3x"
-      },
-      {
-        "quantity": 1500,
-        "user_id": 107721285,
-        "username": "Liamram"
       },
       {
         "quantity": 1500,
@@ -139,6 +139,11 @@
       },
       {
         "quantity": 1000,
+        "user_id": 79048345,
+        "username": "Nadav123122"
+      },
+      {
+        "quantity": 1000,
         "user_id": 66833592,
         "username": "TheMahvat"
       },
@@ -151,11 +156,6 @@
         "quantity": 500,
         "user_id": 94022435,
         "username": "daniel1906pinto"
-      },
-      {
-        "quantity": 500,
-        "user_id": 86831771,
-        "username": "YUDA69"
       }
     ],
     "kicks_gifts_week_enabled": true

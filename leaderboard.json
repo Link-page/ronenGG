@@ -108,6 +108,26 @@
     "kicks_gifts_month_enabled": true,
     "kicks_gifts_week": [
       {
+        "quantity": 1000,
+        "user_id": 79963921,
+        "username": "yuval_tib"
+      },
+      {
+        "quantity": 500,
+        "user_id": 76472252,
+        "username": "EyalBerman"
+      },
+      {
+        "quantity": 500,
+        "user_id": 5602153,
+        "username": "itayjs"
+      },
+      {
+        "quantity": 500,
+        "user_id": 107721285,
+        "username": "Liamram"
+      },
+      {
         "quantity": 5,
         "user_id": 77643555,
         "username": "lakax"

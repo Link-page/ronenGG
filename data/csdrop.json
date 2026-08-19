@@ -3,7 +3,7 @@
         {
             "rank": 1,
             "username": "H*****8",
-            "wagered": "10,975",
+            "wagered": "11,358",
             "prize": 3000,
             "img": "https://cdn.csdrop.com/avatars/default_20.webp"
         },
@@ -17,7 +17,7 @@
         {
             "rank": 3,
             "username": "A**************8",
-            "wagered": "4,091",
+            "wagered": "4,158",
             "prize": 1500,
             "img": "https://cdn.csdrop.com/avatars/default_3.webp"
         },
@@ -58,17 +58,17 @@
         },
         {
             "rank": 9,
-            "username": "A**************0",
-            "wagered": "10",
+            "username": "M*****s",
+            "wagered": "15",
             "prize": 300,
-            "img": "https://cdn.csdrop.com/avatars/default_40.webp"
+            "img": "https://cdn.csdrop.com/avatars/default_49.webp"
         },
         {
             "rank": 10,
-            "username": "A****e",
-            "wagered": "0",
+            "username": "A**************0",
+            "wagered": "10",
             "prize": 250,
-            "img": "https://cdn.csdrop.com/avatars/default_12.webp"
+            "img": "https://cdn.csdrop.com/avatars/default_40.webp"
         }
     ],
     "start_date": 1787097600,

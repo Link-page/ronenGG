@@ -2,75 +2,75 @@
     "leaderboard": [
         {
             "rank": 1,
-            "username": "O*************3",
-            "wagered": "95,294",
+            "username": "-",
+            "wagered": 0,
             "prize": 3000,
-            "img": "https://cdn.csdrop.com/avatars/default_59.webp"
+            "img": "/assets/images/csdrop-coin.webp"
         },
         {
             "rank": 2,
-            "username": "H*****8",
-            "wagered": "79,700",
+            "username": "-",
+            "wagered": 0,
             "prize": 2000,
-            "img": "https://cdn.csdrop.com/avatars/default_20.webp"
+            "img": "/assets/images/csdrop-coin.webp"
         },
         {
             "rank": 3,
-            "username": "B******G",
-            "wagered": "57,063",
+            "username": "-",
+            "wagered": 0,
             "prize": 1500,
-            "img": "https://cdn.csdrop.com/avatars/default_14.webp"
+            "img": "/assets/images/csdrop-coin.webp"
         },
         {
             "rank": 4,
-            "username": "S******y",
-            "wagered": "38,248",
+            "username": "-",
+            "wagered": 0,
             "prize": 1000,
-            "img": "https://cdn.csdrop.com/avatars/default_30.webp"
+            "img": "/assets/images/csdrop-coin.webp"
         },
         {
             "rank": 5,
-            "username": "Y******b",
-            "wagered": "32,410",
+            "username": "-",
+            "wagered": 0,
             "prize": 700,
-            "img": "https://cdn.csdrop.com/avatars/default_7.webp"
+            "img": "/assets/images/csdrop-coin.webp"
         },
         {
             "rank": 6,
-            "username": "A**************8",
-            "wagered": "26,621",
+            "username": "-",
+            "wagered": 0,
             "prize": 500,
-            "img": "https://cdn.csdrop.com/avatars/default_3.webp"
+            "img": "/assets/images/csdrop-coin.webp"
         },
         {
             "rank": 7,
-            "username": "J*****d",
-            "wagered": "21,883",
+            "username": "-",
+            "wagered": 0,
             "prize": 400,
-            "img": "https://cdn.csdrop.com/avatars/default_23.webp"
+            "img": "/assets/images/csdrop-coin.webp"
         },
         {
             "rank": 8,
-            "username": "K***n",
-            "wagered": "19,035",
+            "username": "-",
+            "wagered": 0,
             "prize": 350,
-            "img": "https://cdn.csdrop.com/avatars/default_52.webp"
+            "img": "/assets/images/csdrop-coin.webp"
         },
         {
             "rank": 9,
-            "username": "T*****y",
-            "wagered": "14,985",
+            "username": "-",
+            "wagered": 0,
             "prize": 300,
-            "img": "https://cdn.csdrop.com/avatars/default_43.webp"
+            "img": "/assets/images/csdrop-coin.webp"
         },
         {
             "rank": 10,
-            "username": "y*************2",
-            "wagered": "12,401",
+            "username": "-",
+            "wagered": 0,
             "prize": 250,
-            "img": "https://cdn.csdrop.com/avatars/default_20.webp"
+            "img": "/assets/images/csdrop-coin.webp"
         }
     ],
-    "start_date": 1784419200,
-    "end_date": 1787097600
+    "start_date": 1787097600,
+    "end_date": 1789776000
 }

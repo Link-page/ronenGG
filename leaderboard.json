@@ -42,7 +42,7 @@
         "username": "SUPERGAMINGIL"
       },
       {
-        "quantity": 52500,
+        "quantity": 53000,
         "user_id": 67144059,
         "username": "Space_Itay"
       },
@@ -134,6 +134,11 @@
       },
       {
         "quantity": 1000,
+        "user_id": 86831771,
+        "username": "YUDA69"
+      },
+      {
+        "quantity": 1000,
         "user_id": 85305486,
         "username": "liroy_m"
       },
@@ -151,11 +156,6 @@
         "quantity": 1000,
         "user_id": 79963921,
         "username": "yuval_tib"
-      },
-      {
-        "quantity": 1000,
-        "user_id": 79048345,
-        "username": "Nadav123122"
       }
     ],
     "kicks_gifts_week_enabled": true

@@ -22,7 +22,7 @@
         "username": "PostB"
       },
       {
-        "quantity": 103000,
+        "quantity": 103500,
         "user_id": 67453019,
         "username": "natanelf"
       },
@@ -75,7 +75,7 @@
         "username": "PostB"
       },
       {
-        "quantity": 21000,
+        "quantity": 21500,
         "user_id": 67453019,
         "username": "natanelf"
       },
@@ -149,13 +149,13 @@
       },
       {
         "quantity": 1000,
-        "user_id": 66833592,
-        "username": "TheMahvat"
+        "user_id": 76472252,
+        "username": "EyalBerman"
       },
       {
-        "quantity": 500,
-        "user_id": 9416276,
-        "username": "TheZohanLIVE"
+        "quantity": 1000,
+        "user_id": 66833592,
+        "username": "TheMahvat"
       }
     ],
     "kicks_gifts_week_enabled": true

@@ -124,6 +124,11 @@
       },
       {
         "quantity": 1500,
+        "user_id": 103957648,
+        "username": "FE3DBacK"
+      },
+      {
+        "quantity": 1500,
         "user_id": 101269863,
         "username": "Ronen_live"
       },
@@ -151,11 +156,6 @@
         "quantity": 1000,
         "user_id": 81951167,
         "username": "AsafYaffe3"
-      },
-      {
-        "quantity": 1000,
-        "user_id": 79963921,
-        "username": "yuval_tib"
       }
     ],
     "kicks_gifts_week_enabled": true

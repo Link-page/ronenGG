@@ -27,7 +27,7 @@
         "username": "natanelf"
       },
       {
-        "quantity": 72000,
+        "quantity": 72500,
         "user_id": 78275186,
         "username": "Dor_103"
       },
@@ -129,6 +129,11 @@
       },
       {
         "quantity": 1500,
+        "user_id": 86831771,
+        "username": "YUDA69"
+      },
+      {
+        "quantity": 1500,
         "user_id": 104600021,
         "username": "LeoM_1"
       },
@@ -151,11 +156,6 @@
         "quantity": 1000,
         "user_id": 89615397,
         "username": "rocklikeme"
-      },
-      {
-        "quantity": 1000,
-        "user_id": 86831771,
-        "username": "YUDA69"
       }
     ],
     "kicks_gifts_week_enabled": true

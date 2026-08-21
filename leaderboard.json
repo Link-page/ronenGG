@@ -124,6 +124,11 @@
       },
       {
         "quantity": 2000,
+        "user_id": 103957648,
+        "username": "FE3DBacK"
+      },
+      {
+        "quantity": 2000,
         "user_id": 103807498,
         "username": "Macabitelaviv"
       },
@@ -136,11 +141,6 @@
         "quantity": 1500,
         "user_id": 104600021,
         "username": "LeoM_1"
-      },
-      {
-        "quantity": 1500,
-        "user_id": 103957648,
-        "username": "FE3DBacK"
       },
       {
         "quantity": 1500,

@@ -129,6 +129,11 @@
       },
       {
         "quantity": 3000,
+        "user_id": 86831771,
+        "username": "YUDA69"
+      },
+      {
+        "quantity": 3000,
         "user_id": 107721285,
         "username": "Liamram"
       },
@@ -136,11 +141,6 @@
         "quantity": 2801,
         "user_id": 102126852,
         "username": "Aviel10"
-      },
-      {
-        "quantity": 2500,
-        "user_id": 86831771,
-        "username": "YUDA69"
       },
       {
         "quantity": 2500,

@@ -27,7 +27,7 @@
         "username": "natanelf"
       },
       {
-        "quantity": 73000,
+        "quantity": 74000,
         "user_id": 78275186,
         "username": "Dor_103"
       },
@@ -37,7 +37,7 @@
         "username": "TheZohanLIVE"
       },
       {
-        "quantity": 59000,
+        "quantity": 59500,
         "user_id": 104398609,
         "username": "SUPERGAMINGIL"
       },
@@ -119,43 +119,43 @@
       },
       {
         "quantity": 1000,
+        "user_id": 78275186,
+        "username": "Dor_103"
+      },
+      {
+        "quantity": 1000,
         "user_id": 77927288,
         "username": "Thryx_0"
       },
       {
-        "quantity": 500,
-        "user_id": 66906638,
-        "username": "BenshoHere"
+        "quantity": 1000,
+        "user_id": 68730068,
+        "username": "CLIPER09"
+      },
+      {
+        "quantity": 1000,
+        "user_id": 123973441,
+        "username": "IDOKIDO"
+      },
+      {
+        "quantity": 600,
+        "user_id": 86593708,
+        "username": "Or2890"
       },
       {
         "quantity": 500,
-        "user_id": 49670327,
-        "username": "Masheu"
+        "user_id": 99441246,
+        "username": "Bakb00k123"
       },
       {
         "quantity": 500,
-        "user_id": 4957279,
-        "username": "BarAstri"
+        "user_id": 81937111,
+        "username": "TapuachHarman"
       },
       {
         "quantity": 500,
-        "user_id": 37879162,
-        "username": "Zonebattle"
-      },
-      {
-        "quantity": 500,
-        "user_id": 32208753,
-        "username": "YAKOBOV"
-      },
-      {
-        "quantity": 500,
-        "user_id": 125007189,
-        "username": "Tomer35"
-      },
-      {
-        "quantity": 500,
-        "user_id": 109245878,
-        "username": "elishmuel"
+        "user_id": 80628404,
+        "username": "gritza"
       }
     ],
     "kicks_gifts_week_enabled": true

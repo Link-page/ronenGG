@@ -17,7 +17,7 @@
         "username": "kitshawa31"
       },
       {
-        "quantity": 116500,
+        "quantity": 117000,
         "user_id": 76334394,
         "username": "PostB"
       },
@@ -81,6 +81,21 @@
       },
       {
         "quantity": 500,
+        "user_id": 78014627,
+        "username": "MRbro_12"
+      },
+      {
+        "quantity": 500,
+        "user_id": 76334394,
+        "username": "PostB"
+      },
+      {
+        "quantity": 500,
+        "user_id": 66420126,
+        "username": "its_shaked"
+      },
+      {
+        "quantity": 500,
         "user_id": 1524470,
         "username": "aimcone"
       },
@@ -88,11 +103,6 @@
         "quantity": 500,
         "user_id": 106643891,
         "username": "liad13133"
-      },
-      {
-        "quantity": 500,
-        "user_id": 101470982,
-        "username": "maor45"
       }
     ],
     "kicks_gifts_month_enabled": true,

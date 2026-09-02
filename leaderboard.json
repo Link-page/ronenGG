@@ -55,6 +55,11 @@
     "kicks_gifts_lifetime_enabled": true,
     "kicks_gifts_month": [
       {
+        "quantity": 2500,
+        "user_id": 56738129,
+        "username": "eillay22"
+      },
+      {
         "quantity": 2000,
         "user_id": 66833592,
         "username": "TheMahvat"
@@ -96,19 +101,14 @@
       },
       {
         "quantity": 500,
-        "user_id": 92426071,
-        "username": "Fxtrader99"
-      },
-      {
-        "quantity": 500,
-        "user_id": 78752547,
-        "username": "ilay44"
+        "user_id": 92472291,
+        "username": "Ken0sss"
       }
     ],
     "kicks_gifts_month_enabled": true,
     "kicks_gifts_week": [
       {
-        "quantity": 4500,
+        "quantity": 6500,
         "user_id": 56738129,
         "username": "eillay22"
       },

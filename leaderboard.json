@@ -42,7 +42,7 @@
         "username": "SUPERGAMINGIL"
       },
       {
-        "quantity": 53000,
+        "quantity": 53500,
         "user_id": 67144059,
         "username": "Space_Itay"
       },
@@ -54,6 +54,11 @@
     ],
     "kicks_gifts_lifetime_enabled": true,
     "kicks_gifts_month": [
+      {
+        "quantity": 3000,
+        "user_id": 26302692,
+        "username": "Liorperetz"
+      },
       {
         "quantity": 2500,
         "user_id": 56738129,
@@ -91,18 +96,13 @@
       },
       {
         "quantity": 1000,
-        "user_id": 45187773,
-        "username": "omerbig2012"
+        "user_id": 66420126,
+        "username": "its_shaked"
       },
       {
         "quantity": 1000,
-        "user_id": 102152515,
-        "username": "NoamWorld"
-      },
-      {
-        "quantity": 500,
-        "user_id": 92472291,
-        "username": "Ken0sss"
+        "user_id": 45187773,
+        "username": "omerbig2012"
       }
     ],
     "kicks_gifts_month_enabled": true,
@@ -111,6 +111,11 @@
         "quantity": 6500,
         "user_id": 56738129,
         "username": "eillay22"
+      },
+      {
+        "quantity": 3000,
+        "user_id": 26302692,
+        "username": "Liorperetz"
       },
       {
         "quantity": 2500,
@@ -138,6 +143,11 @@
         "username": "omerbig2012"
       },
       {
+        "quantity": 1040,
+        "user_id": 101470982,
+        "username": "maor45"
+      },
+      {
         "quantity": 1000,
         "user_id": 9153248,
         "username": "PutiTP"
@@ -146,16 +156,6 @@
         "quantity": 1000,
         "user_id": 87190114,
         "username": "RB6666"
-      },
-      {
-        "quantity": 1000,
-        "user_id": 86831771,
-        "username": "YUDA69"
-      },
-      {
-        "quantity": 1000,
-        "user_id": 79977855,
-        "username": "Sativa_696"
       }
     ],
     "kicks_gifts_week_enabled": true

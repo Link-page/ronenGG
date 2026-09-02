@@ -56,13 +56,13 @@
     "kicks_gifts_month": [
       {
         "quantity": 2000,
-        "user_id": 4962955,
-        "username": "BrandyFR"
-      },
-      {
-        "quantity": 1500,
         "user_id": 66833592,
         "username": "TheMahvat"
+      },
+      {
+        "quantity": 2000,
+        "user_id": 4962955,
+        "username": "BrandyFR"
       },
       {
         "quantity": 1500,
@@ -119,6 +119,11 @@
       },
       {
         "quantity": 2000,
+        "user_id": 66833592,
+        "username": "TheMahvat"
+      },
+      {
+        "quantity": 2000,
         "user_id": 4962955,
         "username": "BrandyFR"
       },
@@ -126,11 +131,6 @@
         "quantity": 2000,
         "user_id": 21440028,
         "username": "NaftaliGG"
-      },
-      {
-        "quantity": 1500,
-        "user_id": 66833592,
-        "username": "TheMahvat"
       },
       {
         "quantity": 1500,

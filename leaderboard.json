@@ -85,6 +85,11 @@
         "username": "rayboyyy"
       },
       {
+        "quantity": 2500,
+        "user_id": 40378991,
+        "username": "Uniquee3e"
+      },
+      {
         "quantity": 2000,
         "user_id": 66420126,
         "username": "its_shaked"
@@ -93,11 +98,6 @@
         "quantity": 2000,
         "user_id": 4962955,
         "username": "BrandyFR"
-      },
-      {
-        "quantity": 2000,
-        "user_id": 40378991,
-        "username": "Uniquee3e"
       },
       {
         "quantity": 2000,
@@ -139,6 +139,11 @@
       },
       {
         "quantity": 2500,
+        "user_id": 40378991,
+        "username": "Uniquee3e"
+      },
+      {
+        "quantity": 2500,
         "user_id": 106425986,
         "username": "duritusss1029"
       },
@@ -151,11 +156,6 @@
         "quantity": 2000,
         "user_id": 8268329,
         "username": "Trexthefrog"
-      },
-      {
-        "quantity": 2000,
-        "user_id": 66420126,
-        "username": "its_shaked"
       }
     ],
     "kicks_gifts_week_enabled": true

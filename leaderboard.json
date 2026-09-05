@@ -42,7 +42,7 @@
         "username": "SUPERGAMINGIL"
       },
       {
-        "quantity": 53500,
+        "quantity": 58000,
         "user_id": 67144059,
         "username": "Space_Itay"
       },
@@ -60,14 +60,19 @@
         "username": "eillay22"
       },
       {
+        "quantity": 6000,
+        "user_id": 113904030,
+        "username": "statbox"
+      },
+      {
         "quantity": 5500,
         "user_id": 104398609,
         "username": "SUPERGAMINGIL"
       },
       {
         "quantity": 5000,
-        "user_id": 113904030,
-        "username": "statbox"
+        "user_id": 67144059,
+        "username": "Space_Itay"
       },
       {
         "quantity": 3500,
@@ -98,11 +103,6 @@
         "quantity": 2000,
         "user_id": 4962955,
         "username": "BrandyFR"
-      },
-      {
-        "quantity": 2000,
-        "user_id": 127302862,
-        "username": "sagibsss"
       }
     ],
     "kicks_gifts_month_enabled": true,
@@ -113,14 +113,19 @@
         "username": "eillay22"
       },
       {
+        "quantity": 6000,
+        "user_id": 113904030,
+        "username": "statbox"
+      },
+      {
         "quantity": 5500,
         "user_id": 104398609,
         "username": "SUPERGAMINGIL"
       },
       {
         "quantity": 5000,
-        "user_id": 113904030,
-        "username": "statbox"
+        "user_id": 67144059,
+        "username": "Space_Itay"
       },
       {
         "quantity": 3500,
@@ -151,11 +156,6 @@
         "quantity": 2000,
         "user_id": 86831771,
         "username": "YUDA69"
-      },
-      {
-        "quantity": 2000,
-        "user_id": 8268329,
-        "username": "Trexthefrog"
       }
     ],
     "kicks_gifts_week_enabled": true

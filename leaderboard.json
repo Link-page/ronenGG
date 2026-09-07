@@ -42,7 +42,7 @@
         "username": "SUPERGAMINGIL"
       },
       {
-        "quantity": 58000,
+        "quantity": 60000,
         "user_id": 67144059,
         "username": "Space_Itay"
       },
@@ -60,6 +60,11 @@
         "username": "statbox"
       },
       {
+        "quantity": 7000,
+        "user_id": 67144059,
+        "username": "Space_Itay"
+      },
+      {
         "quantity": 6000,
         "user_id": 56738129,
         "username": "eillay22"
@@ -68,11 +73,6 @@
         "quantity": 5500,
         "user_id": 104398609,
         "username": "SUPERGAMINGIL"
-      },
-      {
-        "quantity": 5000,
-        "user_id": 67144059,
-        "username": "Space_Itay"
       },
       {
         "quantity": 3500,
@@ -109,6 +109,11 @@
     "kicks_gifts_week": [
       {
         "quantity": 2000,
+        "user_id": 67144059,
+        "username": "Space_Itay"
+      },
+      {
+        "quantity": 2000,
         "user_id": 113904030,
         "username": "statbox"
       },
@@ -123,14 +128,14 @@
         "username": "full_box67"
       },
       {
-        "quantity": 1000,
-        "user_id": 79319083,
-        "username": "bobi_9"
+        "quantity": 1500,
+        "user_id": 123285432,
+        "username": "eliorroorlan"
       },
       {
         "quantity": 1000,
-        "user_id": 123285432,
-        "username": "eliorroorlan"
+        "user_id": 79319083,
+        "username": "bobi_9"
       },
       {
         "quantity": 551,
@@ -149,13 +154,8 @@
       },
       {
         "quantity": 500,
-        "user_id": 28704933,
-        "username": "Danie97367"
-      },
-      {
-        "quantity": 500,
-        "user_id": 27700504,
-        "username": "reem777"
+        "user_id": 79977855,
+        "username": "Sativa_696"
       }
     ],
     "kicks_gifts_week_enabled": true

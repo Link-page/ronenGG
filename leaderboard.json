@@ -55,14 +55,14 @@
     "kicks_gifts_lifetime_enabled": true,
     "kicks_gifts_month": [
       {
-        "quantity": 6000,
-        "user_id": 56738129,
-        "username": "eillay22"
+        "quantity": 8000,
+        "user_id": 113904030,
+        "username": "statbox"
       },
       {
         "quantity": 6000,
-        "user_id": 113904030,
-        "username": "statbox"
+        "user_id": 56738129,
+        "username": "eillay22"
       },
       {
         "quantity": 5500,
@@ -91,6 +91,11 @@
       },
       {
         "quantity": 2500,
+        "user_id": 79319083,
+        "username": "bobi_9"
+      },
+      {
+        "quantity": 2500,
         "user_id": 40378991,
         "username": "Uniquee3e"
       },
@@ -98,15 +103,61 @@
         "quantity": 2000,
         "user_id": 66420126,
         "username": "its_shaked"
-      },
-      {
-        "quantity": 2000,
-        "user_id": 4962955,
-        "username": "BrandyFR"
       }
     ],
     "kicks_gifts_month_enabled": true,
-    "kicks_gifts_week": [],
+    "kicks_gifts_week": [
+      {
+        "quantity": 2000,
+        "user_id": 113904030,
+        "username": "statbox"
+      },
+      {
+        "quantity": 1000,
+        "user_id": 79319083,
+        "username": "bobi_9"
+      },
+      {
+        "quantity": 551,
+        "user_id": 126099044,
+        "username": "Itzak2158"
+      },
+      {
+        "quantity": 500,
+        "user_id": 85768227,
+        "username": "Elad2000"
+      },
+      {
+        "quantity": 500,
+        "user_id": 84342458,
+        "username": "Because_why_not"
+      },
+      {
+        "quantity": 500,
+        "user_id": 28704933,
+        "username": "Danie97367"
+      },
+      {
+        "quantity": 500,
+        "user_id": 27700504,
+        "username": "reem777"
+      },
+      {
+        "quantity": 500,
+        "user_id": 21479164,
+        "username": "Naorquan"
+      },
+      {
+        "quantity": 500,
+        "user_id": 123285432,
+        "username": "eliorroorlan"
+      },
+      {
+        "quantity": 500,
+        "user_id": 100841871,
+        "username": "AVIathol"
+      }
+    ],
     "kicks_gifts_week_enabled": true
   },
   "message": "Success"

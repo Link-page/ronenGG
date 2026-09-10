@@ -70,14 +70,14 @@
         "username": "eillay22"
       },
       {
+        "quantity": 6000,
+        "user_id": 127302862,
+        "username": "sagibsss"
+      },
+      {
         "quantity": 5500,
         "user_id": 104398609,
         "username": "SUPERGAMINGIL"
-      },
-      {
-        "quantity": 4000,
-        "user_id": 127302862,
-        "username": "sagibsss"
       },
       {
         "quantity": 3500,
@@ -108,6 +108,11 @@
     "kicks_gifts_month_enabled": true,
     "kicks_gifts_week": [
       {
+        "quantity": 4000,
+        "user_id": 127302862,
+        "username": "sagibsss"
+      },
+      {
         "quantity": 3500,
         "user_id": 128201525,
         "username": "full_box67"
@@ -134,16 +139,11 @@
       },
       {
         "quantity": 2000,
-        "user_id": 127302862,
-        "username": "sagibsss"
-      },
-      {
-        "quantity": 2000,
         "user_id": 113904030,
         "username": "statbox"
       },
       {
-        "quantity": 1532,
+        "quantity": 1543,
         "user_id": 84342458,
         "username": "Because_why_not"
       },

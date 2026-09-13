@@ -55,7 +55,7 @@
     "kicks_gifts_lifetime_enabled": true,
     "kicks_gifts_month": [
       {
-        "quantity": 9000,
+        "quantity": 9500,
         "user_id": 113904030,
         "username": "statbox"
       },
@@ -76,13 +76,18 @@
       },
       {
         "quantity": 5500,
-        "user_id": 104398609,
-        "username": "DANIELDERY04"
+        "user_id": 129405250,
+        "username": "funzy7"
       },
       {
-        "quantity": 5000,
+        "quantity": 5500,
         "user_id": 128201525,
         "username": "full_box67"
+      },
+      {
+        "quantity": 5500,
+        "user_id": 104398609,
+        "username": "DANIELDERY04"
       },
       {
         "quantity": 4500,
@@ -98,11 +103,6 @@
         "quantity": 4000,
         "user_id": 79684765,
         "username": "oriooo6778"
-      },
-      {
-        "quantity": 3500,
-        "user_id": 87190114,
-        "username": "RB6666"
       }
     ],
     "kicks_gifts_month_enabled": true,
@@ -113,7 +113,12 @@
         "username": "sagibsss"
       },
       {
-        "quantity": 5000,
+        "quantity": 5500,
+        "user_id": 129405250,
+        "username": "funzy7"
+      },
+      {
+        "quantity": 5500,
         "user_id": 128201525,
         "username": "full_box67"
       },
@@ -128,14 +133,14 @@
         "username": "YUDA69"
       },
       {
-        "quantity": 3000,
-        "user_id": 67453019,
-        "username": "natanelf"
+        "quantity": 3500,
+        "user_id": 113904030,
+        "username": "statbox"
       },
       {
         "quantity": 3000,
-        "user_id": 113904030,
-        "username": "statbox"
+        "user_id": 67453019,
+        "username": "natanelf"
       },
       {
         "quantity": 2500,
@@ -146,11 +151,6 @@
         "quantity": 2500,
         "user_id": 67144059,
         "username": "Space_Itay"
-      },
-      {
-        "quantity": 2500,
-        "user_id": 129405250,
-        "username": "funzy7"
       },
       {
         "quantity": 2500,

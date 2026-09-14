@@ -42,7 +42,7 @@
         "username": "DANIELDERY04"
       },
       {
-        "quantity": 60500,
+        "quantity": 61000,
         "user_id": 67144059,
         "username": "Space_Itay"
       },
@@ -55,19 +55,24 @@
     "kicks_gifts_lifetime_enabled": true,
     "kicks_gifts_month": [
       {
+        "quantity": 20500,
+        "user_id": 66473555,
+        "username": "Omri1890"
+      },
+      {
         "quantity": 10000,
         "user_id": 113904030,
         "username": "statbox"
       },
       {
         "quantity": 8000,
-        "user_id": 127302862,
-        "username": "sagibsss"
-      },
-      {
-        "quantity": 7500,
         "user_id": 67144059,
         "username": "Space_Itay"
+      },
+      {
+        "quantity": 8000,
+        "user_id": 127302862,
+        "username": "sagibsss"
       },
       {
         "quantity": 6000,
@@ -98,15 +103,56 @@
         "quantity": 4500,
         "user_id": 120940310,
         "username": "rayboyyy"
-      },
-      {
-        "quantity": 4000,
-        "user_id": 79684765,
-        "username": "oriooo6778"
       }
     ],
     "kicks_gifts_month_enabled": true,
-    "kicks_gifts_week": [],
+    "kicks_gifts_week": [
+      {
+        "quantity": 20000,
+        "user_id": 66473555,
+        "username": "Omri1890"
+      },
+      {
+        "quantity": 1000,
+        "user_id": 8602629,
+        "username": "userirol"
+      },
+      {
+        "quantity": 1000,
+        "user_id": 80062790,
+        "username": "Guypopi"
+      },
+      {
+        "quantity": 1000,
+        "user_id": 35534055,
+        "username": "matanisv"
+      },
+      {
+        "quantity": 500,
+        "user_id": 98202611,
+        "username": "dejaro1"
+      },
+      {
+        "quantity": 500,
+        "user_id": 67144059,
+        "username": "Space_Itay"
+      },
+      {
+        "quantity": 500,
+        "user_id": 124013734,
+        "username": "TheCohen1"
+      },
+      {
+        "quantity": 59,
+        "user_id": 35751125,
+        "username": "itay_os"
+      },
+      {
+        "quantity": 29,
+        "user_id": 33934046,
+        "username": "center123"
+      }
+    ],
     "kicks_gifts_week_enabled": true
   },
   "message": "Success"

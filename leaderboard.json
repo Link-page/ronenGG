@@ -2,7 +2,7 @@
   "data": {
     "kicks_gifts_lifetime": [
       {
-        "quantity": 207500,
+        "quantity": 210000,
         "user_id": 87190114,
         "username": "RB6666"
       },
@@ -76,6 +76,11 @@
       },
       {
         "quantity": 6000,
+        "user_id": 87190114,
+        "username": "RB6666"
+      },
+      {
+        "quantity": 6000,
         "user_id": 56738129,
         "username": "eillay22"
       },
@@ -91,18 +96,13 @@
       },
       {
         "quantity": 5500,
-        "user_id": 104398609,
-        "username": "DANIELDERY04"
-      },
-      {
-        "quantity": 4500,
-        "user_id": 86831771,
-        "username": "YUDA69"
-      },
-      {
-        "quantity": 4500,
         "user_id": 120940310,
         "username": "rayboyyy"
+      },
+      {
+        "quantity": 5500,
+        "user_id": 104398609,
+        "username": "DANIELDERY04"
       }
     ],
     "kicks_gifts_month_enabled": true,
@@ -111,6 +111,11 @@
         "quantity": 20000,
         "user_id": 66473555,
         "username": "Omri1890"
+      },
+      {
+        "quantity": 2500,
+        "user_id": 87190114,
+        "username": "RB6666"
       },
       {
         "quantity": 1000,
@@ -124,38 +129,33 @@
       },
       {
         "quantity": 1000,
+        "user_id": 77305434,
+        "username": "HBMK27"
+      },
+      {
+        "quantity": 1000,
+        "user_id": 66714349,
+        "username": "Mrnnoob"
+      },
+      {
+        "quantity": 1000,
         "user_id": 35534055,
         "username": "matanisv"
+      },
+      {
+        "quantity": 1000,
+        "user_id": 120940310,
+        "username": "rayboyyy"
+      },
+      {
+        "quantity": 1000,
+        "user_id": 100579685,
+        "username": "Haleljdddh"
       },
       {
         "quantity": 500,
         "user_id": 98202611,
         "username": "dejaro1"
-      },
-      {
-        "quantity": 500,
-        "user_id": 67144059,
-        "username": "Space_Itay"
-      },
-      {
-        "quantity": 500,
-        "user_id": 45187773,
-        "username": "omerbig2012"
-      },
-      {
-        "quantity": 500,
-        "user_id": 124013734,
-        "username": "TheCohen1"
-      },
-      {
-        "quantity": 59,
-        "user_id": 35751125,
-        "username": "itay_os"
-      },
-      {
-        "quantity": 29,
-        "user_id": 33934046,
-        "username": "center123"
       }
     ],
     "kicks_gifts_week_enabled": true

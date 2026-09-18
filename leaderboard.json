@@ -2,7 +2,7 @@
   "data": {
     "kicks_gifts_lifetime": [
       {
-        "quantity": 210500,
+        "quantity": 211000,
         "user_id": 87190114,
         "username": "RB6666"
       },
@@ -22,7 +22,7 @@
         "username": "PostB"
       },
       {
-        "quantity": 106500,
+        "quantity": 111500,
         "user_id": 67453019,
         "username": "natanelf"
       },
@@ -76,18 +76,23 @@
       },
       {
         "quantity": 8000,
+        "user_id": 67453019,
+        "username": "natanelf"
+      },
+      {
+        "quantity": 8000,
         "user_id": 127302862,
         "username": "sagibsss"
       },
       {
         "quantity": 7000,
-        "user_id": 120940310,
-        "username": "rayboyyy"
-      },
-      {
-        "quantity": 6500,
         "user_id": 87190114,
         "username": "RB6666"
+      },
+      {
+        "quantity": 7000,
+        "user_id": 120940310,
+        "username": "rayboyyy"
       },
       {
         "quantity": 6000,
@@ -98,11 +103,6 @@
         "quantity": 6000,
         "user_id": 128201525,
         "username": "full_box67"
-      },
-      {
-        "quantity": 5500,
-        "user_id": 66833592,
-        "username": "TheMahvat"
       }
     ],
     "kicks_gifts_month_enabled": true,
@@ -113,14 +113,19 @@
         "username": "Omri1890"
       },
       {
+        "quantity": 5000,
+        "user_id": 67453019,
+        "username": "natanelf"
+      },
+      {
+        "quantity": 3500,
+        "user_id": 87190114,
+        "username": "RB6666"
+      },
+      {
         "quantity": 3500,
         "user_id": 86831771,
         "username": "YUDA69"
-      },
-      {
-        "quantity": 3000,
-        "user_id": 87190114,
-        "username": "RB6666"
       },
       {
         "quantity": 2500,
@@ -151,11 +156,6 @@
         "quantity": 1500,
         "user_id": 86787159,
         "username": "A_Levi879"
-      },
-      {
-        "quantity": 1500,
-        "user_id": 114268784,
-        "username": "1Stalin1"
       }
     ],
     "kicks_gifts_week_enabled": true

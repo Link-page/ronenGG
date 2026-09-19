@@ -2,7 +2,7 @@
   "data": {
     "kicks_gifts_lifetime": [
       {
-        "quantity": 211000,
+        "quantity": 212000,
         "user_id": 87190114,
         "username": "RB6666"
       },
@@ -71,6 +71,11 @@
       },
       {
         "quantity": 8000,
+        "user_id": 87190114,
+        "username": "RB6666"
+      },
+      {
+        "quantity": 8000,
         "user_id": 86831771,
         "username": "YUDA69"
       },
@@ -83,11 +88,6 @@
         "quantity": 8000,
         "user_id": 127302862,
         "username": "sagibsss"
-      },
-      {
-        "quantity": 7000,
-        "user_id": 87190114,
-        "username": "RB6666"
       },
       {
         "quantity": 7000,
@@ -118,7 +118,7 @@
         "username": "natanelf"
       },
       {
-        "quantity": 3500,
+        "quantity": 4500,
         "user_id": 87190114,
         "username": "RB6666"
       },

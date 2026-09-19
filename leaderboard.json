@@ -60,6 +60,11 @@
         "username": "Omri1890"
       },
       {
+        "quantity": 10500,
+        "user_id": 124765381,
+        "username": "Toxic34435"
+      },
+      {
         "quantity": 10000,
         "user_id": 113904030,
         "username": "statbox"
@@ -98,11 +103,6 @@
         "quantity": 6000,
         "user_id": 56738129,
         "username": "eillay22"
-      },
-      {
-        "quantity": 6000,
-        "user_id": 128201525,
-        "username": "full_box67"
       }
     ],
     "kicks_gifts_month_enabled": true,
@@ -113,7 +113,7 @@
         "username": "Omri1890"
       },
       {
-        "quantity": 5500,
+        "quantity": 10500,
         "user_id": 124765381,
         "username": "Toxic34435"
       },

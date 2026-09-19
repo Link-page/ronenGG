@@ -113,6 +113,11 @@
         "username": "Omri1890"
       },
       {
+        "quantity": 5500,
+        "user_id": 124765381,
+        "username": "Toxic34435"
+      },
+      {
         "quantity": 5000,
         "user_id": 67453019,
         "username": "natanelf"
@@ -151,11 +156,6 @@
         "quantity": 2000,
         "user_id": 66833592,
         "username": "TheMahvat"
-      },
-      {
-        "quantity": 1500,
-        "user_id": 86787159,
-        "username": "A_Levi879"
       }
     ],
     "kicks_gifts_week_enabled": true

@@ -106,7 +106,58 @@
       }
     ],
     "kicks_gifts_month_enabled": true,
-    "kicks_gifts_week": [],
+    "kicks_gifts_week": [
+      {
+        "quantity": 1500,
+        "user_id": 102126852,
+        "username": "Aviel10"
+      },
+      {
+        "quantity": 1000,
+        "user_id": 45187773,
+        "username": "omerbig2012"
+      },
+      {
+        "quantity": 1000,
+        "user_id": 101133715,
+        "username": "Pinian"
+      },
+      {
+        "quantity": 1000,
+        "user_id": 100579685,
+        "username": "Haleljdddh"
+      },
+      {
+        "quantity": 901,
+        "user_id": 78014627,
+        "username": "MRbro_12"
+      },
+      {
+        "quantity": 502,
+        "user_id": 79715536,
+        "username": "HarelTUR"
+      },
+      {
+        "quantity": 500,
+        "user_id": 79651576,
+        "username": "TAKI_PLAY"
+      },
+      {
+        "quantity": 500,
+        "user_id": 78940793,
+        "username": "DoggyLM"
+      },
+      {
+        "quantity": 500,
+        "user_id": 77904834,
+        "username": "Idan1913"
+      },
+      {
+        "quantity": 500,
+        "user_id": 77637086,
+        "username": "TripX0"
+      }
+    ],
     "kicks_gifts_week_enabled": true
   },
   "message": "Success"

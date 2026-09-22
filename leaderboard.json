@@ -118,6 +118,11 @@
         "username": "Shoam_mosan"
       },
       {
+        "quantity": 2000,
+        "user_id": 78277831,
+        "username": "KarBoS1"
+      },
+      {
         "quantity": 1500,
         "user_id": 102126852,
         "username": "Aviel10"
@@ -133,7 +138,7 @@
         "username": "Maor2712"
       },
       {
-        "quantity": 1002,
+        "quantity": 1102,
         "user_id": 9692026,
         "username": "D1nLa"
       },
@@ -149,13 +154,8 @@
       },
       {
         "quantity": 1000,
-        "user_id": 45187773,
-        "username": "omerbig2012"
-      },
-      {
-        "quantity": 1000,
-        "user_id": 128201525,
-        "username": "full_box67"
+        "user_id": 66906501,
+        "username": "FlYeRBlue"
       }
     ],
     "kicks_gifts_week_enabled": true

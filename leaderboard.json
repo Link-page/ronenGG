@@ -60,7 +60,7 @@
         "username": "Omri1890"
       },
       {
-        "quantity": 10500,
+        "quantity": 13000,
         "user_id": 124765381,
         "username": "Toxic34435"
       },
@@ -108,6 +108,11 @@
     "kicks_gifts_month_enabled": true,
     "kicks_gifts_week": [
       {
+        "quantity": 2500,
+        "user_id": 124765381,
+        "username": "Toxic34435"
+      },
+      {
         "quantity": 2215,
         "user_id": 129507140,
         "username": "Shoam_mosan"
@@ -151,11 +156,6 @@
         "quantity": 500,
         "user_id": 79651576,
         "username": "TAKI_PLAY"
-      },
-      {
-        "quantity": 500,
-        "user_id": 78940793,
-        "username": "DoggyLM"
       }
     ],
     "kicks_gifts_week_enabled": true

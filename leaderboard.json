@@ -118,6 +118,11 @@
         "username": "Shoam_mosan"
       },
       {
+        "quantity": 2001,
+        "user_id": 66906501,
+        "username": "FlYeRBlue"
+      },
+      {
         "quantity": 2000,
         "user_id": 78277831,
         "username": "KarBoS1"
@@ -151,11 +156,6 @@
         "quantity": 1000,
         "user_id": 77684156,
         "username": "O2gz6"
-      },
-      {
-        "quantity": 1000,
-        "user_id": 66906501,
-        "username": "FlYeRBlue"
       }
     ],
     "kicks_gifts_week_enabled": true

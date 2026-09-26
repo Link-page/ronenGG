@@ -2,7 +2,7 @@
   "data": {
     "kicks_gifts_lifetime": [
       {
-        "quantity": 213000,
+        "quantity": 214000,
         "user_id": 87190114,
         "username": "RB6666"
       },
@@ -66,13 +66,13 @@
       },
       {
         "quantity": 10000,
-        "user_id": 113904030,
-        "username": "statbox"
-      },
-      {
-        "quantity": 9000,
         "user_id": 87190114,
         "username": "RB6666"
+      },
+      {
+        "quantity": 10000,
+        "user_id": 113904030,
+        "username": "statbox"
       },
       {
         "quantity": 8500,
@@ -124,6 +124,11 @@
       },
       {
         "quantity": 2000,
+        "user_id": 87190114,
+        "username": "RB6666"
+      },
+      {
+        "quantity": 2000,
         "user_id": 78277831,
         "username": "KarBoS1"
       },
@@ -151,11 +156,6 @@
         "quantity": 1401,
         "user_id": 78014627,
         "username": "MRbro_12"
-      },
-      {
-        "quantity": 1302,
-        "user_id": 77206042,
-        "username": "Maor2712"
       }
     ],
     "kicks_gifts_week_enabled": true

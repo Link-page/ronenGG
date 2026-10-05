@@ -2,7 +2,7 @@
   "data": {
     "kicks_gifts_lifetime": [
       {
-        "quantity": 215000,
+        "quantity": 215500,
         "user_id": 87190114,
         "username": "RB6666"
       },
@@ -60,9 +60,14 @@
         "username": "NEHORAY_1245"
       },
       {
-        "quantity": 2000,
+        "quantity": 2500,
         "user_id": 63709644,
         "username": "NinjaBoyOri"
+      },
+      {
+        "quantity": 1500,
+        "user_id": 87190114,
+        "username": "RB6666"
       },
       {
         "quantity": 1500,
@@ -81,13 +86,13 @@
       },
       {
         "quantity": 1500,
-        "user_id": 102726717,
-        "username": "YonatanZXR"
+        "user_id": 120940310,
+        "username": "rayboyyy"
       },
       {
-        "quantity": 1000,
-        "user_id": 87190114,
-        "username": "RB6666"
+        "quantity": 1500,
+        "user_id": 102726717,
+        "username": "YonatanZXR"
       },
       {
         "quantity": 1000,
@@ -98,15 +103,61 @@
         "quantity": 1000,
         "user_id": 50119878,
         "username": "FirefoxOG"
-      },
-      {
-        "quantity": 1000,
-        "user_id": 14416808,
-        "username": "ItsKodish"
       }
     ],
     "kicks_gifts_month_enabled": true,
-    "kicks_gifts_week": [],
+    "kicks_gifts_week": [
+      {
+        "quantity": 500,
+        "user_id": 87190114,
+        "username": "RB6666"
+      },
+      {
+        "quantity": 500,
+        "user_id": 80609198,
+        "username": "IMA_SHEL_RONEN"
+      },
+      {
+        "quantity": 500,
+        "user_id": 79722651,
+        "username": "beerigeveral"
+      },
+      {
+        "quantity": 500,
+        "user_id": 67685767,
+        "username": "aLnz0r"
+      },
+      {
+        "quantity": 500,
+        "user_id": 66830406,
+        "username": "im_Patron"
+      },
+      {
+        "quantity": 500,
+        "user_id": 63709644,
+        "username": "NinjaBoyOri"
+      },
+      {
+        "quantity": 500,
+        "user_id": 48255723,
+        "username": "IARYSAI"
+      },
+      {
+        "quantity": 500,
+        "user_id": 39054565,
+        "username": "nethttps"
+      },
+      {
+        "quantity": 500,
+        "user_id": 127252111,
+        "username": "Itay1234478"
+      },
+      {
+        "quantity": 500,
+        "user_id": 126103300,
+        "username": "lironshafir"
+      }
+    ],
     "kicks_gifts_week_enabled": true
   },
   "message": "Success"

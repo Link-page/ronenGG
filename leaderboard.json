@@ -70,14 +70,19 @@
         "username": "natanelf"
       },
       {
+        "quantity": 3000,
+        "user_id": 108576892,
+        "username": "michaelteitel"
+      },
+      {
         "quantity": 2500,
         "user_id": 63709644,
         "username": "NinjaBoyOri"
       },
       {
         "quantity": 2500,
-        "user_id": 108576892,
-        "username": "michaelteitel"
+        "user_id": 121743544,
+        "username": "Snackpo"
       },
       {
         "quantity": 2000,
@@ -93,11 +98,6 @@
         "quantity": 2000,
         "user_id": 128201525,
         "username": "full_box67"
-      },
-      {
-        "quantity": 2000,
-        "user_id": 121743544,
-        "username": "Snackpo"
       },
       {
         "quantity": 2000,
@@ -123,12 +123,12 @@
         "username": "natanelf"
       },
       {
-        "quantity": 2500,
+        "quantity": 3000,
         "user_id": 108576892,
         "username": "michaelteitel"
       },
       {
-        "quantity": 2000,
+        "quantity": 2500,
         "user_id": 121743544,
         "username": "Snackpo"
       },

@@ -47,7 +47,7 @@
         "username": "Space_Itay"
       },
       {
-        "quantity": 49087,
+        "quantity": 50087,
         "user_id": 90040352,
         "username": "AmitLux"
       }
@@ -144,6 +144,11 @@
       },
       {
         "quantity": 1000,
+        "user_id": 90040352,
+        "username": "AmitLux"
+      },
+      {
+        "quantity": 1000,
         "user_id": 77754853,
         "username": "EmilyQQ"
       },
@@ -151,11 +156,6 @@
         "quantity": 1000,
         "user_id": 67685767,
         "username": "aLnz0r"
-      },
-      {
-        "quantity": 1000,
-        "user_id": 66906501,
-        "username": "FlYeRBlue"
       }
     ],
     "kicks_gifts_week_enabled": true

@@ -91,6 +91,11 @@
       },
       {
         "quantity": 2500,
+        "user_id": 69584309,
+        "username": "Sagivbss"
+      },
+      {
+        "quantity": 2500,
         "user_id": 40378991,
         "username": "Uniquee3e"
       },
@@ -98,11 +103,6 @@
         "quantity": 2500,
         "user_id": 37376706,
         "username": "Rashford333"
-      },
-      {
-        "quantity": 2500,
-        "user_id": 29939300,
-        "username": "yarinlmao"
       }
     ],
     "kicks_gifts_month_enabled": true,
@@ -149,13 +149,13 @@
       },
       {
         "quantity": 2000,
-        "user_id": 63709644,
-        "username": "NinjaBoyOri"
+        "user_id": 69584309,
+        "username": "Sagivbss"
       },
       {
-        "quantity": 1500,
-        "user_id": 91822319,
-        "username": "arthurit0Z"
+        "quantity": 2000,
+        "user_id": 63709644,
+        "username": "NinjaBoyOri"
       }
     ],
     "kicks_gifts_week_enabled": true

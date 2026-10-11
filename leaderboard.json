@@ -17,7 +17,7 @@
         "username": "kitshawa31"
       },
       {
-        "quantity": 127000,
+        "quantity": 137000,
         "user_id": 67453019,
         "username": "natanelf"
       },
@@ -70,9 +70,14 @@
         "username": "NEHORAY_1245"
       },
       {
-        "quantity": 10500,
+        "quantity": 20500,
         "user_id": 67453019,
         "username": "natanelf"
+      },
+      {
+        "quantity": 5500,
+        "user_id": 29939300,
+        "username": "yarinlmao"
       },
       {
         "quantity": 5500,
@@ -85,24 +90,19 @@
         "username": "NinjaBoyOri"
       },
       {
+        "quantity": 3504,
+        "user_id": 102588812,
+        "username": "AVIV333"
+      },
+      {
         "quantity": 3500,
         "user_id": 86831771,
         "username": "YUDA69"
       },
       {
         "quantity": 3000,
-        "user_id": 108576892,
-        "username": "michaelteitel"
-      },
-      {
-        "quantity": 2500,
-        "user_id": 91822319,
-        "username": "arthurit0Z"
-      },
-      {
-        "quantity": 2500,
-        "user_id": 69584309,
-        "username": "Sagivbss"
+        "user_id": 37376706,
+        "username": "Rashford333"
       }
     ],
     "kicks_gifts_month_enabled": true,
@@ -118,19 +118,29 @@
         "username": "Shor3tyy"
       },
       {
+        "quantity": 20500,
+        "user_id": 67453019,
+        "username": "natanelf"
+      },
+      {
         "quantity": 11500,
         "user_id": 109430942,
         "username": "NEHORAY_1245"
       },
       {
-        "quantity": 10500,
-        "user_id": 67453019,
-        "username": "natanelf"
+        "quantity": 5500,
+        "user_id": 29939300,
+        "username": "yarinlmao"
       },
       {
         "quantity": 5500,
         "user_id": 121743544,
         "username": "Snackpo"
+      },
+      {
+        "quantity": 3504,
+        "user_id": 102588812,
+        "username": "AVIV333"
       },
       {
         "quantity": 3500,
@@ -139,23 +149,13 @@
       },
       {
         "quantity": 3000,
-        "user_id": 108576892,
-        "username": "michaelteitel"
-      },
-      {
-        "quantity": 2500,
-        "user_id": 91822319,
-        "username": "arthurit0Z"
-      },
-      {
-        "quantity": 2500,
-        "user_id": 63709644,
-        "username": "NinjaBoyOri"
-      },
-      {
-        "quantity": 2500,
         "user_id": 3138930,
         "username": "gerbi"
+      },
+      {
+        "quantity": 3000,
+        "user_id": 108576892,
+        "username": "michaelteitel"
       }
     ],
     "kicks_gifts_week_enabled": true

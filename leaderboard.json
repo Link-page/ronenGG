@@ -2,7 +2,7 @@
   "data": {
     "kicks_gifts_lifetime": [
       {
-        "quantity": 215500,
+        "quantity": 217000,
         "user_id": 87190114,
         "username": "RB6666"
       },
@@ -75,9 +75,14 @@
         "username": "natanelf"
       },
       {
-        "quantity": 5500,
+        "quantity": 7500,
         "user_id": 29939300,
         "username": "yarinlmao"
+      },
+      {
+        "quantity": 6500,
+        "user_id": 62902503,
+        "username": "Maor_pryynty"
       },
       {
         "quantity": 5500,
@@ -85,32 +90,52 @@
         "username": "Snackpo"
       },
       {
+        "quantity": 5000,
+        "user_id": 86831771,
+        "username": "YUDA69"
+      },
+      {
         "quantity": 4500,
         "user_id": 63709644,
         "username": "NinjaBoyOri"
       },
       {
-        "quantity": 4000,
-        "user_id": 86831771,
-        "username": "YUDA69"
-      },
-      {
         "quantity": 3504,
         "user_id": 102588812,
         "username": "AVIV333"
-      },
-      {
-        "quantity": 3500,
-        "user_id": 3138930,
-        "username": "gerbi"
       }
     ],
     "kicks_gifts_month_enabled": true,
     "kicks_gifts_week": [
       {
+        "quantity": 6500,
+        "user_id": 62902503,
+        "username": "Maor_pryynty"
+      },
+      {
+        "quantity": 3500,
+        "user_id": 35594324,
+        "username": "liron2008"
+      },
+      {
         "quantity": 3500,
         "user_id": 123152140,
         "username": "Shor3tyy"
+      },
+      {
+        "quantity": 2000,
+        "user_id": 29939300,
+        "username": "yarinlmao"
+      },
+      {
+        "quantity": 1500,
+        "user_id": 87190114,
+        "username": "RB6666"
+      },
+      {
+        "quantity": 1500,
+        "user_id": 86831771,
+        "username": "YUDA69"
       },
       {
         "quantity": 1500,
@@ -129,33 +154,8 @@
       },
       {
         "quantity": 1000,
-        "user_id": 103671748,
-        "username": "jaimito2004m"
-      },
-      {
-        "quantity": 500,
-        "user_id": 86831771,
-        "username": "YUDA69"
-      },
-      {
-        "quantity": 500,
-        "user_id": 4885063,
-        "username": "bruvvv69"
-      },
-      {
-        "quantity": 500,
-        "user_id": 4658763,
-        "username": "JOKER_2"
-      },
-      {
-        "quantity": 500,
-        "user_id": 40378991,
-        "username": "Uniquee3e"
-      },
-      {
-        "quantity": 500,
-        "user_id": 3470717,
-        "username": "Moshik3855228"
+        "user_id": 44489295,
+        "username": "Rojan071"
       }
     ],
     "kicks_gifts_week_enabled": true

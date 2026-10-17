@@ -143,6 +143,11 @@
         "username": "IBestOriginal"
       },
       {
+        "quantity": 1002,
+        "user_id": 86310892,
+        "username": "Tipaxx"
+      },
+      {
         "quantity": 1000,
         "user_id": 84295219,
         "username": "viksenV"
@@ -151,11 +156,6 @@
         "quantity": 1000,
         "user_id": 47878613,
         "username": "OZNIOTGAMING"
-      },
-      {
-        "quantity": 1000,
-        "user_id": 44489295,
-        "username": "Rojan071"
       }
     ],
     "kicks_gifts_week_enabled": true

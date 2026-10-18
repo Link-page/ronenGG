@@ -128,6 +128,11 @@
         "username": "yarinlmao"
       },
       {
+        "quantity": 2000,
+        "user_id": 103671748,
+        "username": "jaimito2004m"
+      },
+      {
         "quantity": 1502,
         "user_id": 86310892,
         "username": "Tipaxx"
@@ -144,18 +149,13 @@
       },
       {
         "quantity": 1500,
-        "user_id": 113693751,
-        "username": "IBestOriginal"
+        "user_id": 114381785,
+        "username": "iMargii"
       },
       {
         "quantity": 1500,
-        "user_id": 103671748,
-        "username": "jaimito2004m"
-      },
-      {
-        "quantity": 1000,
-        "user_id": 84295219,
-        "username": "viksenV"
+        "user_id": 113693751,
+        "username": "IBestOriginal"
       }
     ],
     "kicks_gifts_week_enabled": true

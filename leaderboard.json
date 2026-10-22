@@ -80,9 +80,19 @@
         "username": "yarinlmao"
       },
       {
+        "quantity": 6600,
+        "user_id": 103671748,
+        "username": "jaimito2004m"
+      },
+      {
         "quantity": 6500,
         "user_id": 62902503,
         "username": "Maor_pryynty"
+      },
+      {
+        "quantity": 6000,
+        "user_id": 3138930,
+        "username": "gerbi"
       },
       {
         "quantity": 5500,
@@ -93,22 +103,17 @@
         "quantity": 5500,
         "user_id": 108576892,
         "username": "michaelteitel"
-      },
-      {
-        "quantity": 5000,
-        "user_id": 86831771,
-        "username": "YUDA69"
-      },
-      {
-        "quantity": 5000,
-        "user_id": 3138930,
-        "username": "gerbi"
       }
     ],
     "kicks_gifts_month_enabled": true,
     "kicks_gifts_week": [
       {
-        "quantity": 1500,
+        "quantity": 3100,
+        "user_id": 103671748,
+        "username": "jaimito2004m"
+      },
+      {
+        "quantity": 2500,
         "user_id": 3138930,
         "username": "gerbi"
       },
@@ -116,6 +121,21 @@
         "quantity": 1000,
         "user_id": 81647475,
         "username": "Hodi12"
+      },
+      {
+        "quantity": 1000,
+        "user_id": 135204469,
+        "username": "King2656"
+      },
+      {
+        "quantity": 1000,
+        "user_id": 134204581,
+        "username": "qedcf23"
+      },
+      {
+        "quantity": 1000,
+        "user_id": 105725017,
+        "username": "Shvartsman"
       },
       {
         "quantity": 500,
@@ -134,28 +154,8 @@
       },
       {
         "quantity": 500,
-        "user_id": 76747157,
-        "username": "Imri812"
-      },
-      {
-        "quantity": 500,
-        "user_id": 135313058,
-        "username": "Izikswisa66"
-      },
-      {
-        "quantity": 500,
-        "user_id": 135200210,
-        "username": "Scepti_X"
-      },
-      {
-        "quantity": 500,
-        "user_id": 123487697,
-        "username": "1yinon"
-      },
-      {
-        "quantity": 500,
-        "user_id": 120940310,
-        "username": "rayboyyy"
+        "user_id": 78014627,
+        "username": "MRbro_12"
       }
     ],
     "kicks_gifts_week_enabled": true

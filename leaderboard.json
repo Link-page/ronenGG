@@ -12,14 +12,14 @@
         "username": "Shor3tyy"
       },
       {
+        "quantity": 157000,
+        "user_id": 67453019,
+        "username": "natanelf"
+      },
+      {
         "quantity": 142000,
         "user_id": 113074279,
         "username": "kitshawa31"
-      },
-      {
-        "quantity": 137000,
-        "user_id": 67453019,
-        "username": "natanelf"
       },
       {
         "quantity": 121500,
@@ -60,6 +60,11 @@
         "username": "Omri1890"
       },
       {
+        "quantity": 40500,
+        "user_id": 67453019,
+        "username": "natanelf"
+      },
+      {
         "quantity": 38500,
         "user_id": 123152140,
         "username": "Shor3tyy"
@@ -68,11 +73,6 @@
         "quantity": 21500,
         "user_id": 109430942,
         "username": "NEHORAY_1245"
-      },
-      {
-        "quantity": 20500,
-        "user_id": 67453019,
-        "username": "natanelf"
       },
       {
         "quantity": 7500,
@@ -108,6 +108,11 @@
     "kicks_gifts_month_enabled": true,
     "kicks_gifts_week": [
       {
+        "quantity": 20000,
+        "user_id": 67453019,
+        "username": "natanelf"
+      },
+      {
         "quantity": 4000,
         "user_id": 103671748,
         "username": "jaimito2004m"
@@ -123,6 +128,11 @@
         "username": "NinjaBoyOri"
       },
       {
+        "quantity": 1500,
+        "user_id": 135204469,
+        "username": "King2656"
+      },
+      {
         "quantity": 1000,
         "user_id": 81647475,
         "username": "Hodi12"
@@ -134,28 +144,18 @@
       },
       {
         "quantity": 1000,
-        "user_id": 135204469,
-        "username": "King2656"
-      },
-      {
-        "quantity": 1000,
         "user_id": 134204581,
         "username": "qedcf23"
       },
       {
         "quantity": 1000,
+        "user_id": 120940310,
+        "username": "rayboyyy"
+      },
+      {
+        "quantity": 1000,
         "user_id": 114381785,
         "username": "iMargii"
-      },
-      {
-        "quantity": 1000,
-        "user_id": 11375913,
-        "username": "benadam2"
-      },
-      {
-        "quantity": 1000,
-        "user_id": 105725017,
-        "username": "Shvartsman"
       }
     ],
     "kicks_gifts_week_enabled": true

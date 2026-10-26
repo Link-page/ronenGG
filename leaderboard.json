@@ -80,14 +80,14 @@
         "username": "yarinlmao"
       },
       {
+        "quantity": 8000,
+        "user_id": 3138930,
+        "username": "gerbi"
+      },
+      {
         "quantity": 7500,
         "user_id": 103671748,
         "username": "jaimito2004m"
-      },
-      {
-        "quantity": 7000,
-        "user_id": 3138930,
-        "username": "gerbi"
       },
       {
         "quantity": 6500,
@@ -101,12 +101,28 @@
       },
       {
         "quantity": 5500,
-        "user_id": 121743544,
-        "username": "Snackpo"
+        "user_id": 56738129,
+        "username": "eillay22"
       }
     ],
     "kicks_gifts_month_enabled": true,
-    "kicks_gifts_week": [],
+    "kicks_gifts_week": [
+      {
+        "quantity": 5000,
+        "user_id": 56738129,
+        "username": "eillay22"
+      },
+      {
+        "quantity": 1000,
+        "user_id": 3138930,
+        "username": "gerbi"
+      },
+      {
+        "quantity": 500,
+        "user_id": 67327122,
+        "username": "ori14v"
+      }
+    ],
     "kicks_gifts_week_enabled": true
   },
   "message": "Success"

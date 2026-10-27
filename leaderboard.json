@@ -144,18 +144,18 @@
       },
       {
         "quantity": 500,
+        "user_id": 82564516,
+        "username": "Ace0ne"
+      },
+      {
+        "quantity": 500,
         "user_id": 67327122,
         "username": "ori14v"
       },
       {
         "quantity": 500,
-        "user_id": 47038745,
-        "username": "idolug"
-      },
-      {
-        "quantity": 500,
-        "user_id": 103671748,
-        "username": "jaimito2004m"
+        "user_id": 66831981,
+        "username": "achia12"
       }
     ],
     "kicks_gifts_week_enabled": true

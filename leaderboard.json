@@ -12,7 +12,7 @@
         "username": "Shor3tyy"
       },
       {
-        "quantity": 157000,
+        "quantity": 164000,
         "user_id": 67453019,
         "username": "natanelf"
       },
@@ -60,7 +60,7 @@
         "username": "Omri1890"
       },
       {
-        "quantity": 40500,
+        "quantity": 47500,
         "user_id": 67453019,
         "username": "natanelf"
       },
@@ -80,7 +80,7 @@
         "username": "eillay22"
       },
       {
-        "quantity": 8500,
+        "quantity": 9000,
         "user_id": 103671748,
         "username": "jaimito2004m"
       },
@@ -113,9 +113,19 @@
         "username": "eillay22"
       },
       {
+        "quantity": 7000,
+        "user_id": 67453019,
+        "username": "natanelf"
+      },
+      {
         "quantity": 2500,
         "user_id": 134204581,
         "username": "qedcf23"
+      },
+      {
+        "quantity": 2003,
+        "user_id": 108841451,
+        "username": "Ilay472"
       },
       {
         "quantity": 2000,
@@ -138,11 +148,6 @@
         "username": "yonatan2555"
       },
       {
-        "quantity": 1503,
-        "user_id": 108841451,
-        "username": "Ilay472"
-      },
-      {
         "quantity": 1500,
         "user_id": 77247239,
         "username": "essverland"
@@ -151,11 +156,6 @@
         "quantity": 1500,
         "user_id": 37376706,
         "username": "Rashford333"
-      },
-      {
-        "quantity": 1500,
-        "user_id": 29939300,
-        "username": "yarinlmao"
       }
     ],
     "kicks_gifts_week_enabled": true

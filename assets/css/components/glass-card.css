@@ -1,0 +1,81 @@
+/* ==========================================
+   Shared "glass" card surface used by three card types:
+     .card       → home link cards      (link-card.css)
+     .bonus-card → promo code cards     (promo-card.css)
+     .lb-card    → donator leaderboards (donators-leaderboard.css)
+   Each card wraps an inner panel (.card-inner / .bonus-inner / .lb-inner).
+   ========================================== */
+
+.card,
+.bonus-card,
+.lb-card {
+  position: relative;
+  z-index: 3;
+  display: block;
+  overflow: hidden;
+  border-radius: 16px;
+  padding: 5px;
+  text-decoration: none;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.02)), linear-gradient(145deg, rgba(255, 140, 0, 0.10), rgba(0, 0, 0, 0.4));
+  border: 1px solid rgba(255, 140, 0, 0.15);
+  border-left: 4px solid rgba(255, 140, 0, 0.4);
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.50), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+  backdrop-filter: blur(18px);
+}
+
+/* Panel cards fill their grid cell. */
+.bonus-card,
+.lb-card {
+  width: 100%;
+  height: 100%;
+}
+
+/* Soft highlight glows. */
+.card::before,
+.bonus-card::before,
+.lb-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 15% 0%, rgba(255, 255, 255, 0.18), transparent 34%), radial-gradient(circle at 100% 100%, rgba(255, 140, 0, 0.16), transparent 35%);
+  opacity: 0.9;
+  pointer-events: none;
+}
+
+/* Diagonal shine that sweeps across on hover. */
+.card::after,
+.bonus-card::after,
+.lb-card::after {
+  content: "";
+  position: absolute;
+  top: -70%;
+  right: -45%;
+  width: 60%;
+  height: 220%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.15), transparent);
+  transform: rotate(25deg);
+  transition: 0.55s ease;
+  pointer-events: none;
+}
+
+.card:hover,
+.bonus-card:hover,
+.lb-card:hover {
+  border-color: rgba(255, 140, 0, 0.6);
+  border-left-color: #ff8c00;
+  box-shadow: 0 26px 68px rgba(0, 0, 0, 0.66), 0 0 38px rgba(255, 140, 0, 0.35);
+}
+
+.card:hover::after,
+.bonus-card:hover::after,
+.lb-card:hover::after { right: 120%; }
+
+.card-inner,
+.bonus-inner,
+.lb-inner {
+  position: relative;
+  z-index: 3;
+  border-radius: 12px;
+  background: linear-gradient(145deg, rgba(11, 8, 4, 0.78), rgba(28, 16, 6, 0.68));
+}

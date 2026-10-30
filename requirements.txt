@@ -1,0 +1,2 @@
+# Python dependencies for scripts/ (installed by the GitHub Actions workflows).
+requests

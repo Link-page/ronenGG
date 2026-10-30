@@ -1,0 +1,16 @@
+/* ==========================================
+   Shared "sink-in" press effect for clickable controls.
+   !important so it wins over each control's own hover transform.
+   (.nav-arrow has its own variant in donators-leaderboard.css.)
+   ========================================== */
+
+.card:active,
+.claim-btn:active,
+.promo-box:active,
+#a11y-toggle:active,
+.a11y-btn:active,
+.footer-a11y-btn:active {
+  transform: scale(0.96) translateY(4px) !important;
+  box-shadow: 0 0px 0px rgba(0,0,0,0), inset 0 6px 15px rgba(0,0,0,0.7) !important;
+  transition: transform 0.05s ease-out, box-shadow 0.05s ease-out !important;
+}

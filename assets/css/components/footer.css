@@ -1,0 +1,26 @@
+/* ==========================================
+   Site footer
+   ========================================== */
+
+.site-footer {
+  margin-top: 60px;
+  padding: 30px 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  background: rgba(10, 8, 5, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+.footer-copy {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}

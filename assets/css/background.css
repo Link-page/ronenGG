@@ -1,0 +1,55 @@
+/* ==========================================
+   Fixed background layers (bottom to top):
+   watermark video + particles canvas (z 0) → vignette (z 1) → spotlight (z 2)
+   ========================================== */
+
+#particles-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+  mask-image: radial-gradient(circle at center, black 10%, transparent 85%);
+  -webkit-mask-image: radial-gradient(circle at center, black 10%, transparent 85%);
+}
+
+/* Edge vignette. */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 0.1) 56%, rgba(0,0,0,0.85) 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+#watermark-bg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 85%;
+  height: auto;
+  opacity: 0.15;
+  mix-blend-mode: screen;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Pointer-following glow; shown once the splash screen ends. */
+#spotlight {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 520px;
+  height: 520px;
+  background: radial-gradient(circle, var(--spotlight-color) 0%, transparent 72%);
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  display: none;
+  opacity: 0.82;
+}

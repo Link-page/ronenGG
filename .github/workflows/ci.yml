@@ -1,0 +1,51 @@
+name: CI
+on:
+  pull_request:
+  push:
+    branches: [main]
+    # The scheduled data refresh only touches these files; no need to re-test.
+    paths-ignore:
+      - 'leaderboard.json'
+      - 'subs.json'
+      - 'data/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        env:
+          # The scrapers' Chrome isn't needed for tests.
+          PUPPETEER_SKIP_DOWNLOAD: 'true'
+        run: |
+          npm install --no-audit --no-fund
+          pip install -r requirements.txt
+
+      - name: JavaScript unit tests
+        run: npm test
+
+      - name: Python unit tests
+        run: python -m unittest discover -s tests/python -v
+
+      - name: Install Chromium for the smoke test
+        run: npx playwright install --with-deps chromium
+
+      - name: Browser smoke test
+        run: npm run test:e2e

@@ -1,0 +1,104 @@
+/* ==========================================
+   Codes view: promo-code cards (EmpireDrop / CSDrop)
+   (card surface comes from glass-card.css)
+   ========================================== */
+
+.bonus-card:hover { transform: translateY(-4px); }
+
+.bonus-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+  padding: 26px;
+}
+
+.bonus-logo { text-align: center; }
+.bonus-divider { height: 1px; background: rgba(255, 140, 0, 0.3); width: 100%; }
+
+.bonus-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border: 1px solid rgba(255, 140, 0, 0.4);
+  border-radius: 8px;
+}
+
+.bonus-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-weight: 900;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.9);
+  padding: 18px 20px;
+  border-bottom: 1px solid rgba(255, 140, 0, 0.2);
+}
+
+.bonus-item:last-child { border-bottom: none; }
+
+.check-icon {
+  background: #ff8c00;
+  color: black;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.check-icon svg { width: 16px; height: 16px; }
+.check-icon.dimmed { background: rgba(255, 140, 0, 0.15); color: #ff8c00; }
+
+/* Click-to-copy promo code box (features/promo-codes.js). */
+.promo-box {
+  border: 1px dashed rgba(255, 255, 255, 0.2);
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 900;
+  letter-spacing: 3px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all 0.2s ease;
+}
+
+.promo-box:hover {
+  background: rgba(255, 140, 0, 0.1);
+  border-color: rgba(255, 140, 0, 0.5);
+}
+
+.claim-btn {
+  background: #ff8c00;
+  color: black;
+  font-weight: 900;
+  font-size: 1.1rem;
+  padding: 14px;
+  border-radius: 8px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 15px rgba(255, 140, 0, 0.2);
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  display: block;
+}
+
+.claim-btn:hover {
+  background: #ffa733;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 140, 0, 0.4);
+}
+
+@media (max-width: 768px) {
+  .bonus-inner { padding: 16px; }
+}

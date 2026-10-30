@@ -2,6 +2,7 @@ import { DATA_FILES, DEFAULT_AVATAR } from '../config.js';
 import { fetchDataFile } from '../services/data-files.js';
 import { EXPIRED_COUNTDOWN, splitDuration } from '../utils/countdown.js';
 import { formatDateHe, formatPrize, formatWagered, maskName } from '../utils/format.js';
+import { escapeHtml } from '../utils/html.js';
 
 const PODIUM_PLACES = 3;
 const LAST_TABLE_PLACE = 10;
@@ -16,7 +17,8 @@ export function currencySymbol(site) {
 }
 
 /**
- * Builds one table row (places 4–10).
+ * Builds one table row (places 4–10). Entry values come from the ronen.gg
+ * API, so they are HTML-escaped; `symbol` is trusted markup.
  * @param {{username?: string, wagered: string|number, prize?: number, img?: string}} entry
  * @param {number} place 1-based leaderboard position
  * @param {string} symbol currency symbol HTML
@@ -28,12 +30,12 @@ export function tableRowHtml(entry, place, symbol) {
       <td>${place}.</td>
       <td>
         <div class="aff-user-cell">
-          <img src="${entry.img || DEFAULT_AVATAR}" alt="user">
-          <span>${maskName(entry.username)}</span>
+          <img src="${escapeHtml(entry.img || DEFAULT_AVATAR)}" alt="user">
+          <span>${escapeHtml(maskName(entry.username))}</span>
         </div>
       </td>
-      <td><div class="aff-val-cell">${symbol}<span>${formatWagered(entry.wagered)}</span></div></td>
-      <td><div class="aff-val-cell text-green-aff">${symbol}<span>${formatPrize(entry.prize)}</span></div></td>
+      <td><div class="aff-val-cell">${symbol}<span>${escapeHtml(formatWagered(entry.wagered))}</span></div></td>
+      <td><div class="aff-val-cell text-green-aff">${symbol}<span>${escapeHtml(formatPrize(entry.prize))}</span></div></td>
     </tr>
   `;
 }

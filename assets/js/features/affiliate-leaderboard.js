@@ -10,6 +10,8 @@ const PRIZE_POOL_LABEL = '10,000';
 const COIN_SYMBOL_HTML = '<span class="text-yellow-400">🪙</span>';
 
 let countdownTimer;
+/** Increments on every load so a slow, superseded response is ignored. */
+let latestLoad = 0;
 
 /** EmpireDrop pays out in euros; other sites use their coin currency. */
 export function currencySymbol(site) {
@@ -40,9 +42,11 @@ export function tableRowHtml(entry, place, symbol) {
   `;
 }
 
-function selectTab(tab) {
-  document.querySelectorAll('.aff-tab').forEach((t) => t.classList.remove('active'));
-  tab.classList.add('active');
+/** Highlights the tab for `site` so the tabs always match the data shown. */
+function selectTab(site) {
+  document.querySelectorAll('.aff-tab').forEach((tab) => {
+    tab.classList.toggle('active', tab.dataset.site === site);
+  });
 }
 
 function renderHeader(site, symbol) {
@@ -110,16 +114,18 @@ function renderError(site) {
 }
 
 /**
- * Loads data/<site>.json and renders the whole widget: title, podium,
- * table, end date and countdown.
+ * Loads data/<site>.json and renders the whole widget: tab highlight,
+ * title, podium, table, end date and countdown. If another load starts
+ * before this one's data arrives, this one is discarded.
  * @param {string} site e.g. "empiredrop" or "csdrop"
- * @param {Element|null} [tab] tab element to mark active (omitted on programmatic loads)
  */
-export async function loadAffiliateLeaderboard(site, tab = null) {
-  if (tab) selectTab(tab);
+export async function loadAffiliateLeaderboard(site) {
+  selectTab(site);
+  const load = ++latestLoad;
 
   try {
     const data = await fetchDataFile(DATA_FILES.affiliateLeaderboard(site));
+    if (load !== latestLoad) return;
     if (data === undefined) throw new Error('Local JSON file not found');
 
     const symbol = currencySymbol(site);
@@ -129,6 +135,7 @@ export async function loadAffiliateLeaderboard(site, tab = null) {
     renderDates(data.end_date);
     startCountdown(data.end_date);
   } catch (err) {
+    if (load !== latestLoad) return;
     console.error(err);
     renderError(site);
   }
@@ -137,6 +144,6 @@ export async function loadAffiliateLeaderboard(site, tab = null) {
 /** Wires the EmpireDrop / CSDrop `.aff-tab[data-site]` switcher. */
 export function initAffiliateTabs() {
   document.querySelectorAll('.aff-tab[data-site]').forEach((tab) => {
-    tab.addEventListener('click', () => loadAffiliateLeaderboard(tab.dataset.site, tab));
+    tab.addEventListener('click', () => loadAffiliateLeaderboard(tab.dataset.site));
   });
 }

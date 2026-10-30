@@ -131,6 +131,33 @@ test('clicking a promo box twice still restores the code afterwards', async () =
   assert.equal(await box.evaluate((el) => el.style.borderColor), '');
 });
 
+test('returning to the codes view keeps the tab highlight in sync with the data', async () => {
+  await page.click('.aff-tab[data-site="csdrop"]');
+  await page.locator('#aff-lb-main-title', { hasText: 'CSDROP LEADERBOARD' }).waitFor();
+  await page.click('.pill-btn[data-view="home"]');
+  await page.click('.pill-btn[data-view="bonuses"]');
+  await page.locator('#aff-lb-main-title', { hasText: 'EMPIREDROP LEADERBOARD' }).waitFor();
+  assert.match(await page.getAttribute('.aff-tab[data-site="empiredrop"]', 'class'), /\bactive\b/);
+  assert.doesNotMatch(await page.getAttribute('.aff-tab[data-site="csdrop"]', 'class'), /\bactive\b/);
+});
+
+test('a slow response for a tab the visitor already left is ignored', async () => {
+  const slowCsdrop = async (route) => {
+    await new Promise((done) => setTimeout(done, 1500));
+    await route.continue();
+  };
+  await page.route('**/data/csdrop.json*', slowCsdrop);
+  try {
+    await page.click('.aff-tab[data-site="csdrop"]');
+    await page.click('.aff-tab[data-site="empiredrop"]');
+    await page.waitForTimeout(2000); // let the delayed CSDrop response arrive
+    assert.match(await page.textContent('#aff-lb-main-title'), /EMPIREDROP LEADERBOARD/);
+    assert.match(await page.getAttribute('.aff-tab[data-site="empiredrop"]', 'class'), /\bactive\b/);
+  } finally {
+    await page.unroute('**/data/csdrop.json*', slowCsdrop);
+  }
+});
+
 test('leaderboard data cannot inject markup into the page', async () => {
   const entry = (username, img = '') => ({ rank: 1, username, wagered: '1', prize: 1, img });
   const hostile = {

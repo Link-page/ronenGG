@@ -2,6 +2,7 @@ import { DATA_FILES, DEFAULT_AVATAR } from '../config.js';
 import { fetchDataFile } from '../services/data-files.js';
 import { EXPIRED_COUNTDOWN, splitDuration } from '../utils/countdown.js';
 import { formatDateHe, formatPrize, formatWagered, maskName } from '../utils/format.js';
+import { escapeHtml } from '../utils/html.js';
 
 const PODIUM_PLACES = 3;
 const LAST_TABLE_PLACE = 10;
@@ -9,6 +10,8 @@ const PRIZE_POOL_LABEL = '10,000';
 const COIN_SYMBOL_HTML = '<span class="text-yellow-400">🪙</span>';
 
 let countdownTimer;
+/** Increments on every load so a slow, superseded response is ignored. */
+let latestLoad = 0;
 
 /** EmpireDrop pays out in euros; other sites use their coin currency. */
 export function currencySymbol(site) {
@@ -16,7 +19,8 @@ export function currencySymbol(site) {
 }
 
 /**
- * Builds one table row (places 4–10).
+ * Builds one table row (places 4–10). Entry values come from the ronen.gg
+ * API, so they are HTML-escaped; `symbol` is trusted markup.
  * @param {{username?: string, wagered: string|number, prize?: number, img?: string}} entry
  * @param {number} place 1-based leaderboard position
  * @param {string} symbol currency symbol HTML
@@ -28,19 +32,21 @@ export function tableRowHtml(entry, place, symbol) {
       <td>${place}.</td>
       <td>
         <div class="aff-user-cell">
-          <img src="${entry.img || DEFAULT_AVATAR}" alt="user">
-          <span>${maskName(entry.username)}</span>
+          <img src="${escapeHtml(entry.img || DEFAULT_AVATAR)}" alt="user">
+          <span>${escapeHtml(maskName(entry.username))}</span>
         </div>
       </td>
-      <td><div class="aff-val-cell">${symbol}<span>${formatWagered(entry.wagered)}</span></div></td>
-      <td><div class="aff-val-cell text-green-aff">${symbol}<span>${formatPrize(entry.prize)}</span></div></td>
+      <td><div class="aff-val-cell">${symbol}<span>${escapeHtml(formatWagered(entry.wagered))}</span></div></td>
+      <td><div class="aff-val-cell text-green-aff">${symbol}<span>${escapeHtml(formatPrize(entry.prize))}</span></div></td>
     </tr>
   `;
 }
 
-function selectTab(tab) {
-  document.querySelectorAll('.aff-tab').forEach((t) => t.classList.remove('active'));
-  tab.classList.add('active');
+/** Highlights the tab for `site` so the tabs always match the data shown. */
+function selectTab(site) {
+  document.querySelectorAll('.aff-tab').forEach((tab) => {
+    tab.classList.toggle('active', tab.dataset.site === site);
+  });
 }
 
 function renderHeader(site, symbol) {
@@ -108,16 +114,18 @@ function renderError(site) {
 }
 
 /**
- * Loads data/<site>.json and renders the whole widget: title, podium,
- * table, end date and countdown.
+ * Loads data/<site>.json and renders the whole widget: tab highlight,
+ * title, podium, table, end date and countdown. If another load starts
+ * before this one's data arrives, this one is discarded.
  * @param {string} site e.g. "empiredrop" or "csdrop"
- * @param {Element|null} [tab] tab element to mark active (omitted on programmatic loads)
  */
-export async function loadAffiliateLeaderboard(site, tab = null) {
-  if (tab) selectTab(tab);
+export async function loadAffiliateLeaderboard(site) {
+  selectTab(site);
+  const load = ++latestLoad;
 
   try {
     const data = await fetchDataFile(DATA_FILES.affiliateLeaderboard(site));
+    if (load !== latestLoad) return;
     if (data === undefined) throw new Error('Local JSON file not found');
 
     const symbol = currencySymbol(site);
@@ -127,6 +135,7 @@ export async function loadAffiliateLeaderboard(site, tab = null) {
     renderDates(data.end_date);
     startCountdown(data.end_date);
   } catch (err) {
+    if (load !== latestLoad) return;
     console.error(err);
     renderError(site);
   }
@@ -135,6 +144,6 @@ export async function loadAffiliateLeaderboard(site, tab = null) {
 /** Wires the EmpireDrop / CSDrop `.aff-tab[data-site]` switcher. */
 export function initAffiliateTabs() {
   document.querySelectorAll('.aff-tab[data-site]').forEach((tab) => {
-    tab.addEventListener('click', () => loadAffiliateLeaderboard(tab.dataset.site, tab));
+    tab.addEventListener('click', () => loadAffiliateLeaderboard(tab.dataset.site));
   });
 }

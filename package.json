@@ -5,7 +5,7 @@
   "description": "RonenGG link page (GitHub Pages) and the scrapers that keep its leaderboards up to date.",
   "type": "module",
   "engines": {
-    "node": ">=20"
+    "node": ">=22.12"
   },
   "scripts": {
     "serve": "python3 -m http.server 8000",

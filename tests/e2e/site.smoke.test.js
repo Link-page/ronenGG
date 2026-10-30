@@ -118,6 +118,19 @@ test('promo box copies the code and shows a confirmation', async () => {
   await box.filter({ hasText: 'RONENGG' }).waitFor({ timeout: 4000 });
 });
 
+test('clicking a promo box twice still restores the code afterwards', async () => {
+  const box = page.locator('[data-promo-code]').first();
+  await box.click();
+  await page.waitForTimeout(300);
+  await box.click();
+  await box.filter({ hasText: 'COPIED! ✓' }).waitFor();
+  // Wait past both clicks' 2s timers: the old code briefly showed the code
+  // when the first timer fired, then got stuck on "COPIED!" at the second.
+  await page.waitForTimeout(2800);
+  assert.equal((await box.textContent()).trim(), 'RONENGG');
+  assert.equal(await box.evaluate((el) => el.style.borderColor), '');
+});
+
 test('leaderboard data cannot inject markup into the page', async () => {
   const entry = (username, img = '') => ({ rank: 1, username, wagered: '1', prize: 1, img });
   const hostile = {

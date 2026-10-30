@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
- 
+
       # ==========================================
       # 1. משיכת לידרבורד תורמים (Node.js + Puppeteer)
       # ==========================================
@@ -19,13 +19,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
- 
+
       - name: Install Node dependencies and run scrapers
         run: |
-          npm install puppeteer puppeteer-extra puppeteer-extra-plugin-stealth
-          node fetch-leaderboard.js
-          node sub_scraper.js
- 
+          npm install --omit=dev --no-audit --no-fund
+          node scripts/fetch-kicks-leaderboard.js
+          node scripts/fetch-subs-leaderboard.js
+
       # ==========================================
       # 2. משיכת נתוני לידרבורדים הימורים (Python)
       # ==========================================
@@ -33,70 +33,22 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
- 
+
       - name: Install Python dependencies
-        run: pip install requests
- 
+        run: pip install -r requirements.txt
+
       - name: Run Fetch Script for Wager Leaderboards
-        run: python fetch_data.py
- 
+        run: python scripts/fetch_wager_leaderboards.py
+
       # ==========================================
-      # 3. בדיקת סטטוס לייב (Kick Official API - OAuth) - מוטמע כאן ישירות
+      # 3. בדיקת סטטוס לייב (Kick Official API - OAuth)
       # ==========================================
       - name: Check Kick Live Status
         env:
           KICK_CLIENT_ID: ${{ secrets.KICK_CLIENT_ID }}
           KICK_CLIENT_SECRET: ${{ secrets.KICK_CLIENT_SECRET }}
-        run: |
-          python - <<'PYEOF'
-          import os
-          import json
-          import requests
- 
-          CLIENT_ID = os.environ.get("KICK_CLIENT_ID")
-          CLIENT_SECRET = os.environ.get("KICK_CLIENT_SECRET")
-          CHANNEL_SLUG = "ronengg"
- 
-          def get_access_token():
-              resp = requests.post(
-                  "https://id.kick.com/oauth/token",
-                  data={
-                      "grant_type": "client_credentials",
-                      "client_id": CLIENT_ID,
-                      "client_secret": CLIENT_SECRET,
-                  },
-                  timeout=10,
-              )
-              resp.raise_for_status()
-              return resp.json()["access_token"]
- 
-          is_live = False
- 
-          if not CLIENT_ID or not CLIENT_SECRET:
-              print("Missing KICK_CLIENT_ID / KICK_CLIENT_SECRET environment variables.")
-          else:
-              try:
-                  token = get_access_token()
-                  res = requests.get(
-                      "https://api.kick.com/public/v1/channels",
-                      headers={"Authorization": f"Bearer {token}"},
-                      params={"slug": CHANNEL_SLUG},
-                      timeout=10,
-                  )
-                  if res.status_code == 200:
-                      data = res.json().get("data", [])
-                      if data:
-                          is_live = bool(data[0].get("stream", {}).get("is_live", False))
-                  else:
-                      print(f"Failed to fetch channel: {res.status_code} - {res.text[:300]}")
-              except Exception as e:
-                  print("Error fetching live status:", e)
- 
-          os.makedirs("data", exist_ok=True)
-          with open("data/kick_live.json", "w", encoding="utf-8") as f:
-              json.dump({"is_live": is_live}, f)
-          PYEOF
- 
+        run: python scripts/check_kick_live.py
+
       # ==========================================
       # 4. שמירה ודחיפה של כל הקבצים לאתר
       # ==========================================
@@ -107,4 +59,3 @@ jobs:
           git add leaderboard.json subs.json data/
           git commit -m "Auto-update Kick, Wager leaderboards, and Live Status" || echo "No changes to commit"
           git push
- 

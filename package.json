@@ -1,0 +1,20 @@
+{
+  "name": "ronengg",
+  "version": "1.0.0",
+  "private": true,
+  "description": "RonenGG link page (GitHub Pages) and the scrapers that keep its leaderboards up to date.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "serve": "python3 -m http.server 8000",
+    "fetch:kicks": "node scripts/fetch-kicks-leaderboard.js",
+    "fetch:subs": "node scripts/fetch-subs-leaderboard.js"
+  },
+  "dependencies": {
+    "puppeteer": "^25.16.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}

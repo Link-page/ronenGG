@@ -119,6 +119,11 @@
       },
       {
         "quantity": 2500,
+        "user_id": 50662143,
+        "username": "Wssloak"
+      },
+      {
+        "quantity": 2500,
         "user_id": 134204581,
         "username": "qedcf23"
       },
@@ -141,11 +146,6 @@
         "quantity": 2000,
         "user_id": 71907441,
         "username": "liormk"
-      },
-      {
-        "quantity": 2000,
-        "user_id": 50662143,
-        "username": "Wssloak"
       },
       {
         "quantity": 2000,

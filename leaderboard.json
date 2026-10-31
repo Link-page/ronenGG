@@ -119,6 +119,11 @@
       },
       {
         "quantity": 2500,
+        "user_id": 71907441,
+        "username": "liormk"
+      },
+      {
+        "quantity": 2500,
         "user_id": 50662143,
         "username": "Wssloak"
       },
@@ -144,18 +149,13 @@
       },
       {
         "quantity": 2000,
-        "user_id": 71907441,
-        "username": "liormk"
+        "user_id": 45187773,
+        "username": "omerbig2012"
       },
       {
         "quantity": 2000,
         "user_id": 136231371,
         "username": "yonatan2555"
-      },
-      {
-        "quantity": 1500,
-        "user_id": 77247239,
-        "username": "essverland"
       }
     ],
     "kicks_gifts_week_enabled": true

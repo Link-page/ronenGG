@@ -55,6 +55,11 @@
     "kicks_gifts_lifetime_enabled": true,
     "kicks_gifts_month": [
       {
+        "quantity": 5000,
+        "user_id": 56738129,
+        "username": "eillay22"
+      },
+      {
         "quantity": 4500,
         "user_id": 137059641,
         "username": "liamhochman2007"
@@ -92,6 +97,11 @@
     ],
     "kicks_gifts_month_enabled": true,
     "kicks_gifts_week": [
+      {
+        "quantity": 5000,
+        "user_id": 56738129,
+        "username": "eillay22"
+      },
       {
         "quantity": 2000,
         "user_id": 137059641,

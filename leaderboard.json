@@ -75,14 +75,19 @@
         "username": "gerbi"
       },
       {
+        "quantity": 1500,
+        "user_id": 120940310,
+        "username": "rayboyyy"
+      },
+      {
         "quantity": 1101,
         "user_id": 106643891,
         "username": "liad13133"
       },
       {
         "quantity": 1000,
-        "user_id": 120940310,
-        "username": "rayboyyy"
+        "user_id": 113133477,
+        "username": "BlaBlaBla696"
       },
       {
         "quantity": 500,
@@ -96,13 +101,8 @@
       },
       {
         "quantity": 500,
-        "user_id": 113133477,
-        "username": "BlaBlaBla696"
-      },
-      {
-        "quantity": 500,
-        "user_id": 108521090,
-        "username": "AmitMoshe"
+        "user_id": 45187773,
+        "username": "omerbig2012"
       }
     ],
     "kicks_gifts_month_enabled": true,
@@ -128,14 +128,19 @@
         "username": "liamhochman2007"
       },
       {
+        "quantity": 1500,
+        "user_id": 120940310,
+        "username": "rayboyyy"
+      },
+      {
         "quantity": 1101,
         "user_id": 106643891,
         "username": "liad13133"
       },
       {
         "quantity": 1000,
-        "user_id": 120940310,
-        "username": "rayboyyy"
+        "user_id": 113133477,
+        "username": "BlaBlaBla696"
       },
       {
         "quantity": 500,
@@ -144,18 +149,13 @@
       },
       {
         "quantity": 500,
-        "user_id": 113133477,
-        "username": "BlaBlaBla696"
+        "user_id": 45187773,
+        "username": "omerbig2012"
       },
       {
         "quantity": 500,
-        "user_id": 103238873,
-        "username": "EliyaVays"
-      },
-      {
-        "quantity": 500,
-        "user_id": 101269863,
-        "username": "Ronen_live"
+        "user_id": 29939300,
+        "username": "yarinlmao"
       }
     ],
     "kicks_gifts_week_enabled": true

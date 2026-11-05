@@ -24,6 +24,13 @@ test('donator row falls back to "Unknown" and 0', () => {
   assert.ok(html.includes('text-white/70">0</span>'));
 });
 
+test('donator row escapes HTML in API values', () => {
+  const html = leaderboardRowHtml({ username: '<img src=x onerror=alert(1)>', quantity: '<b>9</b>' }, 2);
+  assert.ok(html.includes('&lt;img src=x onerror=alert(1)&gt;'));
+  assert.ok(html.includes('&lt;b&gt;9&lt;/b&gt;'));
+  assert.ok(!html.includes('<img') && !html.includes('<b>'));
+});
+
 test('currencySymbol: euros for EmpireDrop, coins otherwise', () => {
   assert.equal(currencySymbol('empiredrop'), '€');
   assert.equal(currencySymbol('csdrop'), '<span class="text-yellow-400">🪙</span>');
@@ -36,6 +43,16 @@ test('affiliate table row renders place, masked user, wagered and prize', () => 
   assert.ok(html.includes('<img src="https://cdn.example/a.webp" alt="user"> <span>T*******L</span>'));
   assert.ok(html.includes('<div class="aff-val-cell">€<span>29,335</span></div>'));
   assert.ok(html.includes(`<div class="aff-val-cell text-green-aff">€<span>${(1000).toLocaleString()}</span></div>`));
+});
+
+test('affiliate table row escapes API values but keeps the currency markup', () => {
+  const entry = { username: 'A<script>x</script>', wagered: '<i>1</i>', prize: 5, img: 'x" onerror="alert(1)' };
+  const html = tableRowHtml(entry, 4, '<span class="text-yellow-400">🪙</span>');
+  assert.ok(html.includes('<img src="x&quot; onerror=&quot;alert(1)" alt="user">'));
+  assert.ok(html.includes('<span>A******&gt;</span>'), 'masked name is escaped');
+  assert.ok(html.includes('<span>&lt;i&gt;1&lt;/i&gt;</span>'));
+  assert.ok(html.includes('<span class="text-yellow-400">🪙</span><span>'), 'symbol stays markup');
+  assert.ok(!html.includes('<script>') && !html.includes('<i>'));
 });
 
 test('affiliate table row uses the default avatar and a "0" prize when missing', () => {

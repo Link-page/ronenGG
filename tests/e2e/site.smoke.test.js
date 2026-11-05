@@ -118,6 +118,68 @@ test('promo box copies the code and shows a confirmation', async () => {
   await box.filter({ hasText: 'RONENGG' }).waitFor({ timeout: 4000 });
 });
 
+test('clicking a promo box twice still restores the code afterwards', async () => {
+  const box = page.locator('[data-promo-code]').first();
+  await box.click();
+  await page.waitForTimeout(300);
+  await box.click();
+  await box.filter({ hasText: 'COPIED! ✓' }).waitFor();
+  // Wait past both clicks' 2s timers: the old code briefly showed the code
+  // when the first timer fired, then got stuck on "COPIED!" at the second.
+  await page.waitForTimeout(2800);
+  assert.equal((await box.textContent()).trim(), 'RONENGG');
+  assert.equal(await box.evaluate((el) => el.style.borderColor), '');
+});
+
+test('returning to the codes view keeps the tab highlight in sync with the data', async () => {
+  await page.click('.aff-tab[data-site="csdrop"]');
+  await page.locator('#aff-lb-main-title', { hasText: 'CSDROP LEADERBOARD' }).waitFor();
+  await page.click('.pill-btn[data-view="home"]');
+  await page.click('.pill-btn[data-view="bonuses"]');
+  await page.locator('#aff-lb-main-title', { hasText: 'EMPIREDROP LEADERBOARD' }).waitFor();
+  assert.match(await page.getAttribute('.aff-tab[data-site="empiredrop"]', 'class'), /\bactive\b/);
+  assert.doesNotMatch(await page.getAttribute('.aff-tab[data-site="csdrop"]', 'class'), /\bactive\b/);
+});
+
+test('a slow response for a tab the visitor already left is ignored', async () => {
+  const slowCsdrop = async (route) => {
+    await new Promise((done) => setTimeout(done, 1500));
+    await route.continue();
+  };
+  await page.route('**/data/csdrop.json*', slowCsdrop);
+  try {
+    await page.click('.aff-tab[data-site="csdrop"]');
+    await page.click('.aff-tab[data-site="empiredrop"]');
+    await page.waitForTimeout(2000); // let the delayed CSDrop response arrive
+    assert.match(await page.textContent('#aff-lb-main-title'), /EMPIREDROP LEADERBOARD/);
+    assert.match(await page.getAttribute('.aff-tab[data-site="empiredrop"]', 'class'), /\bactive\b/);
+  } finally {
+    await page.unroute('**/data/csdrop.json*', slowCsdrop);
+  }
+});
+
+test('leaderboard data cannot inject markup into the page', async () => {
+  const entry = (username, img = '') => ({ rank: 1, username, wagered: '1', prize: 1, img });
+  const hostile = {
+    start_date: 1790000000,
+    end_date: 1890000000,
+    leaderboard: [entry('A***a'), entry('B***b'), entry('C***c'), entry('<b id="pwned">x*</b>', 'x" id="pwned-img')],
+  };
+  const serveHostile = (route) => route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify(hostile) });
+  await page.route('**/data/empiredrop.json*', serveHostile);
+  try {
+    await page.click('.aff-tab[data-site="csdrop"]');
+    await page.click('.aff-tab[data-site="empiredrop"]');
+    await page.locator('#aff-table-body tr').first().waitFor();
+    await page.waitForFunction(() => document.querySelector('#aff-table-body').textContent.includes('x*'));
+    assert.equal(await page.locator('#pwned, #pwned-img').count(), 0);
+    assert.ok((await page.textContent('#aff-table-body')).includes('<b id="pwned">x*</b>'));
+    assert.equal(await page.getAttribute('#aff-table-body img', 'src'), 'x" id="pwned-img');
+  } finally {
+    await page.unroute('**/data/empiredrop.json*', serveHostile);
+  }
+});
+
 test('accessibility menu adjusts text size and toggles modes', async () => {
   await page.click('#a11y-toggle');
   assert.equal(await page.isVisible('#a11y-menu'), true);

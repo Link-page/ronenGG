@@ -75,9 +75,14 @@
         "username": "gerbi"
       },
       {
-        "quantity": 1500,
+        "quantity": 2000,
         "user_id": 63709644,
         "username": "NinjaBoyOri"
+      },
+      {
+        "quantity": 1500,
+        "user_id": 45187773,
+        "username": "omerbig2012"
       },
       {
         "quantity": 1500,
@@ -98,11 +103,6 @@
         "quantity": 1101,
         "user_id": 106643891,
         "username": "liad13133"
-      },
-      {
-        "quantity": 1000,
-        "user_id": 45187773,
-        "username": "omerbig2012"
       }
     ],
     "kicks_gifts_month_enabled": true,
@@ -129,6 +129,16 @@
       },
       {
         "quantity": 1500,
+        "user_id": 63709644,
+        "username": "NinjaBoyOri"
+      },
+      {
+        "quantity": 1500,
+        "user_id": 45187773,
+        "username": "omerbig2012"
+      },
+      {
+        "quantity": 1500,
         "user_id": 23015844,
         "username": "Yaers00"
       },
@@ -146,16 +156,6 @@
         "quantity": 1101,
         "user_id": 106643891,
         "username": "liad13133"
-      },
-      {
-        "quantity": 1000,
-        "user_id": 63709644,
-        "username": "NinjaBoyOri"
-      },
-      {
-        "quantity": 1000,
-        "user_id": 45187773,
-        "username": "omerbig2012"
       }
     ],
     "kicks_gifts_week_enabled": true

@@ -91,6 +91,11 @@
       },
       {
         "quantity": 1500,
+        "user_id": 124343413,
+        "username": "Nadav1426"
+      },
+      {
+        "quantity": 1500,
         "user_id": 120940310,
         "username": "rayboyyy"
       },
@@ -98,11 +103,6 @@
         "quantity": 1500,
         "user_id": 113133477,
         "username": "BlaBlaBla696"
-      },
-      {
-        "quantity": 1101,
-        "user_id": 106643891,
-        "username": "liad13133"
       }
     ],
     "kicks_gifts_month_enabled": true,
@@ -144,6 +144,11 @@
       },
       {
         "quantity": 1500,
+        "user_id": 124343413,
+        "username": "Nadav1426"
+      },
+      {
+        "quantity": 1500,
         "user_id": 120940310,
         "username": "rayboyyy"
       },
@@ -151,11 +156,6 @@
         "quantity": 1500,
         "user_id": 113133477,
         "username": "BlaBlaBla696"
-      },
-      {
-        "quantity": 1101,
-        "user_id": 106643891,
-        "username": "liad13133"
       }
     ],
     "kicks_gifts_week_enabled": true

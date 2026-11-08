@@ -75,14 +75,14 @@
         "username": "gerbi"
       },
       {
+        "quantity": 2500,
+        "user_id": 45187773,
+        "username": "omerbig2012"
+      },
+      {
         "quantity": 2000,
         "user_id": 63709644,
         "username": "NinjaBoyOri"
-      },
-      {
-        "quantity": 1500,
-        "user_id": 45187773,
-        "username": "omerbig2012"
       },
       {
         "quantity": 1500,
@@ -123,6 +123,11 @@
         "username": "gerbi"
       },
       {
+        "quantity": 2500,
+        "user_id": 45187773,
+        "username": "omerbig2012"
+      },
+      {
         "quantity": 2000,
         "user_id": 137059641,
         "username": "liamhochman2007"
@@ -131,11 +136,6 @@
         "quantity": 1500,
         "user_id": 63709644,
         "username": "NinjaBoyOri"
-      },
-      {
-        "quantity": 1500,
-        "user_id": 45187773,
-        "username": "omerbig2012"
       },
       {
         "quantity": 1500,

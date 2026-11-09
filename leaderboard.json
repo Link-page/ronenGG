@@ -85,6 +85,16 @@
         "username": "NinjaBoyOri"
       },
       {
+        "quantity": 2000,
+        "user_id": 113133477,
+        "username": "BlaBlaBla696"
+      },
+      {
+        "quantity": 1500,
+        "user_id": 28329157,
+        "username": "YaliYT"
+      },
+      {
         "quantity": 1500,
         "user_id": 23015844,
         "username": "Yaers00"
@@ -93,20 +103,56 @@
         "quantity": 1500,
         "user_id": 124343413,
         "username": "Nadav1426"
+      }
+    ],
+    "kicks_gifts_month_enabled": true,
+    "kicks_gifts_week": [
+      {
+        "quantity": 1000,
+        "user_id": 67026506,
+        "username": "Nir_garivzada"
       },
       {
-        "quantity": 1500,
-        "user_id": 120940310,
-        "username": "rayboyyy"
+        "quantity": 500,
+        "user_id": 89013843,
+        "username": "Dor121"
       },
       {
-        "quantity": 1500,
+        "quantity": 500,
+        "user_id": 79933394,
+        "username": "Pinhas_27"
+      },
+      {
+        "quantity": 500,
+        "user_id": 79933146,
+        "username": "Shak4d"
+      },
+      {
+        "quantity": 500,
+        "user_id": 33528636,
+        "username": "Yairrr99"
+      },
+      {
+        "quantity": 500,
+        "user_id": 28329157,
+        "username": "YaliYT"
+      },
+      {
+        "quantity": 500,
+        "user_id": 138130683,
+        "username": "Ganavt_li_tbait"
+      },
+      {
+        "quantity": 500,
+        "user_id": 125253207,
+        "username": "azachi12"
+      },
+      {
+        "quantity": 500,
         "user_id": 113133477,
         "username": "BlaBlaBla696"
       }
     ],
-    "kicks_gifts_month_enabled": true,
-    "kicks_gifts_week": [],
     "kicks_gifts_week_enabled": true
   },
   "message": "Success"

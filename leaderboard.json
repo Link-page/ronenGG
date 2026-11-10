@@ -65,6 +65,11 @@
         "username": "eillay22"
       },
       {
+        "quantity": 5000,
+        "user_id": 102754372,
+        "username": "Mar_Alpha"
+      },
+      {
         "quantity": 4500,
         "user_id": 137059641,
         "username": "liamhochman2007"
@@ -98,11 +103,6 @@
         "quantity": 1500,
         "user_id": 79933146,
         "username": "Shak4d"
-      },
-      {
-        "quantity": 1500,
-        "user_id": 28329157,
-        "username": "YaliYT"
       }
     ],
     "kicks_gifts_month_enabled": true,
@@ -113,6 +113,11 @@
         "username": "natanelf"
       },
       {
+        "quantity": 5000,
+        "user_id": 102754372,
+        "username": "Mar_Alpha"
+      },
+      {
         "quantity": 1000,
         "user_id": 89013843,
         "username": "Dor121"
@@ -121,6 +126,11 @@
         "quantity": 1000,
         "user_id": 79933146,
         "username": "Shak4d"
+      },
+      {
+        "quantity": 1000,
+        "user_id": 77880838,
+        "username": "hapsanhod"
       },
       {
         "quantity": 1000,
@@ -146,16 +156,6 @@
         "quantity": 500,
         "user_id": 138130683,
         "username": "Ganavt_li_tbait"
-      },
-      {
-        "quantity": 500,
-        "user_id": 125253207,
-        "username": "azachi12"
-      },
-      {
-        "quantity": 500,
-        "user_id": 124343413,
-        "username": "Nadav1426"
       }
     ],
     "kicks_gifts_week_enabled": true

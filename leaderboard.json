@@ -76,6 +76,11 @@
       },
       {
         "quantity": 3000,
+        "user_id": 45187773,
+        "username": "omerbig2012"
+      },
+      {
+        "quantity": 3000,
         "user_id": 3138930,
         "username": "gerbi"
       },
@@ -83,11 +88,6 @@
         "quantity": 2500,
         "user_id": 87190114,
         "username": "RB6666"
-      },
-      {
-        "quantity": 2500,
-        "user_id": 45187773,
-        "username": "omerbig2012"
       },
       {
         "quantity": 2500,

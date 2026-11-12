@@ -91,6 +91,11 @@
       },
       {
         "quantity": 2500,
+        "user_id": 63709644,
+        "username": "NinjaBoyOri"
+      },
+      {
+        "quantity": 2500,
         "user_id": 124343413,
         "username": "Nadav1426"
       },
@@ -98,11 +103,6 @@
         "quantity": 2500,
         "user_id": 113133477,
         "username": "BlaBlaBla696"
-      },
-      {
-        "quantity": 2000,
-        "user_id": 63709644,
-        "username": "NinjaBoyOri"
       }
     ],
     "kicks_gifts_month_enabled": true,

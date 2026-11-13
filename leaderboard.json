@@ -2,7 +2,7 @@
   "data": {
     "kicks_gifts_lifetime": [
       {
-        "quantity": 223500,
+        "quantity": 233500,
         "user_id": 67453019,
         "username": "natanelf"
       },
@@ -55,7 +55,7 @@
     "kicks_gifts_lifetime_enabled": true,
     "kicks_gifts_month": [
       {
-        "quantity": 59500,
+        "quantity": 69500,
         "user_id": 67453019,
         "username": "natanelf"
       },
@@ -108,7 +108,7 @@
     "kicks_gifts_month_enabled": true,
     "kicks_gifts_week": [
       {
-        "quantity": 7000,
+        "quantity": 17000,
         "user_id": 67453019,
         "username": "natanelf"
       },

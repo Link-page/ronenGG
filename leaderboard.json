@@ -75,7 +75,7 @@
         "username": "liamhochman2007"
       },
       {
-        "quantity": 3000,
+        "quantity": 4000,
         "user_id": 45187773,
         "username": "omerbig2012"
       },
@@ -124,6 +124,11 @@
       },
       {
         "quantity": 1500,
+        "user_id": 45187773,
+        "username": "omerbig2012"
+      },
+      {
+        "quantity": 1500,
         "user_id": 131523779,
         "username": "liamatedgi"
       },
@@ -151,11 +156,6 @@
         "quantity": 1000,
         "user_id": 67026506,
         "username": "Nir_garivzada"
-      },
-      {
-        "quantity": 1000,
-        "user_id": 124343413,
-        "username": "Nadav1426"
       }
     ],
     "kicks_gifts_week_enabled": true

@@ -80,6 +80,11 @@
         "username": "omerbig2012"
       },
       {
+        "quantity": 3500,
+        "user_id": 113133477,
+        "username": "BlaBlaBla696"
+      },
+      {
         "quantity": 3000,
         "user_id": 3138930,
         "username": "gerbi"
@@ -98,11 +103,6 @@
         "quantity": 2500,
         "user_id": 124343413,
         "username": "Nadav1426"
-      },
-      {
-        "quantity": 2500,
-        "user_id": 113133477,
-        "username": "BlaBlaBla696"
       }
     ],
     "kicks_gifts_month_enabled": true,
@@ -121,6 +121,11 @@
         "quantity": 2500,
         "user_id": 87190114,
         "username": "RB6666"
+      },
+      {
+        "quantity": 2000,
+        "user_id": 113133477,
+        "username": "BlaBlaBla696"
       },
       {
         "quantity": 1500,
@@ -151,11 +156,6 @@
         "quantity": 1000,
         "user_id": 77880838,
         "username": "hapsanhod"
-      },
-      {
-        "quantity": 1000,
-        "user_id": 67026506,
-        "username": "Nir_garivzada"
       }
     ],
     "kicks_gifts_week_enabled": true

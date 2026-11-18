@@ -2,7 +2,7 @@
   "data": {
     "kicks_gifts_lifetime": [
       {
-        "quantity": 233500,
+        "quantity": 234000,
         "user_id": 67453019,
         "username": "natanelf"
       },
@@ -37,7 +37,7 @@
         "username": "TheZohanLIVE"
       },
       {
-        "quantity": 74500,
+        "quantity": 76500,
         "user_id": 78275186,
         "username": "Dor_103"
       },
@@ -55,7 +55,7 @@
     "kicks_gifts_lifetime_enabled": true,
     "kicks_gifts_month": [
       {
-        "quantity": 69500,
+        "quantity": 70000,
         "user_id": 67453019,
         "username": "natanelf"
       },
@@ -109,6 +109,16 @@
     "kicks_gifts_week": [
       {
         "quantity": 2000,
+        "user_id": 78275186,
+        "username": "Dor_103"
+      },
+      {
+        "quantity": 2000,
+        "user_id": 103650413,
+        "username": "DorDFIFA"
+      },
+      {
+        "quantity": 2000,
         "user_id": 1001443516,
         "username": "Elad_tom22"
       },
@@ -116,6 +126,11 @@
         "quantity": 1000,
         "user_id": 87190114,
         "username": "RB6666"
+      },
+      {
+        "quantity": 1000,
+        "user_id": 84295219,
+        "username": "viksenV"
       },
       {
         "quantity": 1000,
@@ -128,34 +143,19 @@
         "username": "Thryx_0"
       },
       {
+        "quantity": 1000,
+        "user_id": 77873317,
+        "username": "DAzran"
+      },
+      {
+        "quantity": 1000,
+        "user_id": 100577293,
+        "username": "dean01012"
+      },
+      {
         "quantity": 653,
         "user_id": 45185420,
         "username": "CrashOutZi0n"
-      },
-      {
-        "quantity": 500,
-        "user_id": 77880838,
-        "username": "hapsanhod"
-      },
-      {
-        "quantity": 500,
-        "user_id": 77684156,
-        "username": "O2gz6"
-      },
-      {
-        "quantity": 500,
-        "user_id": 77155240,
-        "username": "lior2002"
-      },
-      {
-        "quantity": 500,
-        "user_id": 69584309,
-        "username": "Sagivbss"
-      },
-      {
-        "quantity": 500,
-        "user_id": 67144059,
-        "username": "Space_Itay"
       }
     ],
     "kicks_gifts_week_enabled": true

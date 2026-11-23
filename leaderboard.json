@@ -66,6 +66,11 @@
       },
       {
         "quantity": 5000,
+        "user_id": 113133477,
+        "username": "BlaBlaBla696"
+      },
+      {
+        "quantity": 5000,
         "user_id": 102754372,
         "username": "Mar_Alpha"
       },
@@ -85,17 +90,12 @@
         "username": "gerbi"
       },
       {
-        "quantity": 4000,
-        "user_id": 113133477,
-        "username": "BlaBlaBla696"
-      },
-      {
         "quantity": 3500,
         "user_id": 87190114,
         "username": "RB6666"
       },
       {
-        "quantity": 2500,
+        "quantity": 3000,
         "user_id": 63709644,
         "username": "NinjaBoyOri"
       },
@@ -106,7 +106,43 @@
       }
     ],
     "kicks_gifts_month_enabled": true,
-    "kicks_gifts_week": [],
+    "kicks_gifts_week": [
+      {
+        "quantity": 1000,
+        "user_id": 8268329,
+        "username": "Trexthefrog"
+      },
+      {
+        "quantity": 1000,
+        "user_id": 113133477,
+        "username": "BlaBlaBla696"
+      },
+      {
+        "quantity": 1000,
+        "user_id": 1001781815,
+        "username": "tizaher_li222"
+      },
+      {
+        "quantity": 500,
+        "user_id": 79933146,
+        "username": "Shak4d"
+      },
+      {
+        "quantity": 500,
+        "user_id": 63709644,
+        "username": "NinjaBoyOri"
+      },
+      {
+        "quantity": 500,
+        "user_id": 129948232,
+        "username": "Gujuuu"
+      },
+      {
+        "quantity": 500,
+        "user_id": 125101135,
+        "username": "EitanKing213"
+      }
+    ],
     "kicks_gifts_week_enabled": true
   },
   "message": "Success"
